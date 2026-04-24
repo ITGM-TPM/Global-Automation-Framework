@@ -1,0 +1,19 @@
+Global Search button clicked.
+Searched for "Test Sales Planner".
+Clicked "User Detail" button.
+Navigated to Trade Planning.
+Trade Calendar heading is visible.
+Default View label is visible.
+Calendar grid is visible.
+Account: "Test Prabu", empty bar at x=498, y=253
+Dragging from (498, 253) to (648, 253)
+Drag completed.
+Date range drag completed.
+Promotion creation modal appeared.
+Promotion creation modal is visible.
+Modal auto-populated — Start: 2/20/2026, End: 
+Promotion saved.
+Save button clicked, page loading...
+Page is now in View Mode (Save button gone).
+Start date confirmed from modal: 2/20/2026
+Dates on saved record: 2/20/2026

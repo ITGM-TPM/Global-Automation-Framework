@@ -1,0 +1,4 @@
+Global Search button clicked.
+Searched for "Test Sales Planner".
+Clicked "User Detail" button.
+Waiting for Setup iframe to attach...

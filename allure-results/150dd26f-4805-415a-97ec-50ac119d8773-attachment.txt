@@ -1,0 +1,221 @@
+[verifySortingOrder] Error verifying sort for "Account Name": ExpectError: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 15
++ Received  + 15
+
+  Array [
+-   "Region 10",
+-   "Region 11",
+-   "Region 12",
+-   "Region 13",
+-   "Region 14",
+-   "Region 15",
++   "TPM Account TRigger 3",
++   "TPM Account TRigger 2",
+    "Region 16",
+-   "Region 2",
+-   "Region 3",
+-   "Region 4",
+-   "Region 5",
+-   "Region 6",
+-   "Region 7",
+-   "Region 8",
++   "Region 15",
++   "Region 14",
++   "Region 13",
++   "Region 12",
++   "Region 11",
++   "Region 10",
+    "Region 9",
+-   "TPM Account TRigger 2",
+-   "TPM Account TRigger 3",
++   "Region 8",
++   "Region 7",
++   "Region 6",
++   "Region 5",
++   "Region 4",
++   "Region 3",
++   "Region 2",
+  ]
+    at verifySortingOrder (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\utils\commonLogic.ts:278:32)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:48:9
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:47:5 {
+  matcherResult: {
+    actual: [
+      'TPM Account TRigger 3', 'TPM Account TRigger 2',
+      'Region 16',             'Region 15',
+      'Region 14',             'Region 13',
+      'Region 12',             'Region 11',
+      'Region 10',             'Region 9',
+      'Region 8',              'Region 7',
+      'Region 6',              'Region 5',
+      'Region 4',              'Region 3',
+      'Region 2'
+    ],
+    expected: [
+      'Region 10',             'Region 11',
+      'Region 12',             'Region 13',
+      'Region 14',             'Region 15',
+      'Region 16',             'Region 2',
+      'Region 3',              'Region 4',
+      'Region 5',              'Region 6',
+      'Region 7',              'Region 8',
+      'Region 9',              'TPM Account TRigger 2',
+      'TPM Account TRigger 3'
+    ],
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoEqual\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // deep equality\x1B[22m\n' +
+      '\n' +
+      '\x1B[32m- Expected  - 15\x1B[39m\n' +
+      '\x1B[31m+ Received  + 15\x1B[39m\n' +
+      '\n' +
+      '\x1B[2m  Array [\x1B[22m\n' +
+      '\x1B[32m-   "Region 10",\x1B[39m\n' +
+      '\x1B[32m-   "Region 11",\x1B[39m\n' +
+      '\x1B[32m-   "Region 12",\x1B[39m\n' +
+      '\x1B[32m-   "Region 13",\x1B[39m\n' +
+      '\x1B[32m-   "Region 14",\x1B[39m\n' +
+      '\x1B[32m-   "Region 15",\x1B[39m\n' +
+      '\x1B[31m+   "TPM Account TRigger 3",\x1B[39m\n' +
+      '\x1B[31m+   "TPM Account TRigger 2",\x1B[39m\n' +
+      '\x1B[2m    "Region 16",\x1B[22m\n' +
+      '\x1B[32m-   "Region 2",\x1B[39m\n' +
+      '\x1B[32m-   "Region 3",\x1B[39m\n' +
+      '\x1B[32m-   "Region 4",\x1B[39m\n' +
+      '\x1B[32m-   "Region 5",\x1B[39m\n' +
+      '\x1B[32m-   "Region 6",\x1B[39m\n' +
+      '\x1B[32m-   "Region 7",\x1B[39m\n' +
+      '\x1B[32m-   "Region 8",\x1B[39m\n' +
+      '\x1B[31m+   "Region 15",\x1B[39m\n' +
+      '\x1B[31m+   "Region 14",\x1B[39m\n' +
+      '\x1B[31m+   "Region 13",\x1B[39m\n' +
+      '\x1B[31m+   "Region 12",\x1B[39m\n' +
+      '\x1B[31m+   "Region 11",\x1B[39m\n' +
+      '\x1B[31m+   "Region 10",\x1B[39m\n' +
+      '\x1B[2m    "Region 9",\x1B[22m\n' +
+      '\x1B[32m-   "TPM Account TRigger 2",\x1B[39m\n' +
+      '\x1B[32m-   "TPM Account TRigger 3",\x1B[39m\n' +
+      '\x1B[31m+   "Region 8",\x1B[39m\n' +
+      '\x1B[31m+   "Region 7",\x1B[39m\n' +
+      '\x1B[31m+   "Region 6",\x1B[39m\n' +
+      '\x1B[31m+   "Region 5",\x1B[39m\n' +
+      '\x1B[31m+   "Region 4",\x1B[39m\n' +
+      '\x1B[31m+   "Region 3",\x1B[39m\n' +
+      '\x1B[31m+   "Region 2",\x1B[39m\n' +
+      '\x1B[2m  ]\x1B[22m',
+    name: 'toEqual',
+    pass: false
+  },
+  Symbol(step): {
+    category: 'expect',
+    apiName: 'expect.toEqual',
+    title: 'Expect "toEqual"',
+    shortTitle: 'Expect "toEqual"',
+    params: { expected: [Array] },
+    infectParentStepsWithError: undefined,
+    stepId: 'expect@86',
+    group: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts',
+      line: 278,
+      column: 32,
+      function: 'verifySortingOrder'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@86',
+      _title: 'Expect "toEqual"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776923805544,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoEqual\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // deep equality\x1B[22m\n' +
+        '\n' +
+        '\x1B[32m- Expected  - 15\x1B[39m\n' +
+        '\x1B[31m+ Received  + 15\x1B[39m\n' +
+        '\n' +
+        '\x1B[2m  Array [\x1B[22m\n' +
+        '\x1B[32m-   "Region 10",\x1B[39m\n' +
+        '\x1B[32m-   "Region 11",\x1B[39m\n' +
+        '\x1B[32m-   "Region 12",\x1B[39m\n' +
+        '\x1B[32m-   "Region 13",\x1B[39m\n' +
+        '\x1B[32m-   "Region 14",\x1B[39m\n' +
+        '\x1B[32m-   "Region 15",\x1B[39m\n' +
+        '\x1B[31m+   "TPM Account TRigger 3",\x1B[39m\n' +
+        '\x1B[31m+   "TPM Account TRigger 2",\x1B[39m\n' +
+        '\x1B[2m    "Region 16",\x1B[22m\n' +
+        '\x1B[32m-   "Region 2",\x1B[39m\n' +
+        '\x1B[32m-   "Region 3",\x1B[39m\n' +
+        '\x1B[32m-   "Region 4",\x1B[39m\n' +
+        '\x1B[32m-   "Region 5",\x1B[39m\n' +
+        '\x1B[32m-   "Region 6",\x1B[39m\n' +
+        '\x1B[32m-   "Region 7",\x1B[39m\n' +
+        '\x1B[32m-   "Region 8",\x1B[39m\n' +
+        '\x1B[31m+   "Region 15",\x1B[39m\n' +
+        '\x1B[31m+   "Region 14",\x1B[39m\n' +
+        '\x1B[31m+   "Region 13",\x1B[39m\n' +
+        '\x1B[31m+   "Region 12",\x1B[39m\n' +
+        '\x1B[31m+   "Region 11",\x1B[39m\n' +
+        '\x1B[31m+   "Region 10",\x1B[39m\n' +
+        '\x1B[2m    "Region 9",\x1B[22m\n' +
+        '\x1B[32m-   "TPM Account TRigger 2",\x1B[39m\n' +
+        '\x1B[32m-   "TPM Account TRigger 3",\x1B[39m\n' +
+        '\x1B[31m+   "Region 8",\x1B[39m\n' +
+        '\x1B[31m+   "Region 7",\x1B[39m\n' +
+        '\x1B[31m+   "Region 6",\x1B[39m\n' +
+        '\x1B[31m+   "Region 5",\x1B[39m\n' +
+        '\x1B[31m+   "Region 4",\x1B[39m\n' +
+        '\x1B[31m+   "Region 3",\x1B[39m\n' +
+        '\x1B[31m+   "Region 2",\x1B[39m\n' +
+        '\x1B[2m  ]\x1B[22m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoEqual\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // deep equality\x1B[22m\n' +
+        '\n' +
+        '\x1B[32m- Expected  - 15\x1B[39m\n' +
+        '\x1B[31m+ Received  + 15\x1B[39m\n' +
+        '\n' +
+        '\x1B[2m  Array [\x1B[22m\n' +
+        '\x1B[32m-   "Region 10",\x1B[39m\n' +
+        '\x1B[32m-   "Region 11",\x1B[39m\n' +
+        '\x1B[32m-   "Region 12",\x1B[39m\n' +
+        '\x1B[32m-   "Region 13",\x1B[39m\n' +
+        '\x1B[32m-   "Region 14",\x1B[39m\n' +
+        '\x1B[32m-   "Region 15",\x1B[39m\n' +
+        '\x1B[31m+   "TPM Account TRigger 3",\x1B[39m\n' +
+        '\x1B[31m+   "TPM Account TRigger 2",\x1B[39m\n' +
+        '\x1B[2m    "Region 16",\x1B[22m\n' +
+        '\x1B[32m-   "Region 2",\x1B[39m\n' +
+        '\x1B[32m-   "Region 3",\x1B[39m\n' +
+        '\x1B[32m-   "Region 4",\x1B[39m\n' +
+        '\x1B[32m-   "Region 5",\x1B[39m\n' +
+        '\x1B[32m-   "Region 6",\x1B[39m\n' +
+        '\x1B[32m-   "Region 7",\x1B[39m\n' +
+        '\x1B[32m-   "Region 8",\x1B[39m\n' +
+        '\x1B[31m+   "Region 15",\x1B[39m\n' +
+        '\x1B[31m+   "Region 14",\x1B[39m\n' +
+        '\x1B[31m+   "Region 13",\x1B[39m\n' +
+        '\x1B[31m+   "Region 12",\x1B[39m\n' +
+        '\x1B[31m+   "Region 11",\x1B[39m\n' +
+        '\x1B[31m+   "Region 10",\x1B[39m\n' +
+        '\x1B[2m    "Region 9",\x1B[22m\n' +
+        '\x1B[32m-   "TPM Account TRigger 2",\x1B[39m\n' +
+        '\x1B[32m-   "TPM Account TRigger 3",\x1B[39m\n' +
+        '\x1B[31m+   "Region 8",\x1B[39m\n' +
+        '\x1B[31m+   "Region 7",\x1B[39m\n' +
+        '\x1B[31m+   "Region 6",\x1B[39m\n' +
+        '\x1B[31m+   "Region 5",\x1B[39m\n' +
+        '\x1B[31m+   "Region 4",\x1B[39m\n' +
+        '\x1B[31m+   "Region 3",\x1B[39m\n' +
+        '\x1B[31m+   "Region 2",\x1B[39m\n' +
+        '\x1B[2m  ]\x1B[22m\n' +
+        '    at verifySortingOrder (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts:278:32)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:48:9\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:47:5',
+      cause: undefined
+    }
+  }
+}

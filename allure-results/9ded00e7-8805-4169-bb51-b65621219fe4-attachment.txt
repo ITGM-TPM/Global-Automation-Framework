@@ -1,0 +1,7 @@
+Global Search button clicked.
+Searched for "Test Sales Planner".
+Clicked "User Detail" button.
+Navigated to Trade Planning.
+Trade Calendar heading is visible.
+Default View label is visible.
+Found 0 calendar row(s).

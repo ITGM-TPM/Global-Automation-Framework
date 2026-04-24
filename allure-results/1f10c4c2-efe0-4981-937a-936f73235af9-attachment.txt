@@ -1,0 +1,2 @@
+✔ Skipped sorting → "Description" is already sorted (asc).
+✔ Test success: Sort by Description ascending

@@ -1,0 +1,306 @@
+# Page snapshot
+
+```yaml
+- generic [active]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (ETQA)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "This item doesn't support favorites" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e88]:
+                - img [ref=e92]
+            - listitem [ref=e95]:
+              - button "Salesforce Help" [ref=e98] [cursor=pointer]:
+                - generic [ref=e99]:
+                  - img [ref=e103]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e106]:
+              - button "Setup" [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]:
+                  - img [ref=e117]
+                  - tooltip "Setup"
+            - listitem [ref=e120]:
+              - button "Notifications" [ref=e123] [cursor=pointer]:
+                - generic [ref=e124]:
+                  - img [ref=e129]
+                  - tooltip "Notifications"
+            - listitem [ref=e133]:
+              - button "View profile" [ref=e136] [cursor=pointer]:
+                - generic [ref=e137]:
+                  - tooltip "View profile"
+    - generic [ref=e141]:
+      - generic [ref=e144]:
+        - generic [ref=e146]:
+          - navigation "App" [ref=e147]:
+            - button "App Launcher" [ref=e149] [cursor=pointer]:
+              - generic [ref=e160]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e161]:
+            - generic "ITGB TPM" [ref=e162]
+        - navigation "Global" [ref=e165]:
+          - list [ref=e166]:
+            - listitem [ref=e167] [cursor=pointer]:
+              - link "Home" [ref=e168]:
+                - /url: /lightning/page/home
+                - generic [ref=e169]: Home
+            - listitem [ref=e170]:
+              - link "Accounts" [ref=e171] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e172]: Accounts
+              - button "Accounts List" [ref=e176] [cursor=pointer]:
+                - img [ref=e180]
+                - generic [ref=e183]: Accounts List
+            - listitem [ref=e184]:
+              - link "Products" [ref=e185] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e186]: Products
+              - button "Products List" [ref=e190] [cursor=pointer]:
+                - img [ref=e194]
+                - generic [ref=e197]: Products List
+            - listitem [ref=e198]:
+              - link "Trade Planning" [ref=e199] [cursor=pointer]:
+                - /url: /lightning/n/cgcloud__Trade_Planning
+                - generic [ref=e200]: Trade Planning
+            - listitem [ref=e201]:
+              - link "Customer Business Plans" [ref=e202] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e203]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e207] [cursor=pointer]:
+                - img [ref=e211]
+                - generic [ref=e214]: Customer Business Plans List
+            - listitem [ref=e215]:
+              - link "Advanced Promotions" [ref=e216] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e217]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e221] [cursor=pointer]:
+                - img [ref=e225]
+                - generic [ref=e228]: Advanced Promotions List
+            - listitem [ref=e229]:
+              - link "Funds" [ref=e230] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e231]: Funds
+              - button "Funds List" [ref=e235] [cursor=pointer]:
+                - img [ref=e239]
+                - generic [ref=e242]: Funds List
+            - listitem [ref=e243]:
+              - link "Multi-Fund Transactions" [ref=e244] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                - generic [ref=e245]: Multi-Fund Transactions
+              - button "Multi-Fund Transactions List" [ref=e249] [cursor=pointer]:
+                - img [ref=e253]
+                - generic [ref=e256]: Multi-Fund Transactions List
+            - listitem [ref=e257]:
+              - button "Edit nav items" [ref=e259] [cursor=pointer]:
+                - img [ref=e261]
+                - generic [ref=e264]: Edit nav items
+      - main [ref=e266]:
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - article [ref=e281]:
+              - generic [ref=e283]:
+                - img [ref=e288]
+                - heading "Switch Sales Org" [level=2] [ref=e292]:
+                  - generic [ref=e293]: Switch Sales Org
+              - paragraph [ref=e297]: No other Sales Organizations assigned, or you have only one context. Contact your administrator if you need access.
+            - paragraph [ref=e301]:
+              - strong [ref=e302]: Connect with Your Customers
+            - article [ref=e304]:
+              - heading "Sales Person Activity" [level=2] [ref=e308]:
+                - generic "Sales Person Activity" [ref=e309]
+              - generic [ref=e311]:
+                - generic [ref=e315]:
+                  - status:
+                    - generic [ref=e316]: Loading report chart...
+                  - text: Loading report chart...
+                - generic [ref=e321]:
+                  - link "View Report" [ref=e322] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                  - generic [ref=e324]: As of Today at 9:46 AM
+            - article [ref=e327]:
+              - generic [ref=e328]:
+                - heading "Today’s Tasks" [level=2] [ref=e331]:
+                  - generic "Today’s Tasks" [ref=e332]
+                - button "Select a view of your tasks" [ref=e335] [cursor=pointer]:
+                  - img [ref=e337]
+                  - generic [ref=e340]: Select a view of your tasks
+              - generic [ref=e344]:
+                - img [ref=e345]
+                - generic [ref=e346]: Nothing due today. Be a go-getter, and check back soon.
+              - button "View All Tasks" [ref=e348] [cursor=pointer]: View All
+            - article [ref=e351]:
+              - heading "Today's Events" [level=2] [ref=e355]:
+                - generic "Today's Events" [ref=e356]
+              - generic [ref=e360]:
+                - img [ref=e361]
+                - generic [ref=e362]: Looks like you're free and clear the rest of the day.
+              - button "View Calendar" [ref=e364] [cursor=pointer]
+            - paragraph [ref=e368]:
+              - strong [ref=e369]: Manage Your Business & Data
+            - list [ref=e372]:
+              - listitem "Sales Operations" [ref=e373]:
+                - generic [ref=e374]:
+                  - heading "Sales Operations" [level=2] [ref=e376]:
+                    - button "Sales Operations" [expanded] [ref=e377] [cursor=pointer]:
+                      - img [ref=e379]
+                      - generic "Sales Operations" [ref=e382]
+                  - article [ref=e387]:
+                    - heading "ㅤ" [level=2] [ref=e391]:
+                      - generic [ref=e394]: ㅤ
+                    - generic [ref=e399]:
+                      - link "Products" [ref=e403] [cursor=pointer]:
+                        - generic [ref=e405]:
+                          - img [ref=e409]
+                          - link "Products" [ref=e411]:
+                            - /url: "#"
+                      - link "Price Books" [ref=e415] [cursor=pointer]:
+                        - generic [ref=e417]:
+                          - img [ref=e421]
+                          - link "Price Books" [ref=e423]:
+                            - /url: "#"
+                      - link "Quotes" [ref=e427] [cursor=pointer]:
+                        - generic [ref=e429]:
+                          - img [ref=e433]
+                          - link "Quotes" [ref=e435]:
+                            - /url: "#"
+                      - link "Contracts" [ref=e439] [cursor=pointer]:
+                        - generic [ref=e441]:
+                          - img [ref=e445]
+                          - link "Contracts" [ref=e447]:
+                            - /url: "#"
+                      - link "Orders" [ref=e451] [cursor=pointer]:
+                        - link "Orders" [ref=e458]:
+                          - /url: "#"
+                      - link "Forecasts" [ref=e462] [cursor=pointer]:
+                        - link "Forecasts" [ref=e469]:
+                          - /url: "#"
+              - listitem "Email" [ref=e470]:
+                - heading "Email" [level=2] [ref=e473]:
+                  - button "Email" [ref=e474] [cursor=pointer]:
+                    - img [ref=e476]
+                    - generic "Email" [ref=e479]
+              - listitem "Data" [ref=e480]:
+                - heading "Data" [level=2] [ref=e483]:
+                  - button "Data" [ref=e484] [cursor=pointer]:
+                    - img [ref=e486]
+                    - generic "Data" [ref=e489]
+          - generic [ref=e490]:
+            - paragraph [ref=e494]:
+              - strong [ref=e495]: Manage & Close Deals
+            - article [ref=e497]:
+              - heading "Team Pipeline" [level=2] [ref=e501]:
+                - generic "Team Pipeline" [ref=e502]
+              - generic [ref=e504]:
+                - generic [ref=e508]:
+                  - status:
+                    - generic [ref=e509]: Loading report chart...
+                  - text: Loading report chart...
+                - generic [ref=e514]:
+                  - link "View Report" [ref=e515] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                  - generic [ref=e516]:
+                    - generic [ref=e517]: As of Today at 9:46 AM
+                    - button "Refresh" [ref=e518] [cursor=pointer]:
+                      - generic [ref=e519]: Refresh
+                      - img [ref=e523]
+            - article [ref=e527]:
+              - article [ref=e529]:
+                - generic [ref=e530]:
+                  - heading "My Joint Business Plans" [level=2] [ref=e533]:
+                    - link "My Joint Business Plans" [ref=e534] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic "My Joint Business Plans" [ref=e535]
+                  - link "Show more My Joint Business Plans records" [ref=e537] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - text: More
+                - generic [ref=e584]:
+                  - link "List Views" [ref=e587] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e588]: List Views
+                    - heading [level=2] [ref=e589]
+                    - img [ref=e595]
+                  - generic [ref=e598]:
+                    - list
+                    - paragraph [ref=e600]: When records are added to this list view, you'll see them here.
+            - article [ref=e603]:
+              - heading "Recently-Viewed Opportunities (0)" [level=2] [ref=e607]:
+                - generic "Recently-Viewed Opportunities (0)" [ref=e608]
+              - generic:
+                - list
+          - generic [ref=e609]:
+            - paragraph [ref=e613]:
+              - strong [ref=e614]: Build Your Pipeline
+            - article [ref=e616]:
+              - heading "Leads by Source" [level=2] [ref=e620]:
+                - generic "Leads by Source" [ref=e621]
+              - generic [ref=e623]:
+                - generic [ref=e627]:
+                  - status:
+                    - generic [ref=e628]: Loading report chart...
+                  - text: Loading report chart...
+                - generic [ref=e633]:
+                  - link "View Report" [ref=e634] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                  - generic [ref=e635]:
+                    - generic [ref=e636]: As of Today at 9:46 AM
+                    - button "Refresh" [ref=e637] [cursor=pointer]:
+                      - generic [ref=e638]: Refresh
+                      - img [ref=e642]
+            - article [ref=e646]:
+              - article [ref=e648]:
+                - generic [ref=e649]:
+                  - heading "My Leads" [level=2] [ref=e652]:
+                    - link "My Leads" [ref=e653] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic "My Leads" [ref=e654]
+                  - link "Show more My Leads records" [ref=e656] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - text: More
+                - generic [ref=e659]:
+                  - link "List Views My Leads 0 items, sorted by Name" [ref=e664] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e665]: List Views
+                    - heading "My Leads 0 items, sorted by Name" [level=2] [ref=e666]:
+                      - generic [ref=e667]: My Leads
+                      - generic [ref=e668]: 0 items, sorted by Name
+                    - img [ref=e673]
+                  - generic [ref=e676]:
+                    - list
+                    - generic [ref=e677]:
+                      - text: There's nothing in My Leads yet.
+                      - paragraph [ref=e678]: When records are added to this list view, you'll see them here.
+            - article [ref=e681]:
+              - heading "Recently-Viewed Leads (0)" [level=2] [ref=e685]:
+                - generic "Recently-Viewed Leads (0)" [ref=e686]
+              - generic:
+                - list
+  - generic:
+    - status
+```

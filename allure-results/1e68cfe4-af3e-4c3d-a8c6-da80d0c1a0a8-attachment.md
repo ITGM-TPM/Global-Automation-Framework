@@ -1,0 +1,330 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (ETQA)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Global Actions"
+            - listitem [ref=e100]:
+              - button "Guidance Center" [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]:
+                  - img [ref=e107]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e110]:
+              - button "Salesforce Help" [ref=e113] [cursor=pointer]:
+                - generic [ref=e114]:
+                  - img [ref=e118]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e121]:
+              - button "Setup" [ref=e127] [cursor=pointer]:
+                - generic [ref=e128]:
+                  - img [ref=e132]
+                  - tooltip "Setup"
+            - listitem [ref=e135]:
+              - button "Notifications" [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - img [ref=e144]
+                  - tooltip "Notifications"
+            - listitem [ref=e148]:
+              - button "View profile" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - tooltip "View profile"
+    - generic [ref=e156]:
+      - generic [ref=e159]:
+        - generic [ref=e161]:
+          - navigation "App" [ref=e162]:
+            - button "App Launcher" [ref=e164] [cursor=pointer]:
+              - generic [ref=e175]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e176]:
+            - generic "ITGB TPM" [ref=e177]
+        - navigation "Global" [ref=e180]:
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Home" [ref=e183] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e184]: Home
+            - listitem [ref=e185] [cursor=pointer]:
+              - link "Accounts" [ref=e186]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e187]: Accounts
+              - button "Accounts List" [ref=e191]:
+                - img [ref=e195]
+                - generic [ref=e198]: Accounts List
+            - listitem [ref=e199]:
+              - link "Products" [ref=e200] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e201]: Products
+              - button "Products List" [ref=e205] [cursor=pointer]:
+                - img [ref=e209]
+                - generic [ref=e212]: Products List
+            - listitem [ref=e213]:
+              - link "Trade Calendar" [ref=e214] [cursor=pointer]:
+                - /url: /lightning/n/Trade_Calendar
+                - generic [ref=e215]: Trade Calendar
+            - listitem [ref=e216]:
+              - link "Customer Business Plans" [ref=e217] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e218]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e222] [cursor=pointer]:
+                - img [ref=e226]
+                - generic [ref=e229]: Customer Business Plans List
+            - listitem [ref=e230]:
+              - link "Advanced Promotions" [ref=e231] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e232]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e236] [cursor=pointer]:
+                - img [ref=e240]
+                - generic [ref=e243]: Advanced Promotions List
+            - listitem [ref=e244]:
+              - link "Funds" [ref=e245] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e246]: Funds
+              - button "Funds List" [ref=e250] [cursor=pointer]:
+                - img [ref=e254]
+                - generic [ref=e257]: Funds List
+            - listitem [ref=e258]:
+              - link "Multi-Fund Transactions" [ref=e259] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                - generic [ref=e260]: Multi-Fund Transactions
+              - button "Multi-Fund Transactions List" [ref=e264] [cursor=pointer]:
+                - img [ref=e268]
+                - generic [ref=e271]: Multi-Fund Transactions List
+            - listitem [ref=e272]:
+              - button "Edit nav items" [ref=e274] [cursor=pointer]:
+                - img [ref=e276]
+                - generic [ref=e279]: Edit nav items
+      - generic [ref=e280]:
+        - main [ref=e281]:
+          - generic [ref=e291]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - generic [ref=e296]:
+                  - img [ref=e300]
+                  - generic [ref=e301]:
+                    - heading "Accounts" [level=1] [ref=e305]
+                    - generic [ref=e306]:
+                      - generic [ref=e308] [cursor=pointer]:
+                        - heading "Accounts Recently Viewed" [level=1] [ref=e309]:
+                          - generic [ref=e310]: Accounts
+                          - generic [ref=e311]: Recently Viewed
+                        - 'button "Select a List View: Accounts" [active] [ref=e314]':
+                          - generic [ref=e315]:
+                            - img
+                          - generic [ref=e316]: "Select a List View: Accounts"
+                      - button "This list is pinned." [disabled] [ref=e320] [cursor=pointer]:
+                        - img [ref=e322]
+                        - generic [ref=e325]: This list is pinned.
+                - list [ref=e328]:
+                  - listitem [ref=e329]:
+                    - button "New" [ref=e330] [cursor=pointer]:
+                      - generic "New" [ref=e331]
+                  - listitem [ref=e332]:
+                    - button "Import" [ref=e333] [cursor=pointer]:
+                      - generic "Import" [ref=e334]
+              - generic [ref=e335]:
+                - paragraph [ref=e337]:
+                  - generic [ref=e339]:
+                    - status "Recently Viewed" [ref=e340]: 2 items •
+                    - text: Updated a few seconds ago
+                - generic [ref=e346]:
+                  - generic [ref=e347]: Search this list...
+                  - generic [ref=e348]:
+                    - searchbox "Search this list..." [ref=e349]
+                    - generic:
+                      - img
+                - generic [ref=e350]:
+                  - button "List View Controls" [ref=e354] [cursor=pointer]:
+                    - img [ref=e356]
+                    - img [ref=e360]
+                    - generic [ref=e363]: List View Controls
+                  - button "Select list display" [ref=e366] [cursor=pointer]:
+                    - img [ref=e368]
+                    - img [ref=e372]
+                    - generic [ref=e375]: Select list display
+                  - generic [ref=e377]:
+                    - button "Refresh" [ref=e380] [cursor=pointer]:
+                      - img [ref=e382]
+                      - generic [ref=e385]: Refresh
+                    - button "Column sort" [ref=e388] [cursor=pointer]:
+                      - img [ref=e390]
+                      - generic [ref=e393]: Column sort
+                    - button "Inline Edit is disabled. To edit, filter by one record type." [ref=e396] [cursor=pointer]:
+                      - img [ref=e398]
+                      - generic [ref=e401]: Inline Edit is disabled. To edit, filter by one record type.
+                    - group [ref=e402]:
+                      - generic [ref=e404]:
+                        - generic:
+                          - generic:
+                            - button "Charts" [disabled]:
+                              - generic:
+                                - img
+                              - generic: Charts
+                        - generic:
+                          - generic:
+                            - button "Filters" [disabled]:
+                              - generic:
+                                - img
+                              - generic: Filters
+            - generic [ref=e411]:
+              - generic [ref=e412]: Navigation Mode
+              - grid [ref=e416]:
+                - rowgroup:
+                  - row "Row Number Account Name CRS Number Direct Customer Number MSA Customer Number Phone Account Status Account Record Type Action":
+                    - columnheader "Row Number":
+                      - generic [ref=e419]:
+                        - generic "Row Number"
+                    - columnheader "Account Name":
+                      - generic [ref=e421]:
+                        - 'button "Sort by: Account Name" [ref=e422] [cursor=pointer]':
+                          - generic [ref=e423]: "Sort by:"
+                          - generic "Account Name" [ref=e424]
+                        - generic [ref=e425]: "Sorted: None"
+                        - button "Show Account Name column actions" [ref=e427] [cursor=pointer]:
+                          - img [ref=e429]
+                          - generic [ref=e432]: Show Account Name column actions
+                        - slider "Account Name column width" [ref=e433]: "241"
+                    - columnheader "CRS Number":
+                      - generic [ref=e437]:
+                        - 'button "Sort by: CRS Number" [ref=e438] [cursor=pointer]':
+                          - generic [ref=e439]: "Sort by:"
+                          - generic "CRS Number" [ref=e440]
+                        - generic [ref=e441]: "Sorted: None"
+                        - button "Show CRS Number column actions" [ref=e443] [cursor=pointer]:
+                          - img [ref=e445]
+                          - generic [ref=e448]: Show CRS Number column actions
+                        - slider "CRS Number column width" [ref=e449]: "224"
+                    - columnheader "Direct Customer Number":
+                      - generic [ref=e453]:
+                        - 'button "Sort by: Direct Customer Number" [ref=e454] [cursor=pointer]':
+                          - generic [ref=e455]: "Sort by:"
+                          - generic "Direct Customer Number" [ref=e456]
+                        - generic [ref=e457]: "Sorted: None"
+                        - button "Show Direct Customer Number column actions" [ref=e459] [cursor=pointer]:
+                          - img [ref=e461]
+                          - generic [ref=e464]: Show Direct Customer Number column actions
+                        - slider "Direct Customer Number column width" [ref=e465]: "77"
+                    - columnheader "MSA Customer Number":
+                      - generic [ref=e469]:
+                        - 'button "Sort by: MSA Customer Number" [ref=e470] [cursor=pointer]':
+                          - generic [ref=e471]: "Sort by:"
+                          - generic "MSA Customer Number" [ref=e472]
+                        - generic [ref=e473]: "Sorted: None"
+                        - button "Show MSA Customer Number column actions" [ref=e475] [cursor=pointer]:
+                          - img [ref=e477]
+                          - generic [ref=e480]: Show MSA Customer Number column actions
+                        - slider "MSA Customer Number column width" [ref=e481]: "77"
+                    - columnheader "Phone":
+                      - generic [ref=e485]:
+                        - 'button "Sort by: Phone" [ref=e486] [cursor=pointer]':
+                          - generic [ref=e487]: "Sort by:"
+                          - generic "Phone" [ref=e488]
+                        - generic [ref=e489]: "Sorted: None"
+                        - button "Show Phone column actions" [ref=e491] [cursor=pointer]:
+                          - img [ref=e493]
+                          - generic [ref=e496]: Show Phone column actions
+                        - slider "Phone column width" [ref=e497]: "77"
+                    - columnheader "Account Status":
+                      - generic [ref=e501]:
+                        - 'button "Sort by: Account Status" [ref=e502] [cursor=pointer]':
+                          - generic [ref=e503]: "Sort by:"
+                          - generic "Account Status" [ref=e504]
+                        - generic [ref=e505]: "Sorted: None"
+                        - button "Show Account Status column actions" [ref=e507] [cursor=pointer]:
+                          - img [ref=e509]
+                          - generic [ref=e512]: Show Account Status column actions
+                        - slider "Account Status column width" [ref=e513]: "191"
+                    - columnheader "Account Record Type":
+                      - generic [ref=e517]:
+                        - 'button "Sort by: Account Record Type" [ref=e518] [cursor=pointer]':
+                          - generic [ref=e519]: "Sort by:"
+                          - generic "Account Record Type" [ref=e520]
+                        - generic [ref=e521]: "Sorted: None"
+                        - button "Show Account Record Type column actions" [ref=e523] [cursor=pointer]:
+                          - img [ref=e525]
+                          - generic [ref=e528]: Show Account Record Type column actions
+                        - slider "Account Record Type column width" [ref=e529]: "264"
+                    - columnheader "Action":
+                      - generic [ref=e534]:
+                        - generic "Action"
+                - rowgroup [ref=e535]:
+                  - row "7-Eleven D09986 Active Customer Show Actions" [ref=e536]:
+                    - gridcell [ref=e537]
+                    - rowheader "7-Eleven" [ref=e541]:
+                      - link "7-Eleven" [ref=e548] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e549]: 7-Eleven
+                    - gridcell "D09986" [ref=e550]:
+                      - generic [ref=e554]: D09986
+                    - gridcell [ref=e555]
+                    - gridcell [ref=e556]
+                    - gridcell [ref=e557]
+                    - gridcell "Active" [ref=e558]:
+                      - generic [ref=e562]: Active
+                    - gridcell "Customer" [ref=e563]:
+                      - link "Customer" [ref=e569] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e570]: Customer
+                    - gridcell "Show Actions" [ref=e571]:
+                      - button "Show Actions" [ref=e577] [cursor=pointer]:
+                        - img [ref=e579]
+                        - generic [ref=e582]: Show Actions
+                  - row "Test account D10217 Active Customer Show Actions" [ref=e583]:
+                    - gridcell [ref=e584]
+                    - rowheader "Test account" [ref=e588]:
+                      - link "Test account" [ref=e595] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000NCGewAAH/view
+                        - generic [ref=e596]: Test account
+                    - gridcell "D10217" [ref=e597]:
+                      - generic [ref=e601]: D10217
+                    - gridcell [ref=e602]
+                    - gridcell [ref=e603]
+                    - gridcell [ref=e604]
+                    - gridcell "Active" [ref=e605]:
+                      - generic [ref=e609]: Active
+                    - gridcell "Customer" [ref=e610]:
+                      - link "Customer" [ref=e616] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000NCGewAAH/view
+                        - generic [ref=e617]: Customer
+                    - gridcell "Show Actions" [ref=e618]:
+                      - button "Show Actions" [ref=e624] [cursor=pointer]:
+                        - img [ref=e626]
+                        - generic [ref=e629]: Show Actions
+        - text: Loading report chart... Loading report chart... Loading report chart...
+  - generic:
+    - status
+```

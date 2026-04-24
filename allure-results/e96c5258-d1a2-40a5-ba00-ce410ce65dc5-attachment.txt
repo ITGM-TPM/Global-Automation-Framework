@@ -1,0 +1,2 @@
+[TradePlanningPage] Global search for "Test Sales Planner".
+[TradePlanningPage] Clicked "User Detail".

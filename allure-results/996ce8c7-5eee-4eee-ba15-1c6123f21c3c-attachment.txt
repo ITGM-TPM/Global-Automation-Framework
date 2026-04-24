@@ -1,0 +1,88 @@
+Error verifying Trade Calendar page: ExpectError: expect(locator).toBeVisible() failed
+
+Locator: button:has-text("View: Default View"), text=View: Default View
+Expected: visible
+Error: Unexpected token "=" while parsing css selector "button:has-text("View: Default View"), text=View: Default View". Did you mean to CSS.escape it?
+
+Call log:
+  - Expect "toBeVisible" with timeout 20000ms
+  - waiting for button:has-text("View: Default View"), text=View: Default View
+
+    at TradePlanningPage.verifyDefaultViewLabelVisible (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\src\page-objects\TradePlanningPage.ts:140:43)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:61:29
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:57:5 {
+  matcherResult: {
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+      '\n' +
+      'Locator: button:has-text("View: Default View"), text=View: Default View\n' +
+      'Expected: visible\n' +
+      'Error: Unexpected token "=" while parsing css selector "button:has-text("View: Default View"), text=View: Default View". Did you mean to CSS.escape it?\n' +
+      '\n' +
+      'Call log:\n' +
+      '\x1B[2m  - Expect "toBeVisible" with timeout 20000ms\x1B[22m\n' +
+      '\x1B[2m  - waiting for button:has-text("View: Default View"), text=View: Default View\x1B[22m\n',
+    pass: false,
+    actual: undefined,
+    name: 'toBeVisible',
+    expected: 'visible',
+    log: [
+      '  - Expect "toBeVisible" with timeout 20000ms',
+      '  - waiting for button:has-text("View: Default View"), text=View: Default View'
+    ],
+    timeout: undefined
+  },
+  Symbol(step): {
+    category: 'expect',
+    apiName: 'expect.toBeVisible',
+    title: 'Expect "toBeVisible" button:has-text("View: Default View"), text=View: Default View',
+    shortTitle: 'Expect "toBeVisible"',
+    params: undefined,
+    infectParentStepsWithError: undefined,
+    stepId: 'expect@62',
+    group: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts',
+      line: 140,
+      column: 43,
+      function: 'TradePlanningPage.verifyDefaultViewLabelVisible'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@62',
+      _title: 'Expect "toBeVisible" button:has-text("View: Default View"), text=View: Default View',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1775804483843,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        'Locator: button:has-text("View: Default View"), text=View: Default View\n' +
+        'Expected: visible\n' +
+        'Error: Unexpected token "=" while parsing css selector "button:has-text("View: Default View"), text=View: Default View". Did you mean to CSS.escape it?\n' +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toBeVisible" with timeout 20000ms\x1B[22m\n' +
+        '\x1B[2m  - waiting for button:has-text("View: Default View"), text=View: Default View\x1B[22m\n',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        'Locator: button:has-text("View: Default View"), text=View: Default View\n' +
+        'Expected: visible\n' +
+        'Error: Unexpected token "=" while parsing css selector "button:has-text("View: Default View"), text=View: Default View". Did you mean to CSS.escape it?\n' +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toBeVisible" with timeout 20000ms\x1B[22m\n' +
+        '\x1B[2m  - waiting for button:has-text("View: Default View"), text=View: Default View\x1B[22m\n' +
+        '\n' +
+        '    at TradePlanningPage.verifyDefaultViewLabelVisible (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts:140:43)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:61:29\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:57:5',
+      cause: undefined
+    }
+  }
+}

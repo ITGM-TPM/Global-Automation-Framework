@@ -1,0 +1,6 @@
+[TradePlanningPage] Global search for "Test Sales Planner".
+[TradePlanningPage] Clicked "User Detail".
+[TradePlanningPage] Navigated to Trade Planning.
+[TradePlanningPage] Available slot — account: "&-Eleven Winston April", x=425, y=253
+[TradePlanningPage] Dragging (425, 253) → (575, 253)
+[TradePlanningPage] Drag completed.

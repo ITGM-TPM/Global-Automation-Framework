@@ -1,0 +1,1 @@
+❌ Test failed: Search for a product and verify results

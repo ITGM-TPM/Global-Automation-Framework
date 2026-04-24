@@ -1,0 +1,5 @@
+Global Search button clicked.
+Searched for "Test Sales Planner".
+Clicked "User Detail" button.
+Navigated to Trade Planning.
+Trade Calendar heading is visible.

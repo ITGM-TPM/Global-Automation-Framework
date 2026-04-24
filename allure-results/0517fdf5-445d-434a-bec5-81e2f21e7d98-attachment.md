@@ -1,0 +1,191 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e8]:
+        - img [ref=e12]
+        - generic [ref=e15]: "Logged in as Test Sales Planner (testsp@ib.com) | Sandbox: ETQA |"
+        - link "Log out as Test Sales Planner" [ref=e16] [cursor=pointer]:
+          - /url: /secur/logout.jsp
+      - generic [ref=e17]:
+        - button "Search" [ref=e23]:
+          - img [ref=e25]
+          - text: Search...
+        - navigation "Global Header" [ref=e28]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - group [ref=e32]:
+                - button "This item doesn't support favorites" [ref=e34] [cursor=pointer]:
+                  - generic [ref=e35]:
+                    - img [ref=e39]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [ref=e43] [cursor=pointer]:
+                  - generic [ref=e44]:
+                    - img [ref=e48]
+                    - tooltip "Favorites list"
+            - listitem [ref=e51]:
+              - button "Global Actions" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]:
+                  - img [ref=e62]
+                  - tooltip "Global Actions"
+            - listitem [ref=e65]:
+              - button "Guidance Center" [ref=e67] [cursor=pointer]:
+                - generic [ref=e68]:
+                  - img [ref=e72]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e75]:
+              - button "Salesforce Help" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]:
+                  - img [ref=e83]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e86]:
+              - button "Setup" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Setup"
+            - listitem [ref=e100]:
+              - button "Notifications" [ref=e103] [cursor=pointer]:
+                - generic [ref=e104]:
+                  - img [ref=e109]
+                  - tooltip "Notifications"
+            - listitem [ref=e113]:
+              - button "View profile" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]:
+                  - tooltip "View profile"
+    - generic [ref=e121]:
+      - generic [ref=e124]:
+        - generic [ref=e126]:
+          - navigation "App" [ref=e127]:
+            - button "App Launcher" [ref=e129] [cursor=pointer]:
+              - generic [ref=e140]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e141]:
+            - generic "ITGB TPM" [ref=e142]
+        - navigation "Global" [ref=e145]:
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "Home" [ref=e148] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e149]: Home
+            - listitem [ref=e150]:
+              - link "Accounts" [ref=e151] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e152]: Accounts
+              - button "Accounts List" [ref=e156] [cursor=pointer]:
+                - img [ref=e160]
+                - generic [ref=e163]: Accounts List
+            - listitem [ref=e164]:
+              - link "Products" [ref=e165] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e166]: Products
+              - button "Products List" [ref=e170] [cursor=pointer]:
+                - img [ref=e174]
+                - generic [ref=e177]: Products List
+            - listitem [ref=e178]:
+              - link "Customer Business Plans" [ref=e179] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e180]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e184] [cursor=pointer]:
+                - img [ref=e188]
+                - generic [ref=e191]: Customer Business Plans List
+            - listitem [ref=e192]:
+              - link "Advanced Promotions" [ref=e193] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e194]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e198] [cursor=pointer]:
+                - img [ref=e202]
+                - generic [ref=e205]: Advanced Promotions List
+            - listitem [ref=e206]:
+              - link "Funds" [ref=e207] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e208]: Funds
+              - button "Funds List" [ref=e212] [cursor=pointer]:
+                - img [ref=e216]
+                - generic [ref=e219]: Funds List
+            - listitem [ref=e220]:
+              - button "Edit nav items" [ref=e222] [cursor=pointer]:
+                - img [ref=e224]
+                - generic [ref=e227]: Edit nav items
+      - main [ref=e229]:
+        - generic [ref=e233]:
+          - text: Loading report chart... Loading report chart... Loading report chart...
+          - dialog "New TPM Promotion" [ref=e235]:
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - heading "New TPM Promotion" [level=2] [ref=e238]
+                - button "Close" [ref=e239] [cursor=pointer]:
+                  - img
+                  - generic [ref=e240]: Close
+              - generic [ref=e242]:
+                - generic [ref=e243]:
+                  - generic [ref=e246]:
+                    - generic [ref=e247]: "*Description"
+                    - textbox [active] [ref=e249]
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: "*Promotion Template"
+                    - combobox [ref=e256] [cursor=pointer]:
+                      - generic [ref=e257]: IAP - Specific SKU Promotion
+                      - img [ref=e258]
+                - generic [ref=e259]:
+                  - generic [ref=e262]:
+                    - generic [ref=e263]: "*Date From (M/D/YYYY)"
+                    - generic [ref=e266]:
+                      - textbox "*Date From (M/D/YYYY)" [ref=e267]: 4/16/2026
+                      - button [ref=e268] [cursor=pointer]:
+                        - img
+                  - generic [ref=e271]:
+                    - generic [ref=e272]: Duration*
+                    - generic [ref=e274]:
+                      - spinbutton "Duration*" [ref=e276]: "1"
+                      - combobox "Duration*" [ref=e281] [cursor=pointer]:
+                        - generic [ref=e282]: Weeks
+                        - img [ref=e283]
+                - generic [ref=e284]:
+                  - generic [ref=e287]:
+                    - generic [ref=e288]: "*Anchor Customer"
+                    - combobox [ref=e291] [cursor=pointer]:
+                      - generic [ref=e292]: 7-Eleven
+                      - img [ref=e293]
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: "*Category"
+                    - combobox [ref=e300] [cursor=pointer]:
+                      - generic [ref=e301]: Select...
+                      - img [ref=e302]
+                - generic [ref=e306]:
+                  - generic [ref=e307]: "*Brand House"
+                  - combobox [ref=e310] [cursor=pointer]:
+                    - generic [ref=e311]: Select...
+                    - img [ref=e312]
+                - generic [ref=e317]:
+                  - generic [ref=e318]:
+                    - heading "Tactics & Compensation" [level=3] [ref=e319]
+                    - button "Add Tactics & Compensation" [disabled] [ref=e321]:
+                      - img
+                  - group [ref=e323]:
+                    - generic [ref=e325]:
+                      - generic [ref=e327]:
+                        - generic [ref=e330]:
+                          - generic [ref=e331]: "*Tactic Template"
+                          - combobox [ref=e334] [cursor=pointer]:
+                            - generic [ref=e335]: CAP QA1
+                            - img [ref=e336]
+                        - generic [ref=e339]:
+                          - generic [ref=e340]: "*Compensation Model"
+                          - combobox [ref=e343] [cursor=pointer]:
+                            - generic [ref=e344]: Lump Sum
+                            - img [ref=e345]
+                      - button "Remove Tactics & Compensation" [ref=e347] [cursor=pointer]:
+                        - img
+              - generic [ref=e348]:
+                - button "Cancel" [ref=e350] [cursor=pointer]
+                - generic [ref=e351]:
+                  - button "Save & Edit" [disabled] [ref=e352]
+                  - button "Save" [disabled] [ref=e353]
+  - generic:
+    - status
+```

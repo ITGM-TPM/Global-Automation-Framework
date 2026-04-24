@@ -1,0 +1,63 @@
+[applyColumnSort] Failed — column: "Account Name", order: "Ascending", action: "Apply" locator.waitFor: Error: strict mode violation: locator('//lightning-base-combobox-item//span[normalize-space()=\'Account Name\']') resolved to 2 elements:
+    1) <span lwc-7co8ha3nedg="" class="slds-media__body">…</span> aka locator('span').filter({ hasText: 'Account Name' }).nth(3)
+    2) <span lwc-7co8ha3nedg="" title="Account Name">Account Name</span> aka getByLabel('*Sort by').getByText('Account Name')
+
+Call log:
+  - waiting for locator('//lightning-base-combobox-item//span[normalize-space()=\'Account Name\']') to be visible
+
+    at verifySortingOrder (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\utils\commonLogic.ts:222:28)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:52:9
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:50:5 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts',
+      line: 222,
+      column: 28,
+      function: 'verifySortingOrder'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//lightning-base-combobox-item//span[normalize-space()=\\'Account Name\\']')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//lightning-base-combobox-item//span[normalize-space()='Account Name']",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 5000
+    },
+    group: undefined,
+    stepId: 'pw:api@92',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@92',
+      _title: "Wait for selector locator('//lightning-base-combobox-item//span[normalize-space()=\\'Account Name\\']')",
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776957354344,
+    error: {
+      message: "Error: locator.waitFor: Error: strict mode violation: locator('//lightning-base-combobox-item//span[normalize-space()=\\'Account Name\\']') resolved to 2 elements:\n" +
+        `    1) <span lwc-7co8ha3nedg="" class="slds-media__body">…</span> aka locator('span').filter({ hasText: 'Account Name' }).nth(3)\n` +
+        `    2) <span lwc-7co8ha3nedg="" title="Account Name">Account Name</span> aka getByLabel('*Sort by').getByText('Account Name')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//lightning-base-combobox-item//span[normalize-space()=\\'Account Name\\']') to be visible\x1B[22m\n",
+      stack: "Error: locator.waitFor: Error: strict mode violation: locator('//lightning-base-combobox-item//span[normalize-space()=\\'Account Name\\']') resolved to 2 elements:\n" +
+        `    1) <span lwc-7co8ha3nedg="" class="slds-media__body">…</span> aka locator('span').filter({ hasText: 'Account Name' }).nth(3)\n` +
+        `    2) <span lwc-7co8ha3nedg="" title="Account Name">Account Name</span> aka getByLabel('*Sort by').getByText('Account Name')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//lightning-base-combobox-item//span[normalize-space()=\\'Account Name\\']') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at verifySortingOrder (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts:222:28)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:52:9\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:50:5',
+      cause: undefined
+    }
+  }
+}

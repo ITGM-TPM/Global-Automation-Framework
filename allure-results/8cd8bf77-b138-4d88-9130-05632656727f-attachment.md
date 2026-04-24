@@ -1,0 +1,794 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (ETQA)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Global Actions"
+            - listitem [ref=e100]:
+              - button "Guidance Center" [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]:
+                  - img [ref=e107]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e110]:
+              - button "Salesforce Help" [ref=e113] [cursor=pointer]:
+                - generic [ref=e114]:
+                  - img [ref=e118]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e121]:
+              - button "Setup" [ref=e127] [cursor=pointer]:
+                - generic [ref=e128]:
+                  - img [ref=e132]
+                  - tooltip "Setup"
+            - listitem [ref=e135]:
+              - button "Notifications" [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - img [ref=e144]
+                  - tooltip "Notifications"
+            - listitem [ref=e148]:
+              - button "View profile" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - tooltip "View profile"
+    - generic [ref=e156]:
+      - generic [ref=e159]:
+        - generic [ref=e161]:
+          - navigation "App" [ref=e162]:
+            - button "App Launcher" [ref=e164] [cursor=pointer]:
+              - generic [ref=e175]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e176]:
+            - generic "ITGB TPM" [ref=e177]
+        - navigation "Global" [ref=e180]:
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Home" [ref=e183] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e184]: Home
+            - listitem [ref=e185] [cursor=pointer]:
+              - link "Accounts" [ref=e186]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e187]: Accounts
+              - button "Accounts List" [ref=e191]:
+                - img [ref=e195]
+                - generic [ref=e198]: Accounts List
+            - listitem [ref=e199]:
+              - link "Products" [ref=e200] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e201]: Products
+              - button "Products List" [ref=e205] [cursor=pointer]:
+                - img [ref=e209]
+                - generic [ref=e212]: Products List
+            - listitem [ref=e213]:
+              - link "Trade Calendar" [ref=e214] [cursor=pointer]:
+                - /url: /lightning/n/Trade_Calendar
+                - generic [ref=e215]: Trade Calendar
+            - listitem [ref=e216]:
+              - link "Customer Business Plans" [ref=e217] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e218]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e222] [cursor=pointer]:
+                - img [ref=e226]
+                - generic [ref=e229]: Customer Business Plans List
+            - listitem [ref=e230]:
+              - link "Advanced Promotions" [ref=e231] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e232]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e236] [cursor=pointer]:
+                - img [ref=e240]
+                - generic [ref=e243]: Advanced Promotions List
+            - listitem [ref=e244]:
+              - link "Funds" [ref=e245] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e246]: Funds
+              - button "Funds List" [ref=e250] [cursor=pointer]:
+                - img [ref=e254]
+                - generic [ref=e257]: Funds List
+            - listitem [ref=e258]:
+              - link "Multi-Fund Transactions" [ref=e259] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                - generic [ref=e260]: Multi-Fund Transactions
+              - button "Multi-Fund Transactions List" [ref=e264] [cursor=pointer]:
+                - img [ref=e268]
+                - generic [ref=e271]: Multi-Fund Transactions List
+            - listitem [ref=e272]:
+              - button "Edit nav items" [ref=e274] [cursor=pointer]:
+                - img [ref=e276]
+                - generic [ref=e279]: Edit nav items
+      - generic [ref=e280]:
+        - main [ref=e281]:
+          - generic [ref=e291]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - generic [ref=e296]:
+                  - img [ref=e300]
+                  - generic [ref=e301]:
+                    - heading "Accounts" [level=1] [ref=e305]
+                    - generic [ref=e306]:
+                      - generic [ref=e308] [cursor=pointer]:
+                        - heading "Accounts 13. All Accounts" [level=1] [ref=e309]:
+                          - generic [ref=e310]: Accounts
+                          - generic [ref=e311]: 13. All Accounts
+                        - 'button "Select a List View: Accounts" [active] [ref=e314]':
+                          - generic [ref=e315]:
+                            - img
+                          - generic [ref=e316]: "Select a List View: Accounts"
+                      - button "Pin this list view." [ref=e320] [cursor=pointer]:
+                        - img [ref=e322]
+                        - generic [ref=e325]: Pin this list view.
+                - list [ref=e328]:
+                  - listitem [ref=e329]:
+                    - button "New" [ref=e330] [cursor=pointer]:
+                      - generic "New" [ref=e331]
+                  - listitem [ref=e332]:
+                    - button "Import" [ref=e333] [cursor=pointer]:
+                      - generic "Import" [ref=e334]
+                  - listitem [ref=e335]:
+                    - button "Printable View" [ref=e336] [cursor=pointer]:
+                      - generic "Printable View" [ref=e337]
+              - generic [ref=e338]:
+                - paragraph [ref=e340]:
+                  - generic [ref=e342]:
+                    - status "13. All Accounts" [ref=e343]: 50+ items • Sorted by CRS Number • Filtered by Sales Org •
+                    - text: Updated a few seconds ago
+                - generic [ref=e349]:
+                  - generic [ref=e350]: Search this list...
+                  - generic [ref=e351]:
+                    - searchbox "Search this list..." [ref=e352]
+                    - generic:
+                      - img
+                - generic [ref=e353]:
+                  - button "List View Controls" [ref=e357] [cursor=pointer]:
+                    - img [ref=e359]
+                    - img [ref=e363]
+                    - generic [ref=e366]: List View Controls
+                  - button "Select list display" [ref=e369] [cursor=pointer]:
+                    - img [ref=e371]
+                    - img [ref=e375]
+                    - generic [ref=e378]: Select list display
+                  - generic [ref=e380]:
+                    - button "Refresh" [ref=e383] [cursor=pointer]:
+                      - img [ref=e385]
+                      - generic [ref=e388]: Refresh
+                    - button "Column sort" [ref=e391] [cursor=pointer]:
+                      - img [ref=e393]
+                      - generic [ref=e396]: Column sort
+                    - button "Inline Edit is disabled. To edit, filter by one record type." [ref=e399] [cursor=pointer]:
+                      - img [ref=e401]
+                      - generic [ref=e404]: Inline Edit is disabled. To edit, filter by one record type.
+                    - group [ref=e405]:
+                      - generic [ref=e407]:
+                        - button "Charts" [ref=e410] [cursor=pointer]:
+                          - img [ref=e412]
+                          - generic [ref=e415]: Charts
+                        - button "Filters" [ref=e418] [cursor=pointer]:
+                          - img [ref=e420]
+                          - generic [ref=e423]: Filters
+            - generic [ref=e430]:
+              - generic [ref=e431]: Navigation Mode
+              - grid [ref=e435]:
+                - rowgroup:
+                  - row "Row Number Account Name CRS Number Territory Billing City Billing State/Province Parent Account Type Tax Entity Account Status Owner First Name Action":
+                    - columnheader "Row Number":
+                      - generic [ref=e438]:
+                        - generic "Row Number"
+                    - columnheader "Account Name":
+                      - generic [ref=e440]:
+                        - 'button "Sort by: Account Name" [ref=e441] [cursor=pointer]':
+                          - generic [ref=e442]: "Sort by:"
+                          - generic "Account Name" [ref=e443]
+                        - generic [ref=e444]: "Sorted: None"
+                        - button "Show Account Name column actions" [ref=e446] [cursor=pointer]:
+                          - img [ref=e448]
+                          - generic [ref=e451]: Show Account Name column actions
+                        - slider "Account Name column width" [ref=e452]: "203"
+                    - columnheader "CRS Number":
+                      - generic [ref=e456]:
+                        - 'button "Sort by: CRS Number" [ref=e457] [cursor=pointer]':
+                          - generic [ref=e458]: "Sort by:"
+                          - generic "CRS Number" [ref=e459]
+                          - img [ref=e461]
+                        - generic [ref=e464]: Sorted Descending
+                        - button "Show CRS Number column actions" [ref=e466] [cursor=pointer]:
+                          - img [ref=e468]
+                          - generic [ref=e471]: Show CRS Number column actions
+                        - slider "CRS Number column width" [ref=e472]: "122"
+                    - columnheader "Territory":
+                      - generic [ref=e476]:
+                        - 'button "Sort by: Territory" [ref=e477] [cursor=pointer]':
+                          - generic [ref=e478]: "Sort by:"
+                          - generic "Territory" [ref=e479]
+                        - generic [ref=e480]: "Sorted: None"
+                        - button "Show Territory column actions" [ref=e482] [cursor=pointer]:
+                          - img [ref=e484]
+                          - generic [ref=e487]: Show Territory column actions
+                        - slider "Territory column width" [ref=e488]: "93"
+                    - columnheader "Billing City":
+                      - generic [ref=e492]:
+                        - 'button "Sort by: Billing City" [ref=e493] [cursor=pointer]':
+                          - generic [ref=e494]: "Sort by:"
+                          - generic "Billing City" [ref=e495]
+                        - generic [ref=e496]: "Sorted: None"
+                        - button "Show Billing City column actions" [ref=e498] [cursor=pointer]:
+                          - img [ref=e500]
+                          - generic [ref=e503]: Show Billing City column actions
+                        - slider "Billing City column width" [ref=e504]: "96"
+                    - columnheader "Billing State/Province":
+                      - generic [ref=e508]:
+                        - 'button "Sort by: Billing State/Province" [ref=e509] [cursor=pointer]':
+                          - generic [ref=e510]: "Sort by:"
+                          - generic "Billing State/Province" [ref=e511]
+                        - generic [ref=e512]: "Sorted: None"
+                        - button "Show Billing State/Province column actions" [ref=e514] [cursor=pointer]:
+                          - img [ref=e516]
+                          - generic [ref=e519]: Show Billing State/Province column actions
+                        - slider "Billing State/Province column width" [ref=e520]: "60"
+                    - columnheader "Parent Account":
+                      - generic [ref=e524]:
+                        - 'button "Sort by: Parent Account" [ref=e525] [cursor=pointer]':
+                          - generic [ref=e526]: "Sort by:"
+                          - generic "Parent Account" [ref=e527]
+                        - generic [ref=e528]: "Sorted: None"
+                        - button "Show Parent Account column actions" [ref=e530] [cursor=pointer]:
+                          - img [ref=e532]
+                          - generic [ref=e535]: Show Parent Account column actions
+                        - slider "Parent Account column width" [ref=e536]: "253"
+                    - columnheader "Type":
+                      - generic [ref=e540]:
+                        - 'button "Sort by: Type" [ref=e541] [cursor=pointer]':
+                          - generic [ref=e542]: "Sort by:"
+                          - generic "Type" [ref=e543]
+                        - generic [ref=e544]: "Sorted: None"
+                        - button "Show Type column actions" [ref=e546] [cursor=pointer]:
+                          - img [ref=e548]
+                          - generic [ref=e551]: Show Type column actions
+                        - slider "Type column width" [ref=e552]: "112"
+                    - columnheader "Tax Entity":
+                      - generic [ref=e556]:
+                        - 'button "Sort by: Tax Entity" [ref=e557] [cursor=pointer]':
+                          - generic [ref=e558]: "Sort by:"
+                          - generic "Tax Entity" [ref=e559]
+                        - generic [ref=e560]: "Sorted: None"
+                        - button "Show Tax Entity column actions" [ref=e562] [cursor=pointer]:
+                          - img [ref=e564]
+                          - generic [ref=e567]: Show Tax Entity column actions
+                        - slider "Tax Entity column width" [ref=e568]: "93"
+                    - columnheader "Account Status":
+                      - generic [ref=e572]:
+                        - 'button "Sort by: Account Status" [ref=e573] [cursor=pointer]':
+                          - generic [ref=e574]: "Sort by:"
+                          - generic "Account Status" [ref=e575]
+                        - generic [ref=e576]: "Sorted: None"
+                        - button "Show Account Status column actions" [ref=e578] [cursor=pointer]:
+                          - img [ref=e580]
+                          - generic [ref=e583]: Show Account Status column actions
+                        - slider "Account Status column width" [ref=e584]: "78"
+                    - columnheader "Owner First Name":
+                      - generic [ref=e588]:
+                        - 'button "Sort by: Owner First Name" [ref=e589] [cursor=pointer]':
+                          - generic [ref=e590]: "Sort by:"
+                          - generic "Owner First Name" [ref=e591]
+                        - generic [ref=e592]: "Sorted: None"
+                        - button "Show Owner First Name column actions" [ref=e594] [cursor=pointer]:
+                          - img [ref=e596]
+                          - generic [ref=e599]: Show Owner First Name column actions
+                        - slider "Owner First Name column width" [ref=e600]: "60"
+                    - columnheader "Action":
+                      - generic [ref=e605]:
+                        - generic "Action"
+                - rowgroup [ref=e606]:
+                  - row "TPM Account TRigger 3 D10216 Independent Active Show Actions" [ref=e607]:
+                    - gridcell [ref=e608]
+                    - rowheader "TPM Account TRigger 3" [ref=e612]:
+                      - link "TPM Account TRigger 3" [ref=e619] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N3WpOAAV/view
+                        - generic [ref=e620]: TPM Account TRigger 3
+                    - gridcell "D10216" [ref=e621]:
+                      - generic [ref=e625]: D10216
+                    - gridcell [ref=e626]
+                    - gridcell [ref=e627]
+                    - gridcell [ref=e628]
+                    - gridcell [ref=e629]
+                    - gridcell "Independent" [ref=e631]:
+                      - generic [ref=e635]: Independent
+                    - gridcell [ref=e636]
+                    - gridcell "Active" [ref=e638]:
+                      - generic [ref=e642]: Active
+                    - gridcell [ref=e643]:
+                      - generic [ref=e644]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link:
+                                  - /url: /lightning/r/005ca000009tcVnAAI/view
+                    - gridcell "Show Actions" [ref=e645]:
+                      - button "Show Actions" [ref=e651] [cursor=pointer]:
+                        - img [ref=e653]
+                        - generic [ref=e656]: Show Actions
+                  - row "TPM Account TRigger 2 D10215 Independent Active Show Actions" [ref=e657]:
+                    - gridcell [ref=e658]
+                    - rowheader "TPM Account TRigger 2" [ref=e662]:
+                      - link "TPM Account TRigger 2" [ref=e669] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N3WpNAAV/view
+                        - generic [ref=e670]: TPM Account TRigger 2
+                    - gridcell "D10215" [ref=e671]:
+                      - generic [ref=e675]: D10215
+                    - gridcell [ref=e676]
+                    - gridcell [ref=e677]
+                    - gridcell [ref=e678]
+                    - gridcell [ref=e679]
+                    - gridcell "Independent" [ref=e681]:
+                      - generic [ref=e685]: Independent
+                    - gridcell [ref=e686]
+                    - gridcell "Active" [ref=e688]:
+                      - generic [ref=e692]: Active
+                    - gridcell [ref=e693]:
+                      - generic [ref=e694]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link:
+                                  - /url: /lightning/r/005ca000009tcVnAAI/view
+                    - gridcell "Show Actions" [ref=e695]:
+                      - button "Show Actions" [ref=e701] [cursor=pointer]:
+                        - img [ref=e703]
+                        - generic [ref=e706]: Show Actions
+                  - row "Region 16 D10211 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e707]:
+                    - gridcell [ref=e708]
+                    - rowheader "Region 16" [ref=e712]:
+                      - link "Region 16" [ref=e719] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1I4AAAV/view
+                        - generic [ref=e720]: Region 16
+                    - gridcell "D10211" [ref=e721]:
+                      - generic [ref=e725]: D10211
+                    - gridcell [ref=e726]
+                    - gridcell [ref=e727]
+                    - gridcell [ref=e728]
+                    - gridcell "Englefield Oil" [ref=e729]:
+                      - link "Englefield Oil" [ref=e735] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e736]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e737]:
+                      - generic [ref=e741]: TPM Account
+                    - gridcell [ref=e742]
+                    - gridcell "Active" [ref=e744]:
+                      - generic [ref=e748]: Active
+                    - gridcell "Prabu" [ref=e749]:
+                      - link "Prabu" [ref=e755] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e756]: Prabu
+                    - gridcell "Show Actions" [ref=e757]:
+                      - button "Show Actions" [ref=e763] [cursor=pointer]:
+                        - img [ref=e765]
+                        - generic [ref=e768]: Show Actions
+                  - row "Region 15 D10210 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e769]:
+                    - gridcell [ref=e770]
+                    - rowheader "Region 15" [ref=e774]:
+                      - link "Region 15" [ref=e781] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1KFZAA3/view
+                        - generic [ref=e782]: Region 15
+                    - gridcell "D10210" [ref=e783]:
+                      - generic [ref=e787]: D10210
+                    - gridcell [ref=e788]
+                    - gridcell [ref=e789]
+                    - gridcell [ref=e790]
+                    - gridcell "Englefield Oil" [ref=e791]:
+                      - link "Englefield Oil" [ref=e797] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e798]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e799]:
+                      - generic [ref=e803]: TPM Account
+                    - gridcell [ref=e804]
+                    - gridcell "Active" [ref=e806]:
+                      - generic [ref=e810]: Active
+                    - gridcell "Prabu" [ref=e811]:
+                      - link "Prabu" [ref=e817] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e818]: Prabu
+                    - gridcell "Show Actions" [ref=e819]:
+                      - button "Show Actions" [ref=e825] [cursor=pointer]:
+                        - img [ref=e827]
+                        - generic [ref=e830]: Show Actions
+                  - row "Region 14 D10209 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e831]:
+                    - gridcell [ref=e832]
+                    - rowheader "Region 14" [ref=e836]:
+                      - link "Region 14" [ref=e843] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N16PeAAJ/view
+                        - generic [ref=e844]: Region 14
+                    - gridcell "D10209" [ref=e845]:
+                      - generic [ref=e849]: D10209
+                    - gridcell [ref=e850]
+                    - gridcell [ref=e851]
+                    - gridcell [ref=e852]
+                    - gridcell "Englefield Oil" [ref=e853]:
+                      - link "Englefield Oil" [ref=e859] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e860]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e861]:
+                      - generic [ref=e865]: TPM Account
+                    - gridcell [ref=e866]
+                    - gridcell "Active" [ref=e868]:
+                      - generic [ref=e872]: Active
+                    - gridcell "Prabu" [ref=e873]:
+                      - link "Prabu" [ref=e879] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e880]: Prabu
+                    - gridcell "Show Actions" [ref=e881]:
+                      - button "Show Actions" [ref=e887] [cursor=pointer]:
+                        - img [ref=e889]
+                        - generic [ref=e892]: Show Actions
+                  - row "Region 13 D10208 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e893]:
+                    - gridcell [ref=e894]
+                    - rowheader "Region 13" [ref=e898]:
+                      - link "Region 13" [ref=e905] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N16PdAAJ/view
+                        - generic [ref=e906]: Region 13
+                    - gridcell "D10208" [ref=e907]:
+                      - generic [ref=e911]: D10208
+                    - gridcell [ref=e912]
+                    - gridcell [ref=e913]
+                    - gridcell [ref=e914]
+                    - gridcell "Englefield Oil" [ref=e915]:
+                      - link "Englefield Oil" [ref=e921] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e922]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e923]:
+                      - generic [ref=e927]: TPM Account
+                    - gridcell [ref=e928]
+                    - gridcell "Active" [ref=e930]:
+                      - generic [ref=e934]: Active
+                    - gridcell "Prabu" [ref=e935]:
+                      - link "Prabu" [ref=e941] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e942]: Prabu
+                    - gridcell "Show Actions" [ref=e943]:
+                      - button "Show Actions" [ref=e949] [cursor=pointer]:
+                        - img [ref=e951]
+                        - generic [ref=e954]: Show Actions
+                  - row "Region 12 D10207 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e955]:
+                    - gridcell [ref=e956]
+                    - rowheader "Region 12" [ref=e960]:
+                      - link "Region 12" [ref=e967] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FhKAAV/view
+                        - generic [ref=e968]: Region 12
+                    - gridcell "D10207" [ref=e969]:
+                      - generic [ref=e973]: D10207
+                    - gridcell [ref=e974]
+                    - gridcell [ref=e975]
+                    - gridcell [ref=e976]
+                    - gridcell "Englefield Oil" [ref=e977]:
+                      - link "Englefield Oil" [ref=e983] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e984]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e985]:
+                      - generic [ref=e989]: TPM Account
+                    - gridcell [ref=e990]
+                    - gridcell "Active" [ref=e992]:
+                      - generic [ref=e996]: Active
+                    - gridcell "Prabu" [ref=e997]:
+                      - link "Prabu" [ref=e1003] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1004]: Prabu
+                    - gridcell "Show Actions" [ref=e1005]:
+                      - button "Show Actions" [ref=e1011] [cursor=pointer]:
+                        - img [ref=e1013]
+                        - generic [ref=e1016]: Show Actions
+                  - row "Region 11 D10206 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1017]:
+                    - gridcell [ref=e1018]
+                    - rowheader "Region 11" [ref=e1022]:
+                      - link "Region 11" [ref=e1029] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N12ncAAB/view
+                        - generic [ref=e1030]: Region 11
+                    - gridcell "D10206" [ref=e1031]:
+                      - generic [ref=e1035]: D10206
+                    - gridcell [ref=e1036]
+                    - gridcell [ref=e1037]
+                    - gridcell [ref=e1038]
+                    - gridcell "Englefield Oil" [ref=e1039]:
+                      - link "Englefield Oil" [ref=e1045] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1046]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1047]:
+                      - generic [ref=e1051]: TPM Account
+                    - gridcell [ref=e1052]
+                    - gridcell "Active" [ref=e1054]:
+                      - generic [ref=e1058]: Active
+                    - gridcell "Prabu" [ref=e1059]:
+                      - link "Prabu" [ref=e1065] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1066]: Prabu
+                    - gridcell "Show Actions" [ref=e1067]:
+                      - button "Show Actions" [ref=e1073] [cursor=pointer]:
+                        - img [ref=e1075]
+                        - generic [ref=e1078]: Show Actions
+                  - row "Region 10 D10205 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1079]:
+                    - gridcell [ref=e1080]
+                    - rowheader "Region 10" [ref=e1084]:
+                      - link "Region 10" [ref=e1091] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N19gzAAB/view
+                        - generic [ref=e1092]: Region 10
+                    - gridcell "D10205" [ref=e1093]:
+                      - generic [ref=e1097]: D10205
+                    - gridcell [ref=e1098]
+                    - gridcell [ref=e1099]
+                    - gridcell [ref=e1100]
+                    - gridcell "Englefield Oil" [ref=e1101]:
+                      - link "Englefield Oil" [ref=e1107] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1108]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1109]:
+                      - generic [ref=e1113]: TPM Account
+                    - gridcell [ref=e1114]
+                    - gridcell "Active" [ref=e1116]:
+                      - generic [ref=e1120]: Active
+                    - gridcell "Prabu" [ref=e1121]:
+                      - link "Prabu" [ref=e1127] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1128]: Prabu
+                    - gridcell "Show Actions" [ref=e1129]:
+                      - button "Show Actions" [ref=e1135] [cursor=pointer]:
+                        - img [ref=e1137]
+                        - generic [ref=e1140]: Show Actions
+                  - row "Region 9 D10204 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1141]:
+                    - gridcell [ref=e1142]
+                    - rowheader "Region 9" [ref=e1146]:
+                      - link "Region 9" [ref=e1153] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1KDxAAN/view
+                        - generic [ref=e1154]: Region 9
+                    - gridcell "D10204" [ref=e1155]:
+                      - generic [ref=e1159]: D10204
+                    - gridcell [ref=e1160]
+                    - gridcell [ref=e1161]
+                    - gridcell [ref=e1162]
+                    - gridcell "Englefield Oil" [ref=e1163]:
+                      - link "Englefield Oil" [ref=e1169] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1170]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1171]:
+                      - generic [ref=e1175]: TPM Account
+                    - gridcell [ref=e1176]
+                    - gridcell "Active" [ref=e1178]:
+                      - generic [ref=e1182]: Active
+                    - gridcell "Prabu" [ref=e1183]:
+                      - link "Prabu" [ref=e1189] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1190]: Prabu
+                    - gridcell "Show Actions" [ref=e1191]:
+                      - button "Show Actions" [ref=e1197] [cursor=pointer]:
+                        - img [ref=e1199]
+                        - generic [ref=e1202]: Show Actions
+                  - row "Region 8 D10203 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1203]:
+                    - gridcell [ref=e1204]
+                    - rowheader "Region 8" [ref=e1208]:
+                      - link "Region 8" [ref=e1215] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N19iWAAR/view
+                        - generic [ref=e1216]: Region 8
+                    - gridcell "D10203" [ref=e1217]:
+                      - generic [ref=e1221]: D10203
+                    - gridcell [ref=e1222]
+                    - gridcell [ref=e1223]
+                    - gridcell [ref=e1224]
+                    - gridcell "Englefield Oil" [ref=e1225]:
+                      - link "Englefield Oil" [ref=e1231] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1232]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1233]:
+                      - generic [ref=e1237]: TPM Account
+                    - gridcell [ref=e1238]
+                    - gridcell "Active" [ref=e1240]:
+                      - generic [ref=e1244]: Active
+                    - gridcell "Prabu" [ref=e1245]:
+                      - link "Prabu" [ref=e1251] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1252]: Prabu
+                    - gridcell "Show Actions" [ref=e1253]:
+                      - button "Show Actions" [ref=e1259] [cursor=pointer]:
+                        - img [ref=e1261]
+                        - generic [ref=e1264]: Show Actions
+                  - row "Region 7 D10202 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1265]:
+                    - gridcell [ref=e1266]
+                    - rowheader "Region 7" [ref=e1270]:
+                      - link "Region 7" [ref=e1277] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1GWzAAN/view
+                        - generic [ref=e1278]: Region 7
+                    - gridcell "D10202" [ref=e1279]:
+                      - generic [ref=e1283]: D10202
+                    - gridcell [ref=e1284]
+                    - gridcell [ref=e1285]
+                    - gridcell [ref=e1286]
+                    - gridcell "Englefield Oil" [ref=e1287]:
+                      - link "Englefield Oil" [ref=e1293] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1294]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1295]:
+                      - generic [ref=e1299]: TPM Account
+                    - gridcell [ref=e1300]
+                    - gridcell "Active" [ref=e1302]:
+                      - generic [ref=e1306]: Active
+                    - gridcell "Prabu" [ref=e1307]:
+                      - link "Prabu" [ref=e1313] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1314]: Prabu
+                    - gridcell "Show Actions" [ref=e1315]:
+                      - button "Show Actions" [ref=e1321] [cursor=pointer]:
+                        - img [ref=e1323]
+                        - generic [ref=e1326]: Show Actions
+                  - row "Region 6 D10201 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1327]:
+                    - gridcell [ref=e1328]
+                    - rowheader "Region 6" [ref=e1332]:
+                      - link "Region 6" [ref=e1339] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1JD4AAN/view
+                        - generic [ref=e1340]: Region 6
+                    - gridcell "D10201" [ref=e1341]:
+                      - generic [ref=e1345]: D10201
+                    - gridcell [ref=e1346]
+                    - gridcell [ref=e1347]
+                    - gridcell [ref=e1348]
+                    - gridcell "Englefield Oil" [ref=e1349]:
+                      - link "Englefield Oil" [ref=e1355] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1356]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1357]:
+                      - generic [ref=e1361]: TPM Account
+                    - gridcell [ref=e1362]
+                    - gridcell "Active" [ref=e1364]:
+                      - generic [ref=e1368]: Active
+                    - gridcell "Prabu" [ref=e1369]:
+                      - link "Prabu" [ref=e1375] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1376]: Prabu
+                    - gridcell "Show Actions" [ref=e1377]:
+                      - button "Show Actions" [ref=e1383] [cursor=pointer]:
+                        - img [ref=e1385]
+                        - generic [ref=e1388]: Show Actions
+                  - row "Region 5 D10200 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1389]:
+                    - gridcell [ref=e1390]
+                    - rowheader "Region 5" [ref=e1394]:
+                      - link "Region 5" [ref=e1401] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N19djAAB/view
+                        - generic [ref=e1402]: Region 5
+                    - gridcell "D10200" [ref=e1403]:
+                      - generic [ref=e1407]: D10200
+                    - gridcell [ref=e1408]
+                    - gridcell [ref=e1409]
+                    - gridcell [ref=e1410]
+                    - gridcell "Englefield Oil" [ref=e1411]:
+                      - link "Englefield Oil" [ref=e1417] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1418]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1419]:
+                      - generic [ref=e1423]: TPM Account
+                    - gridcell [ref=e1424]
+                    - gridcell "Active" [ref=e1426]:
+                      - generic [ref=e1430]: Active
+                    - gridcell "Prabu" [ref=e1431]:
+                      - link "Prabu" [ref=e1437] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1438]: Prabu
+                    - gridcell "Show Actions" [ref=e1439]:
+                      - button "Show Actions" [ref=e1445] [cursor=pointer]:
+                        - img [ref=e1447]
+                        - generic [ref=e1450]: Show Actions
+                  - row "Region 4 D10199 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1451]:
+                    - gridcell [ref=e1452]
+                    - rowheader "Region 4" [ref=e1456]:
+                      - link "Region 4" [ref=e1463] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N13MzAAJ/view
+                        - generic [ref=e1464]: Region 4
+                    - gridcell "D10199" [ref=e1465]:
+                      - generic [ref=e1469]: D10199
+                    - gridcell [ref=e1470]
+                    - gridcell [ref=e1471]
+                    - gridcell [ref=e1472]
+                    - gridcell "Englefield Oil" [ref=e1473]:
+                      - link "Englefield Oil" [ref=e1479] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1480]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1481]:
+                      - generic [ref=e1485]: TPM Account
+                    - gridcell [ref=e1486]
+                    - gridcell "Active" [ref=e1488]:
+                      - generic [ref=e1492]: Active
+                    - gridcell "Prabu" [ref=e1493]:
+                      - link "Prabu" [ref=e1499] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1500]: Prabu
+                    - gridcell "Show Actions" [ref=e1501]:
+                      - button "Show Actions" [ref=e1507] [cursor=pointer]:
+                        - img [ref=e1509]
+                        - generic [ref=e1512]: Show Actions
+                  - row "Region 3 D10198 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1513]:
+                    - gridcell [ref=e1514]
+                    - rowheader "Region 3" [ref=e1518]:
+                      - link "Region 3" [ref=e1525] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1BE3AAN/view
+                        - generic [ref=e1526]: Region 3
+                    - gridcell "D10198" [ref=e1527]:
+                      - generic [ref=e1531]: D10198
+                    - gridcell [ref=e1532]
+                    - gridcell [ref=e1533]
+                    - gridcell [ref=e1534]
+                    - gridcell "Englefield Oil" [ref=e1535]:
+                      - link "Englefield Oil" [ref=e1541] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1542]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1543]:
+                      - generic [ref=e1547]: TPM Account
+                    - gridcell [ref=e1548]
+                    - gridcell "Active" [ref=e1550]:
+                      - generic [ref=e1554]: Active
+                    - gridcell "Prabu" [ref=e1555]:
+                      - link "Prabu" [ref=e1561] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1562]: Prabu
+                    - gridcell "Show Actions" [ref=e1563]:
+                      - button "Show Actions" [ref=e1569] [cursor=pointer]:
+                        - img [ref=e1571]
+                        - generic [ref=e1574]: Show Actions
+                  - row "Region 2 D10197 Englefield Oil TPM Account Active Prabu Show Actions" [ref=e1575]:
+                    - gridcell [ref=e1576]
+                    - rowheader "Region 2" [ref=e1580]:
+                      - link "Region 2" [ref=e1587] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1AucAAF/view
+                        - generic [ref=e1588]: Region 2
+                    - gridcell "D10197" [ref=e1589]:
+                      - generic [ref=e1593]: D10197
+                    - gridcell [ref=e1594]
+                    - gridcell [ref=e1595]
+                    - gridcell [ref=e1596]
+                    - gridcell "Englefield Oil" [ref=e1597]:
+                      - link "Englefield Oil" [ref=e1603] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N14riAAB/view
+                        - generic [ref=e1604]: Englefield Oil
+                    - gridcell "TPM Account" [ref=e1605]:
+                      - generic [ref=e1609]: TPM Account
+                    - gridcell [ref=e1610]
+                    - gridcell "Active" [ref=e1612]:
+                      - generic [ref=e1616]: Active
+                    - gridcell "Prabu" [ref=e1617]:
+                      - link "Prabu" [ref=e1623] [cursor=pointer]:
+                        - /url: /lightning/r/005ca000009XzR0AAK/view
+                        - generic [ref=e1624]: Prabu
+                    - gridcell "Show Actions" [ref=e1625]:
+                      - button "Show Actions" [ref=e1631] [cursor=pointer]:
+                        - img [ref=e1633]
+                        - generic [ref=e1636]: Show Actions
+        - text: Loading report chart... Loading report chart... Loading report chart...
+  - generic:
+    - status
+```

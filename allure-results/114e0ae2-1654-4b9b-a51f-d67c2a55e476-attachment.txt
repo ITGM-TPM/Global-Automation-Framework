@@ -1,0 +1,1 @@
+✔ Test success: Open Accounts tab and select My Active Accounts

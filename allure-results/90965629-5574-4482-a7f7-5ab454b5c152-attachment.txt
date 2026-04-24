@@ -1,0 +1,52 @@
+No empty row area found on calendar.
+Error selecting date range on calendar: ExpectError: expect(received).not.toBeNull()
+
+Received: null
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:73:35
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:69:5 {
+  matcherResult: {
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mnot\x1B[2m.\x1B[22mtoBeNull\x1B[2m()\x1B[22m\n' +
+      '\n' +
+      'Received: \x1B[31mnull\x1B[39m',
+    pass: true
+  },
+  Symbol(step): {
+    category: 'expect',
+    apiName: 'expect.not.toBeNull',
+    title: 'Expect "not toBeNull"',
+    shortTitle: 'Expect "not toBeNull"',
+    params: undefined,
+    infectParentStepsWithError: undefined,
+    stepId: 'expect@63',
+    group: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts',
+      line: 73,
+      column: 35
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@63',
+      _title: 'Expect "not toBeNull"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1775806085438,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mnot\x1B[2m.\x1B[22mtoBeNull\x1B[2m()\x1B[22m\n' +
+        '\n' +
+        'Received: \x1B[31mnull\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mnot\x1B[2m.\x1B[22mtoBeNull\x1B[2m()\x1B[22m\n' +
+        '\n' +
+        'Received: \x1B[31mnull\x1B[39m\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:73:35\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:69:5',
+      cause: undefined
+    }
+  }
+}

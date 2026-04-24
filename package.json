@@ -1,0 +1,23 @@
+{
+  "name": "itgb_tpm_automation_framework",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^25.3.0",
+    "allure-playwright": "^3.6.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "selfsigned": "^5.5.0"
+  }
+}

@@ -1,0 +1,8 @@
+Global Search button clicked.
+Searched for "Test Sales Planner".
+Clicked "User Detail" button.
+Navigated to Trade Planning.
+Calendar grid is visible.
+Calendar grid: left=262, right=276
+Found 7 promotion bar(s) on calendar.
+Found 0 candidate row element(s).

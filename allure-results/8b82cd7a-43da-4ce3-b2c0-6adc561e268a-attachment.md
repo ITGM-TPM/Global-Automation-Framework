@@ -1,0 +1,959 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (ETQA)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - generic [ref=e57]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+          - generic [ref=e60]:
+            - combobox "Search Setup" [ref=e61]
+            - generic [ref=e62]: Search Setup
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "This item doesn't support favorites" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [disabled] [ref=e78]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - tooltip "Favorites list"
+            - listitem [ref=e79]:
+              - button "Global Actions" [ref=e81]:
+                - img [ref=e85]
+            - listitem [ref=e88]:
+              - button "Salesforce Help" [ref=e91] [cursor=pointer]:
+                - generic [ref=e92]:
+                  - img [ref=e96]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e99]:
+              - button "Setup" [ref=e105] [cursor=pointer]:
+                - generic [ref=e106]:
+                  - img [ref=e110]
+                  - tooltip "Setup"
+            - listitem [ref=e113]:
+              - button "Notifications" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]:
+                  - img [ref=e122]
+                  - tooltip "Notifications"
+            - listitem [ref=e126]:
+              - button "View profile" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]:
+                  - tooltip "View profile"
+    - generic [ref=e134]:
+      - generic:
+        - generic [ref=e135]:
+          - generic [ref=e138]:
+            - navigation "App" [ref=e139]:
+              - button "App Launcher" [ref=e141] [cursor=pointer]:
+                - generic [ref=e152]: App Launcher
+            - generic "Setup" [ref=e154]
+          - navigation "Workspaces" [ref=e156]:
+            - tablist "Workspace tabs for Setup" [ref=e157]:
+              - generic [ref=e159]: Press Spacebar to reorder tabs.
+              - tab "Home" [active] [selected] [ref=e160] [cursor=pointer]:
+                - generic [ref=e161]: Home
+              - status [ref=e162] [cursor=pointer]
+              - tab "Object Manager" [ref=e163] [cursor=pointer]:
+                - generic [ref=e164]: Object Manager
+              - button "Object Manager List" [ref=e169] [cursor=pointer]:
+                - generic [ref=e171]:
+                  - img [ref=e173]
+                  - generic [ref=e176]: Object Manager List
+              - status [ref=e177]
+        - generic [ref=e179]:
+          - generic [ref=e186]:
+            - status
+          - main [ref=e189]:
+            - tabpanel [ref=e190]:
+              - tabpanel [ref=e193]:
+                - generic [ref=e198]:
+                  - generic [ref=e201]:
+                    - img [ref=e206]
+                    - generic [ref=e211]:
+                      - link "Setup" [ref=e213] [cursor=pointer]:
+                        - /url: "#"
+                      - heading "Users" [level=1] [ref=e215]
+                  - generic [ref=e219]:
+                    - generic:
+                      - generic:
+                        - status:
+                          - generic [ref=e220]: Loading
+                    - iframe [ref=e223]:
+                      - generic [active] [ref=f4e1]:
+                        - img "Content Starts Here" [ref=f4e2]
+                        - generic [ref=f4e4]:
+                          - generic [ref=f4e5]:
+                            - heading "User" [level=1] [ref=f4e6]
+                            - heading "Test Sales Planner" [level=2] [ref=f4e7]
+                          - generic [ref=f4e8]:
+                            - link "Edit Layout" [ref=f4e9] [cursor=pointer]:
+                              - /url: /layouteditor/layoutEditor.apexp?type=User&lid=00hDp000000hGGH&retURL=%2Fconsole&setupid=ManageUsers
+                              - img "Edit Layout" [ref=f4e10]
+                            - link "User Profile" [ref=f4e11] [cursor=pointer]:
+                              - /url: javascript:srcUp(%27%2F_ui%2Fcore%2Fuserprofile%2FUserProfilePage%3Fu%3D005ca000009yT0L%26isdtp%3Dp1%27);
+                            - link "Help for this Page" [ref=f4e12] [cursor=pointer]:
+                              - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=editing_users.htm&section=User_Management&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                        - generic [ref=f4e13]:
+                          - text: Salesforce now sends emails only from verified domains. To avoid delivery failures, verify your email domains or enable your substitute email-sending domain.
+                          - link "Learn More" [ref=f4e14] [cursor=pointer]:
+                            - /url: /HelpAndTrainingDoor?version=2&resource=https://help.salesforce.com/s/articleView?id=xcloud.security_user_email_verification_domain_auth.htm&type=5
+                        - generic [ref=f4e15]:
+                          - link "Permission Set Assignments[3]" [ref=f4e16] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_RelatedPermsetAssignmentList_target"
+                            - generic [ref=f4e17]: Permission Set Assignments[3]
+                          - text: "|"
+                          - 'link "Permission Set Assignments: Activation Required[0]" [ref=f4e18] [cursor=pointer]':
+                            - /url: "#005ca000009yT0L_RelatedSessionPermsetAssignmentList_target"
+                            - generic [ref=f4e19]: "Permission Set Assignments: Activation Required[0]"
+                          - text: "|"
+                          - link "Permission Set Group Assignments[1]" [ref=f4e20] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_RelatedPermsetGroupsAssignmentList_target"
+                            - generic [ref=f4e21]: Permission Set Group Assignments[1]
+                          - text: "|"
+                          - link "Permission Set License Assignments[3]" [ref=f4e22] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_RelatedPermissionSetLicenseAssignList_target"
+                            - generic [ref=f4e23]: Permission Set License Assignments[3]
+                          - text: "|"
+                          - link "Lightning Data Purchase Assignments[0]" [ref=f4e24] [cursor=pointer]:
+                            - /url: "#RelatedDiscoveryLicenseList_target"
+                            - generic [ref=f4e25]: Lightning Data Purchase Assignments[0]
+                          - text: "|"
+                          - link "Personal Groups[0]" [ref=f4e26] [cursor=pointer]:
+                            - /url: "#RelatedPersonalGroupsList_target"
+                            - generic [ref=f4e27]: Personal Groups[0]
+                          - text: "|"
+                          - link "Public Group Membership[0]" [ref=f4e28] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_RelatedPublicGroupMemberList_target"
+                            - generic [ref=f4e29]: Public Group Membership[0]
+                          - text: "|"
+                          - link "Queue Membership[0]" [ref=f4e30] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_RelatedQueueMemberList_target"
+                            - generic [ref=f4e31]: Queue Membership[0]
+                          - text: "|"
+                          - link "User Skills[0]" [ref=f4e32] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_ProfileSkillUserByUserRelatedList_target"
+                            - generic [ref=f4e33]: User Skills[0]
+                          - text: "|"
+                          - link "Team[0]" [ref=f4e34] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_TeamList_target"
+                            - generic [ref=f4e35]: Team[0]
+                          - text: "|"
+                          - link "Default Account Team[0]" [ref=f4e36] [cursor=pointer]:
+                            - /url: "#RelatedUserAccountSalesTeamList_target"
+                            - generic [ref=f4e37]: Default Account Team[0]
+                          - text: "|"
+                          - link "Managers in the Role Hierarchy[0]" [ref=f4e38] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_UserBossRelatedList_target"
+                            - generic [ref=f4e39]: Managers in the Role Hierarchy[0]
+                          - text: "|"
+                          - link "Assigned Territories[0]" [ref=f4e40] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_UserAssignedTerritory2sRelatedList_target"
+                            - generic [ref=f4e41]: Assigned Territories[0]
+                          - text: "|"
+                          - link "OAuth Apps[0]" [ref=f4e42] [cursor=pointer]:
+                            - /url: "#RelatedUserAccessTokenList_target"
+                            - generic [ref=f4e43]: OAuth Apps[0]
+                          - text: "|"
+                          - link "Third-Party Account Links[0]" [ref=f4e44] [cursor=pointer]:
+                            - /url: "#AuthorizationLinkRelatedList_target"
+                            - generic [ref=f4e45]: Third-Party Account Links[0]
+                          - text: "|"
+                          - link "Installed Mobile Apps[0]" [ref=f4e46] [cursor=pointer]:
+                            - /url: "#UserInstalledMobileAppRelatedList_target"
+                            - generic [ref=f4e47]: Installed Mobile Apps[0]
+                          - text: "|"
+                          - link "Authentication Settings for External Systems[0]" [ref=f4e48] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_ExternalUserAuthRelatedList_target"
+                            - generic [ref=f4e49]: Authentication Settings for External Systems[0]
+                          - text: "|"
+                          - link "Login History[10+]" [ref=f4e50] [cursor=pointer]:
+                            - /url: "#RelatedUserLoginHistoryList_target"
+                            - generic [ref=f4e51]:
+                              - text: Login History
+                              - generic [ref=f4e52]: "[10+]"
+                          - text: "|"
+                          - link "User Provisioning Accounts[0]" [ref=f4e53] [cursor=pointer]:
+                            - /url: "#005ca000009yT0L_RelatedUserProvAccountList_target"
+                            - generic [ref=f4e54]: User Provisioning Accounts[0]
+                        - generic [ref=f4e55]:
+                          - table [ref=f4e57]:
+                            - rowgroup [ref=f4e58]:
+                              - row "User Detail Edit Sharing Reset Password Login Freeze View Summary" [ref=f4e59]:
+                                - cell "User Detail" [ref=f4e60]:
+                                  - heading "User Detail" [level=2] [ref=f4e61]
+                                - cell "Edit Sharing Reset Password Login Freeze View Summary" [ref=f4e62]:
+                                  - button "Edit" [ref=f4e63] [cursor=pointer]
+                                  - button "Sharing" [ref=f4e64] [cursor=pointer]
+                                  - button "Reset Password" [ref=f4e65] [cursor=pointer]
+                                  - button "Login" [ref=f4e66] [cursor=pointer]
+                                  - button "Freeze" [ref=f4e67] [cursor=pointer]
+                                  - button "View Summary" [ref=f4e68] [cursor=pointer]
+                          - generic [ref=f4e69]:
+                            - table [ref=f4e71]:
+                              - rowgroup [ref=f4e72]:
+                                - row "Name Test Sales Planner Role" [ref=f4e73]:
+                                  - cell "Name" [ref=f4e74]
+                                  - cell "Test Sales Planner" [ref=f4e75]
+                                  - cell "Role" [ref=f4e76]
+                                  - cell [ref=f4e77]
+                                - row "Alias tsale User License Salesforce" [ref=f4e78]:
+                                  - cell "Alias" [ref=f4e79]
+                                  - cell "tsale" [ref=f4e80]
+                                  - cell "User License" [ref=f4e81]
+                                  - cell "Salesforce" [ref=f4e82]
+                                - row "Email hima.gopi@capgemini.com [Verified] Profile ITG Standard User" [ref=f4e83]:
+                                  - cell "Email" [ref=f4e84]
+                                  - cell "hima.gopi@capgemini.com [Verified]" [ref=f4e85]:
+                                    - link "hima.gopi@capgemini.com" [ref=f4e86] [cursor=pointer]:
+                                      - /url: mailto:hima.gopi@capgemini.com
+                                    - text: "[Verified]"
+                                  - cell "Profile" [ref=f4e87]
+                                  - cell "ITG Standard User" [ref=f4e88]:
+                                    - link "ITG Standard User" [ref=f4e89] [cursor=pointer]:
+                                      - /url: javascript:srcUp(%27%2F00eUt000000shCJ%3Fisdtp%3Dp1%27);
+                                - row "Username testsp@ib.com Active Checked" [ref=f4e90]:
+                                  - cell "Username" [ref=f4e91]
+                                  - cell "testsp@ib.com" [ref=f4e92]
+                                  - cell "Active" [ref=f4e93]
+                                  - cell "Checked" [ref=f4e94]:
+                                    - img "Checked" [ref=f4e95]
+                                - row "Nickname User17725380875619109833 Marketing User Not Checked" [ref=f4e96]:
+                                  - cell "Nickname" [ref=f4e97]
+                                  - cell "User17725380875619109833" [ref=f4e98]: User17725380875619109833
+                                  - cell "Marketing User" [ref=f4e100]
+                                  - cell "Not Checked" [ref=f4e101]:
+                                    - img "Not Checked" [ref=f4e102]
+                                - row "Title Offline User Not Checked" [ref=f4e103]:
+                                  - cell "Title" [ref=f4e104]
+                                  - cell [ref=f4e105]
+                                  - cell "Offline User" [ref=f4e106]
+                                  - cell "Not Checked" [ref=f4e107]:
+                                    - img "Not Checked" [ref=f4e108]
+                                - row "Company Sales Anywhere User Not Checked" [ref=f4e109]:
+                                  - cell "Company" [ref=f4e110]
+                                  - cell [ref=f4e111]
+                                  - cell "Sales Anywhere User" [ref=f4e112]
+                                  - cell "Not Checked" [ref=f4e113]:
+                                    - img "Not Checked" [ref=f4e114]
+                                - row "Department Knowledge User Not Checked" [ref=f4e115]:
+                                  - cell "Department" [ref=f4e116]
+                                  - cell [ref=f4e117]
+                                  - cell "Knowledge User" [ref=f4e118]
+                                  - cell "Not Checked" [ref=f4e119]:
+                                    - img "Not Checked" [ref=f4e120]
+                                - row "Division Flow User Not Checked" [ref=f4e121]:
+                                  - cell "Division" [ref=f4e122]
+                                  - cell [ref=f4e123]
+                                  - cell "Flow User" [ref=f4e124]
+                                  - cell "Not Checked" [ref=f4e125]:
+                                    - img "Not Checked" [ref=f4e126]
+                                - row "Address India Service Cloud User Not Checked" [ref=f4e127]:
+                                  - cell "Address" [ref=f4e128]
+                                  - cell "India" [ref=f4e129]
+                                  - cell "Service Cloud User" [ref=f4e130]
+                                  - cell "Not Checked" [ref=f4e131]:
+                                    - img "Not Checked" [ref=f4e132]
+                                - row "Time Zone (GMT-04:00) Eastern Daylight Time (America/New_York) Mobile Push Registrations View" [ref=f4e133]:
+                                  - cell "Time Zone" [ref=f4e134]
+                                  - cell "(GMT-04:00) Eastern Daylight Time (America/New_York)" [ref=f4e135]
+                                  - cell "Mobile Push Registrations" [ref=f4e136]
+                                  - cell "View" [ref=f4e137]:
+                                    - link "View" [ref=f4e138] [cursor=pointer]:
+                                      - /url: javascript:srcUp(%27%2Fmobilepushservice%2FmobilePushServiceDeviceSearch.apexp%3Fid%3D005ca000009yT0L%26isdtp%3Dp1%27);
+                                - row "Locale English (United States) Accessibility Mode (Classic Only) Not Checked" [ref=f4e139]:
+                                  - cell "Locale" [ref=f4e140]
+                                  - cell "English (United States)" [ref=f4e141]
+                                  - cell "Accessibility Mode (Classic Only)" [ref=f4e142]
+                                  - cell "Not Checked" [ref=f4e143]:
+                                    - img "Not Checked" [ref=f4e144]
+                                - row "Language English Debug Mode Not Checked" [ref=f4e146]:
+                                  - cell "Language" [ref=f4e147]
+                                  - cell "English" [ref=f4e148]
+                                  - cell "Debug Mode" [ref=f4e149]
+                                  - cell "Not Checked" [ref=f4e150]:
+                                    - img "Not Checked" [ref=f4e151]
+                                - row "Delegated Approver High-Contrast Palette on Charts Not Checked" [ref=f4e153]:
+                                  - cell "Delegated Approver" [ref=f4e154]
+                                  - cell [ref=f4e155]
+                                  - cell "High-Contrast Palette on Charts" [ref=f4e156]
+                                  - cell "Not Checked" [ref=f4e157]:
+                                    - img "Not Checked" [ref=f4e158]
+                                - row "Manager Load Lightning Pages While Scrolling Checked" [ref=f4e160]:
+                                  - cell "Manager" [ref=f4e161]
+                                  - cell [ref=f4e162]
+                                  - cell "Load Lightning Pages While Scrolling" [ref=f4e163]
+                                  - cell "Checked" [ref=f4e164]:
+                                    - img "Checked" [ref=f4e165]
+                                - row "Receive Approval Request Emails Only if I am an approver Salesforce CRM Content User Checked" [ref=f4e167]:
+                                  - cell "Receive Approval Request Emails" [ref=f4e168]
+                                  - cell "Only if I am an approver" [ref=f4e169]
+                                  - cell "Salesforce CRM Content User" [ref=f4e170]
+                                  - cell "Checked" [ref=f4e171]:
+                                    - img "Checked" [ref=f4e172]
+                                - row "Federation ID Receive Salesforce CRM Content Email Alerts Checked" [ref=f4e173]:
+                                  - cell "Federation ID" [ref=f4e174]
+                                  - cell [ref=f4e175]
+                                  - cell "Receive Salesforce CRM Content Email Alerts" [ref=f4e176]
+                                  - cell "Checked" [ref=f4e177]:
+                                    - img "Checked" [ref=f4e178]
+                                - 'row "App Registration: One-Time Password Authenticator Receive Salesforce CRM Content Alerts as Daily Digest Checked" [ref=f4e179]':
+                                  - 'cell "App Registration: One-Time Password Authenticator" [ref=f4e180]'
+                                  - cell [ref=f4e181]
+                                  - cell "Receive Salesforce CRM Content Alerts as Daily Digest" [ref=f4e183]
+                                  - cell "Checked" [ref=f4e184]:
+                                    - img "Checked" [ref=f4e185]
+                                - 'row "App Registration: Salesforce Authenticator Make Setup My Default Landing Page Not Checked" [ref=f4e186]':
+                                  - 'cell "App Registration: Salesforce Authenticator" [ref=f4e187]'
+                                  - cell [ref=f4e188]
+                                  - cell "Make Setup My Default Landing Page" [ref=f4e190]
+                                  - cell "Not Checked" [ref=f4e191]:
+                                    - img "Not Checked" [ref=f4e192]
+                                - row "Security Key (U2F or WebAuthn) Allow Forecasting Not Checked" [ref=f4e193]:
+                                  - cell "Security Key (U2F or WebAuthn)" [ref=f4e194]
+                                  - cell [ref=f4e195]
+                                  - cell "Allow Forecasting" [ref=f4e197]
+                                  - cell "Not Checked" [ref=f4e198]:
+                                    - img "Not Checked" [ref=f4e199]
+                                - row "Lightning Login No MRU Updates Not Checked" [ref=f4e200]:
+                                  - cell "Lightning Login" [ref=f4e201]
+                                  - cell [ref=f4e202]
+                                  - cell "No MRU Updates" [ref=f4e204]
+                                  - cell "Not Checked" [ref=f4e205]:
+                                    - img "Not Checked" [ref=f4e206]
+                                - row "Temporary Verification Code (Expires in 1 to 24 Hours) [Generate] Call Center" [ref=f4e208]:
+                                  - cell "Temporary Verification Code (Expires in 1 to 24 Hours)" [ref=f4e209]
+                                  - cell "[Generate]" [ref=f4e210]:
+                                    - link "[Generate]" [ref=f4e211] [cursor=pointer]:
+                                      - /url: javascript:void(0);
+                                  - cell "Call Center" [ref=f4e213]
+                                  - cell [ref=f4e214]
+                                - row "Phone 09108583203" [ref=f4e215]:
+                                  - cell [ref=f4e216]
+                                  - cell [ref=f4e217]
+                                  - cell "Phone" [ref=f4e218]
+                                  - cell "09108583203" [ref=f4e219]
+                                - row "Extension" [ref=f4e220]:
+                                  - cell [ref=f4e221]
+                                  - cell [ref=f4e222]
+                                  - cell "Extension" [ref=f4e223]
+                                  - cell [ref=f4e224]
+                                - row "Fax" [ref=f4e225]:
+                                  - cell [ref=f4e226]
+                                  - cell [ref=f4e227]
+                                  - cell "Fax" [ref=f4e228]
+                                  - cell [ref=f4e229]
+                                - row "Mobile" [ref=f4e230]:
+                                  - cell [ref=f4e231]
+                                  - cell [ref=f4e232]
+                                  - cell "Mobile" [ref=f4e233]
+                                  - cell [ref=f4e234]
+                                - row "Email Encoding Unicode (UTF-8)" [ref=f4e235]:
+                                  - cell [ref=f4e236]
+                                  - cell [ref=f4e237]
+                                  - cell "Email Encoding" [ref=f4e238]
+                                  - cell "Unicode (UTF-8)" [ref=f4e239]
+                                - row "Employee Number" [ref=f4e240]:
+                                  - cell [ref=f4e241]
+                                  - cell [ref=f4e242]
+                                  - cell "Employee Number" [ref=f4e243]
+                                  - cell [ref=f4e244]
+                                - row "Used Data Space 2.2 MB [View]" [ref=f4e245]:
+                                  - cell [ref=f4e246]
+                                  - cell [ref=f4e247]
+                                  - cell "Used Data Space" [ref=f4e248]
+                                  - cell "2.2 MB [View]" [ref=f4e249]:
+                                    - text: 2.2 MB
+                                    - link "[View]" [ref=f4e250] [cursor=pointer]:
+                                      - /url: javascript:srcUp(%27%2Fsetup%2Fuser%2Fuserstorageusage.jsp%3Fid%3D005ca000009yT0L%26isdtp%3Dp1%27);
+                                - row "Used File Space 88.0 MB [View]" [ref=f4e251]:
+                                  - cell [ref=f4e252]
+                                  - cell [ref=f4e253]
+                                  - cell "Used File Space" [ref=f4e254]
+                                  - cell "88.0 MB [View]" [ref=f4e255]:
+                                    - text: 88.0 MB
+                                    - link "[View]" [ref=f4e256] [cursor=pointer]:
+                                      - /url: javascript:srcUp(%27%2Fsetup%2Fuser%2Fuserstorageusage.jsp%3Fid%3D005ca000009yT0L%26isdtp%3Dp1%27);
+                                - row "Last Login 3/20/2026, 1:04 PM" [ref=f4e257]:
+                                  - cell [ref=f4e258]
+                                  - cell [ref=f4e259]
+                                  - cell "Last Login" [ref=f4e260]
+                                  - cell "3/20/2026, 1:04 PM" [ref=f4e261]
+                                - row "Last Password Change or Reset 3/3/2026, 12:50 PM" [ref=f4e262]:
+                                  - cell [ref=f4e263]
+                                  - cell [ref=f4e264]
+                                  - cell "Last Password Change or Reset" [ref=f4e265]
+                                  - cell "3/3/2026, 12:50 PM" [ref=f4e266]
+                                - row "Failed Login Attempts 1" [ref=f4e267]:
+                                  - cell [ref=f4e268]
+                                  - cell [ref=f4e269]
+                                  - cell "Failed Login Attempts" [ref=f4e270]
+                                  - cell "1" [ref=f4e271]: "1"
+                                - row "Created By PCAPCVC, 3/3/2026, 12:42 PM Modified By Test Sales Planner, 3/25/2026, 9:16 PM" [ref=f4e273]:
+                                  - cell "Created By" [ref=f4e274]
+                                  - cell "PCAPCVC, 3/3/2026, 12:42 PM" [ref=f4e275]:
+                                    - link "PCAPCVC" [ref=f4e276] [cursor=pointer]:
+                                      - /url: javascript:srcUp(%27%2F005ca000009YQjx%3Fisdtp%3Dp1%26isUserEntityOverride%3D1%26noredirect%3D1%27);
+                                    - text: ", 3/3/2026, 12:42 PM"
+                                  - cell "Modified By" [ref=f4e277]
+                                  - cell "Test Sales Planner, 3/25/2026, 9:16 PM" [ref=f4e278]:
+                                    - link "Test Sales Planner" [ref=f4e279] [cursor=pointer]:
+                                      - /url: javascript:srcUp(%27%2F005ca000009yT0L%3Fisdtp%3Dp1%26isUserEntityOverride%3D1%26noredirect%3D1%27);
+                                    - text: ", 3/25/2026, 9:16 PM"
+                            - generic [ref=f4e280]:
+                              - button "Hide Section - Additional Attributes" [ref=f4e281] [cursor=pointer]
+                              - heading "Additional Attributes" [level=3] [ref=f4e282]
+                            - table [ref=f4e284]:
+                              - rowgroup [ref=f4e285]:
+                                - row "Language Postfix Language1 Sales Organization US1T" [ref=f4e286]:
+                                  - cell "Language Postfix" [ref=f4e287]
+                                  - cell "Language1" [ref=f4e288]
+                                  - cell "Sales Organization" [ref=f4e289]
+                                  - cell "US1T" [ref=f4e290]
+                                - row "Mobility Sales Org US1T Persona TPM User" [ref=f4e291]:
+                                  - cell "Mobility Sales Org" [ref=f4e292]
+                                  - cell "US1T" [ref=f4e293]
+                                  - cell "Persona" [ref=f4e294]
+                                  - cell "TPM User" [ref=f4e295]
+                          - table [ref=f4e297]:
+                            - rowgroup [ref=f4e298]:
+                              - row "Edit Sharing Reset Password Login Freeze View Summary" [ref=f4e299]:
+                                - cell [ref=f4e300]
+                                - cell "Edit Sharing Reset Password Login Freeze View Summary" [ref=f4e301]:
+                                  - button "Edit" [ref=f4e302] [cursor=pointer]
+                                  - button "Sharing" [ref=f4e303] [cursor=pointer]
+                                  - button "Reset Password" [ref=f4e304] [cursor=pointer]
+                                  - button "Login" [ref=f4e305] [cursor=pointer]
+                                  - button "Freeze" [ref=f4e306] [cursor=pointer]
+                                  - button "View Summary" [ref=f4e307] [cursor=pointer]
+                        - generic [ref=f4e310]:
+                          - table [ref=f4e312]:
+                            - rowgroup [ref=f4e313]:
+                              - row "Permission Set Assignments Edit Assignments Permission Set Assignments Help Permission Set Assignments Help (New Window)" [ref=f4e314]:
+                                - cell "Permission Set Assignments" [ref=f4e315]:
+                                  - heading "Permission Set Assignments" [level=3] [ref=f4e316]
+                                - cell "Edit Assignments" [ref=f4e317]:
+                                  - button "Edit Assignments" [ref=f4e318] [cursor=pointer]
+                                - cell "Permission Set Assignments Help Permission Set Assignments Help (New Window)" [ref=f4e319]:
+                                  - generic "Permission Set Assignments Help (New Window)" [ref=f4e320]:
+                                    - link "Permission Set Assignments Help Permission Set Assignments Help (New Window)" [ref=f4e321] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=perm_sets_assigning.htm&section=User_Management&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Permission Set Assignments Help
+                                      - img "Permission Set Assignments Help (New Window)" [ref=f4e322]
+                          - table [ref=f4e324]:
+                            - rowgroup [ref=f4e325]:
+                              - row "Action Permission Set Name Date Assigned Expires On" [ref=f4e326]:
+                                - columnheader "Action" [ref=f4e327]
+                                - columnheader "Permission Set Name" [ref=f4e328]
+                                - columnheader "Date Assigned" [ref=f4e329]
+                                - columnheader "Expires On" [ref=f4e330]
+                              - row "Del Einstein Activity Capture Included 3/3/2026" [ref=f4e331]:
+                                - cell "Del" [ref=f4e332]:
+                                  - link "Del" [ref=f4e333] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2Fsetup%2Fown%2Fdeleteredirect.jsp%3FappLayout%3Dsetup%26ltn_app_id%3D%26isUserEntityOverride%3D1%26sfdcIFrameHost%3Dweb%26noredirect%3D1%26isdtp%3Dp1%26clc%3D1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%26nonce%3D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%26tour%3D%26delID%3D0Paca000008b1YW%26_CONFIRMATIONTOKEN%3DVmpFPSxNakF5Tmkwd05DMHhNbFF4T1RveU1Eb3dNUzQyTlROYSxjZ1lEalpkN3pFT0FRbmpsTnB3NDhfMkYxZzUtSVVQckJUVThGWm8wVXBjPSxOemhrTW1ZMA%253D%253D%26isDeleteRedirect%3Dtrue%26retURL%3D%252F005ca000009yT0LAAU%253Fnoredirect%253D1%2526isUserEntityOverride%253D1%2526appLayout%253Dsetup%2526tour%253D%2526isdtp%253Dp1%2526sfdcIFrameOrigin%253Dhttps%25253A%25252F%25252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%2526sfdcIFrameHost%253Dweb%2526nonce%253D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%2526ltn_app_id%253D%2526clc%253D1%27);
+                                - rowheader "Einstein Activity Capture Included" [ref=f4e334]:
+                                  - link "Einstein Activity Capture Included" [ref=f4e335] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2F0PSDp000000GEWQ%3Fisdtp%3Dp1%27);
+                                - cell "3/3/2026" [ref=f4e336]
+                                - cell [ref=f4e337]
+                              - row "Del myTrailhead Learners 3/3/2026" [ref=f4e338]:
+                                - cell "Del" [ref=f4e339]:
+                                  - link "Del" [ref=f4e340] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2Fsetup%2Fown%2Fdeleteredirect.jsp%3FappLayout%3Dsetup%26ltn_app_id%3D%26isUserEntityOverride%3D1%26sfdcIFrameHost%3Dweb%26noredirect%3D1%26isdtp%3Dp1%26clc%3D1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%26nonce%3D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%26tour%3D%26delID%3D0Paca000008b1YV%26_CONFIRMATIONTOKEN%3DVmpFPSxNakF5Tmkwd05DMHhNbFF4T1RveU1Eb3dNUzQzTVRoYSxSVmF2UmYyc2RtQWw0UEl0WlZhTVpaaUhQQ0xSRmlrMUo5dFhQOW5tdlZZPSxZak16WWpkaQ%253D%253D%26isDeleteRedirect%3Dtrue%26retURL%3D%252F005ca000009yT0LAAU%253Fnoredirect%253D1%2526isUserEntityOverride%253D1%2526appLayout%253Dsetup%2526tour%253D%2526isdtp%253Dp1%2526sfdcIFrameOrigin%253Dhttps%25253A%25252F%25252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%2526sfdcIFrameHost%253Dweb%2526nonce%253D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%2526ltn_app_id%253D%2526clc%253D1%27);
+                                - rowheader "myTrailhead Learners" [ref=f4e341]:
+                                  - link "myTrailhead Learners" [ref=f4e342] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2F0PSDp00000066OE%3Fisdtp%3Dp1%27);
+                                - cell "3/3/2026" [ref=f4e343]
+                                - cell [ref=f4e344]
+                              - row "Del Trailhead User 3/3/2026" [ref=f4e345]:
+                                - cell "Del" [ref=f4e346]:
+                                  - link "Del" [ref=f4e347] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2Fsetup%2Fown%2Fdeleteredirect.jsp%3FappLayout%3Dsetup%26ltn_app_id%3D%26isUserEntityOverride%3D1%26sfdcIFrameHost%3Dweb%26noredirect%3D1%26isdtp%3Dp1%26clc%3D1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%26nonce%3D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%26tour%3D%26delID%3D0Paca000008b1YU%26_CONFIRMATIONTOKEN%3DVmpFPSxNakF5Tmkwd05DMHhNbFF4T1RveU1Eb3dNUzQzTVRoYSxycXZXcVZON2ZYNHlwaXZ3MEVTdkw3MDVuaXBXWkNBM0lPTTFPQlU4aEV3PSxOVFEyT0RFNQ%253D%253D%26isDeleteRedirect%3Dtrue%26retURL%3D%252F005ca000009yT0LAAU%253Fnoredirect%253D1%2526isUserEntityOverride%253D1%2526appLayout%253Dsetup%2526tour%253D%2526isdtp%253Dp1%2526sfdcIFrameOrigin%253Dhttps%25253A%25252F%25252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%2526sfdcIFrameHost%253Dweb%2526nonce%253D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%2526ltn_app_id%253D%2526clc%253D1%27);
+                                - rowheader "Trailhead User" [ref=f4e348]:
+                                  - link "Trailhead User" [ref=f4e349] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2F0PSDp00000066Mo%3Fisdtp%3Dp1%27);
+                                - cell "3/3/2026" [ref=f4e350]
+                                - cell [ref=f4e351]
+                        - generic [ref=f4e354]:
+                          - table [ref=f4e356]:
+                            - rowgroup [ref=f4e357]:
+                              - 'row "Permission Set Assignments: Activation Required Edit Assignments Permission Set Assignments: Activation Required Help Permission Set Assignments: Activation Required Help (New Window)" [ref=f4e358]':
+                                - 'cell "Permission Set Assignments: Activation Required" [ref=f4e359]':
+                                  - 'heading "Permission Set Assignments: Activation Required" [level=3] [ref=f4e360]'
+                                - cell "Edit Assignments" [ref=f4e361]:
+                                  - button "Edit Assignments" [ref=f4e362] [cursor=pointer]
+                                - 'cell "Permission Set Assignments: Activation Required Help Permission Set Assignments: Activation Required Help (New Window)" [ref=f4e363]':
+                                  - 'generic "Permission Set Assignments: Activation Required Help (New Window)" [ref=f4e364]':
+                                    - 'link "Permission Set Assignments: Activation Required Help Permission Set Assignments: Activation Required Help (New Window)" [ref=f4e365] [cursor=pointer]':
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=perm_sets_session_use.htm&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: "Permission Set Assignments: Activation Required Help"
+                                      - 'img "Permission Set Assignments: Activation Required Help (New Window)" [ref=f4e366]'
+                          - table [ref=f4e368]:
+                            - rowgroup [ref=f4e369]:
+                              - row "Permission Set Name Date Assigned Expires On" [ref=f4e370]:
+                                - columnheader "Permission Set Name" [ref=f4e371]
+                                - columnheader "Date Assigned" [ref=f4e372]
+                                - columnheader "Expires On" [ref=f4e373]
+                        - generic [ref=f4e376]:
+                          - table [ref=f4e378]:
+                            - rowgroup [ref=f4e379]:
+                              - row "Permission Set Group Assignments Edit Assignments Permission Set Group Assignments Help Permission Set Group Assignments Help (New Window)" [ref=f4e380]:
+                                - cell "Permission Set Group Assignments" [ref=f4e381]:
+                                  - heading "Permission Set Group Assignments" [level=3] [ref=f4e382]
+                                - cell "Edit Assignments" [ref=f4e383]:
+                                  - button "Edit Assignments" [ref=f4e384] [cursor=pointer]
+                                - cell "Permission Set Group Assignments Help Permission Set Group Assignments Help (New Window)" [ref=f4e385]:
+                                  - generic "Permission Set Group Assignments Help (New Window)" [ref=f4e386]:
+                                    - link "Permission Set Group Assignments Help Permission Set Group Assignments Help (New Window)" [ref=f4e387] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=perm_set_groups.htm&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Permission Set Group Assignments Help
+                                      - img "Permission Set Group Assignments Help (New Window)" [ref=f4e388]
+                          - table [ref=f4e390]:
+                            - rowgroup [ref=f4e391]:
+                              - row "Action Label Date Assigned Expires On Session Activation Required" [ref=f4e392]:
+                                - columnheader "Action" [ref=f4e393]
+                                - columnheader "Label" [ref=f4e394]
+                                - columnheader "Date Assigned" [ref=f4e395]
+                                - columnheader "Expires On" [ref=f4e396]
+                                - columnheader "Session Activation Required" [ref=f4e397]
+                              - row "Del CGT TPM Sales Planner 3/3/2026 Not Checked" [ref=f4e398]:
+                                - cell "Del" [ref=f4e399]:
+                                  - link "Del" [ref=f4e400] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2Fsetup%2Fown%2Fdeleteredirect.jsp%3FappLayout%3Dsetup%26ltn_app_id%3D%26isUserEntityOverride%3D1%26sfdcIFrameHost%3Dweb%26noredirect%3D1%26isdtp%3Dp1%26clc%3D1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%26nonce%3D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%26tour%3D%26delID%3D0Paca000008avZb%26_CONFIRMATIONTOKEN%3DVmpFPSxNakF5Tmkwd05DMHhNbFF4T1RveU1Eb3dNUzQ0T0RGYSxSVDUzWHNuaVV0UnBRVVhrcE9ZTzAwa0VtUDBwbXJON21TQm1BbFllVEdJPSxNV05pT1dJMQ%253D%253D%26isDeleteRedirect%3Dtrue%26retURL%3D%252F005ca000009yT0LAAU%253Fnoredirect%253D1%2526isUserEntityOverride%253D1%2526appLayout%253Dsetup%2526tour%253D%2526isdtp%253Dp1%2526sfdcIFrameOrigin%253Dhttps%25253A%25252F%25252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%2526sfdcIFrameHost%253Dweb%2526nonce%253D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%2526ltn_app_id%253D%2526clc%253D1%27);
+                                - rowheader "CGT TPM Sales Planner" [ref=f4e401]:
+                                  - link "CGT TPM Sales Planner" [ref=f4e402] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2F0PGca00000028RQ%3Fisdtp%3Dp1%27);
+                                - cell "3/3/2026" [ref=f4e403]
+                                - cell [ref=f4e404]
+                                - cell "Not Checked" [ref=f4e405]:
+                                  - img "Not Checked" [ref=f4e406]
+                        - generic [ref=f4e409]:
+                          - table [ref=f4e411]:
+                            - rowgroup [ref=f4e412]:
+                              - row "Permission Set License Assignments Edit Assignments Permission Set License Assignments Help Permission Set License Assignments Help (New Window)" [ref=f4e413]:
+                                - cell "Permission Set License Assignments" [ref=f4e414]:
+                                  - heading "Permission Set License Assignments" [level=3] [ref=f4e415]
+                                - cell "Edit Assignments" [ref=f4e416]:
+                                  - button "Edit Assignments" [ref=f4e417] [cursor=pointer]
+                                - cell "Permission Set License Assignments Help Permission Set License Assignments Help (New Window)" [ref=f4e418]:
+                                  - generic "Permission Set License Assignments Help (New Window)" [ref=f4e419]:
+                                    - link "Permission Set License Assignments Help Permission Set License Assignments Help (New Window)" [ref=f4e420] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=users_permissionset_licenses_assign.htm&section=User_Management&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Permission Set License Assignments Help
+                                      - img "Permission Set License Assignments Help (New Window)" [ref=f4e421]
+                          - table [ref=f4e423]:
+                            - rowgroup [ref=f4e424]:
+                              - row "Action Permission Set License Label Date Assigned" [ref=f4e425]:
+                                - columnheader "Action" [ref=f4e426]
+                                - columnheader "Permission Set License Label" [ref=f4e427]
+                                - columnheader "Date Assigned" [ref=f4e428]
+                              - row "Del Enablement Sites (myTrailhead) 3/3/2026" [ref=f4e429]:
+                                - cell "Del" [ref=f4e430]:
+                                  - link "Del" [ref=f4e431] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2Fsetup%2Fown%2Fdeleteredirect.jsp%3FappLayout%3Dsetup%26ltn_app_id%3D%26isUserEntityOverride%3D1%26sfdcIFrameHost%3Dweb%26noredirect%3D1%26isdtp%3Dp1%26clc%3D1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%26nonce%3D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%26tour%3D%26delID%3D2LAca000000GQGI%26_CONFIRMATIONTOKEN%3DVmpFPSxNakF5Tmkwd05DMHhNbFF4T1RveU1Eb3dNUzQ0T1RGYSwwT3RHTFFYODEtbXFCVXhLMkdQTzU1bUZMYzRUd3JVOHFoUDJURlZ5d2VZPSxORFJtWmpGbA%253D%253D%26isDeleteRedirect%3Dtrue%26retURL%3D%252F005ca000009yT0LAAU%253Fnoredirect%253D1%2526isUserEntityOverride%253D1%2526appLayout%253Dsetup%2526tour%253D%2526isdtp%253Dp1%2526sfdcIFrameOrigin%253Dhttps%25253A%25252F%25252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%2526sfdcIFrameHost%253Dweb%2526nonce%253D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%2526ltn_app_id%253D%2526clc%253D1%27);
+                                - rowheader "Enablement Sites (myTrailhead)" [ref=f4e432]
+                                - cell "3/3/2026" [ref=f4e433]
+                              - row "Del Lightning Trade Promotion Management Psl 3/3/2026" [ref=f4e434]:
+                                - cell "Del" [ref=f4e435]:
+                                  - link "Del" [ref=f4e436] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2Fsetup%2Fown%2Fdeleteredirect.jsp%3FappLayout%3Dsetup%26ltn_app_id%3D%26isUserEntityOverride%3D1%26sfdcIFrameHost%3Dweb%26noredirect%3D1%26isdtp%3Dp1%26clc%3D1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%26nonce%3D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%26tour%3D%26delID%3D2LAca000000GQHt%26_CONFIRMATIONTOKEN%3DVmpFPSxNakF5Tmkwd05DMHhNbFF4T1RveU1Eb3dNUzQ0T1RGYSwyMVJmaXJKYjNfbUc2TVhaM1J3R2lGUHpYakQzWlBVQmdfWGVCTEtxQ0VJPSxZekEzWVdRMg%253D%253D%26isDeleteRedirect%3Dtrue%26retURL%3D%252F005ca000009yT0LAAU%253Fnoredirect%253D1%2526isUserEntityOverride%253D1%2526appLayout%253Dsetup%2526tour%253D%2526isdtp%253Dp1%2526sfdcIFrameOrigin%253Dhttps%25253A%25252F%25252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%2526sfdcIFrameHost%253Dweb%2526nonce%253D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%2526ltn_app_id%253D%2526clc%253D1%27);
+                                - rowheader "Lightning Trade Promotion Management Psl" [ref=f4e437]
+                                - cell "3/3/2026" [ref=f4e438]
+                              - row "Del Sales Cloud Unlimited 3/3/2026" [ref=f4e439]:
+                                - cell "Del" [ref=f4e440]:
+                                  - link "Del" [ref=f4e441] [cursor=pointer]:
+                                    - /url: javascript:srcUp(%27%2Fsetup%2Fown%2Fdeleteredirect.jsp%3FappLayout%3Dsetup%26ltn_app_id%3D%26isUserEntityOverride%3D1%26sfdcIFrameHost%3Dweb%26noredirect%3D1%26isdtp%3Dp1%26clc%3D1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%26nonce%3D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%26tour%3D%26delID%3D2LAca000000GQGH%26_CONFIRMATIONTOKEN%3DVmpFPSxNakF5Tmkwd05DMHhNbFF4T1RveU1Eb3dNUzQ0T1RGYSxPRkFpbk1odjRrSWl6MFp1cng0bldPZGRTV255UUNZNWlheHpial9tNkUwPSxOREZtTURjMA%253D%253D%26isDeleteRedirect%3Dtrue%26retURL%3D%252F005ca000009yT0LAAU%253Fnoredirect%253D1%2526isUserEntityOverride%253D1%2526appLayout%253Dsetup%2526tour%253D%2526isdtp%253Dp1%2526sfdcIFrameOrigin%253Dhttps%25253A%25252F%25252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%2526sfdcIFrameHost%253Dweb%2526nonce%253D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%2526ltn_app_id%253D%2526clc%253D1%27);
+                                - rowheader "Sales Cloud Unlimited" [ref=f4e442]
+                                - cell "3/3/2026" [ref=f4e443]
+                        - generic [ref=f4e446]:
+                          - table [ref=f4e448]:
+                            - rowgroup [ref=f4e449]:
+                              - row "Lightning Data Purchase Assignments Edit Assignments" [ref=f4e450]:
+                                - cell "Lightning Data Purchase Assignments" [ref=f4e451]:
+                                  - heading "Lightning Data Purchase Assignments" [level=3] [ref=f4e452]
+                                - cell "Edit Assignments" [ref=f4e453]:
+                                  - button "Edit Assignments" [ref=f4e454] [cursor=pointer]
+                                - cell [ref=f4e455]
+                          - table [ref=f4e457]:
+                            - rowgroup [ref=f4e458]:
+                              - row "No purchase assignments" [ref=f4e459]:
+                                - columnheader "No purchase assignments" [ref=f4e460]
+                        - generic [ref=f4e463]:
+                          - table [ref=f4e465]:
+                            - rowgroup [ref=f4e466]:
+                              - row "Personal Groups New Group Personal Groups Help Personal Groups Help (New Window)" [ref=f4e467]:
+                                - cell "Personal Groups" [ref=f4e468]:
+                                  - heading "Personal Groups" [level=3] [ref=f4e469]
+                                - cell "New Group" [ref=f4e470]:
+                                  - button "New Group" [ref=f4e471] [cursor=pointer]
+                                - cell "Personal Groups Help Personal Groups Help (New Window)" [ref=f4e472]:
+                                  - generic "Personal Groups Help (New Window)" [ref=f4e473]:
+                                    - link "Personal Groups Help Personal Groups Help (New Window)" [ref=f4e474] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=user_groups.htm&section=User_Management&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Personal Groups Help
+                                      - img "Personal Groups Help (New Window)" [ref=f4e475]
+                          - table [ref=f4e477]:
+                            - rowgroup [ref=f4e478]:
+                              - row "No personal groups specified" [ref=f4e479]:
+                                - columnheader "No personal groups specified" [ref=f4e480]
+                        - generic [ref=f4e483]:
+                          - table [ref=f4e485]:
+                            - rowgroup [ref=f4e486]:
+                              - row "Public Group Membership New Group Public Group Membership Help Public Group Membership Help (New Window)" [ref=f4e487]:
+                                - cell "Public Group Membership" [ref=f4e488]:
+                                  - heading "Public Group Membership" [level=3] [ref=f4e489]
+                                - cell "New Group" [ref=f4e490]:
+                                  - button "New Group" [ref=f4e491] [cursor=pointer]
+                                - cell "Public Group Membership Help Public Group Membership Help (New Window)" [ref=f4e492]:
+                                  - generic "Public Group Membership Help (New Window)" [ref=f4e493]:
+                                    - link "Public Group Membership Help Public Group Membership Help (New Window)" [ref=f4e494] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=users_public_group_membership_list.htm&section=User_Management&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Public Group Membership Help
+                                      - img "Public Group Membership Help (New Window)" [ref=f4e495]
+                          - table [ref=f4e497]:
+                            - rowgroup [ref=f4e498]:
+                              - row "No records to display" [ref=f4e499]:
+                                - columnheader "No records to display" [ref=f4e500]
+                        - generic [ref=f4e503]:
+                          - table [ref=f4e505]:
+                            - rowgroup [ref=f4e506]:
+                              - row "Queue Membership New Queue Queue Membership Help Queue Membership Help (New Window)" [ref=f4e507]:
+                                - cell "Queue Membership" [ref=f4e508]:
+                                  - heading "Queue Membership" [level=3] [ref=f4e509]
+                                - cell "New Queue" [ref=f4e510]:
+                                  - button "New Queue" [ref=f4e511] [cursor=pointer]
+                                - cell "Queue Membership Help Queue Membership Help (New Window)" [ref=f4e512]:
+                                  - generic "Queue Membership Help (New Window)" [ref=f4e513]:
+                                    - link "Queue Membership Help Queue Membership Help (New Window)" [ref=f4e514] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=users_queue_membership_list.htm&section=User_Management&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Queue Membership Help
+                                      - img "Queue Membership Help (New Window)" [ref=f4e515]
+                          - table [ref=f4e517]:
+                            - rowgroup [ref=f4e518]:
+                              - row "No records to display" [ref=f4e519]:
+                                - columnheader "No records to display" [ref=f4e520]
+                        - generic [ref=f4e523]:
+                          - table [ref=f4e525]:
+                            - rowgroup [ref=f4e526]:
+                              - row "User Skills New Skill New Skill User" [ref=f4e527]:
+                                - cell "User Skills" [ref=f4e528]:
+                                  - heading "User Skills" [level=3] [ref=f4e529]
+                                - cell "New Skill New Skill User" [ref=f4e530]:
+                                  - button "New Skill" [ref=f4e531] [cursor=pointer]
+                                  - button "New Skill User" [ref=f4e532] [cursor=pointer]
+                                - cell [ref=f4e533]
+                          - table [ref=f4e535]:
+                            - rowgroup [ref=f4e536]:
+                              - row "No records to display" [ref=f4e537]:
+                                - columnheader "No records to display" [ref=f4e538]
+                        - generic [ref=f4e541]:
+                          - table [ref=f4e543]:
+                            - rowgroup [ref=f4e544]:
+                              - row "Team" [ref=f4e545]:
+                                - cell "Team" [ref=f4e546]:
+                                  - heading "Team" [level=3] [ref=f4e547]
+                                - cell [ref=f4e548]
+                                - cell [ref=f4e549]
+                          - table [ref=f4e551]:
+                            - rowgroup [ref=f4e552]:
+                              - row "No records to display" [ref=f4e553]:
+                                - columnheader "No records to display" [ref=f4e554]
+                        - generic [ref=f4e557]:
+                          - table [ref=f4e559]:
+                            - rowgroup [ref=f4e560]:
+                              - row "Default Account Team Add Default Account Team Help Default Account Team Help (New Window)" [ref=f4e561]:
+                                - cell "Default Account Team" [ref=f4e562]:
+                                  - heading "Default Account Team" [level=3] [ref=f4e563]
+                                - cell "Add" [ref=f4e564]:
+                                  - button "Add" [ref=f4e565] [cursor=pointer]
+                                - cell "Default Account Team Help Default Account Team Help (New Window)" [ref=f4e566]:
+                                  - generic "Default Account Team Help (New Window)" [ref=f4e567]:
+                                    - link "Default Account Team Help Default Account Team Help (New Window)" [ref=f4e568] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accountteam_default.htm&section=Account_Team&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Default Account Team Help
+                                      - img "Default Account Team Help (New Window)" [ref=f4e569]
+                          - table [ref=f4e571]:
+                            - rowgroup [ref=f4e572]:
+                              - row "No default account team members" [ref=f4e573]:
+                                - columnheader "No default account team members" [ref=f4e574]
+                        - generic [ref=f4e577]:
+                          - table [ref=f4e579]:
+                            - rowgroup [ref=f4e580]:
+                              - row "Managers in the Role Hierarchy Managers in the Role Hierarchy Help Managers in the Role Hierarchy Help (New Window)" [ref=f4e581]:
+                                - cell "Managers in the Role Hierarchy" [ref=f4e582]:
+                                  - heading "Managers in the Role Hierarchy" [level=3] [ref=f4e583]
+                                - cell [ref=f4e584]
+                                - cell "Managers in the Role Hierarchy Help Managers in the Role Hierarchy Help (New Window)" [ref=f4e585]:
+                                  - generic "Managers in the Role Hierarchy Help (New Window)" [ref=f4e586]:
+                                    - link "Managers in the Role Hierarchy Help Managers in the Role Hierarchy Help (New Window)" [ref=f4e587] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=managers_in_the_role_hierarchy.htm&section=Personal_Setup&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Managers in the Role Hierarchy Help
+                                      - img "Managers in the Role Hierarchy Help (New Window)" [ref=f4e588]
+                          - table [ref=f4e590]:
+                            - rowgroup [ref=f4e591]:
+                              - row "No records to display" [ref=f4e592]:
+                                - columnheader "No records to display" [ref=f4e593]
+                        - generic [ref=f4e596]:
+                          - table [ref=f4e598]:
+                            - rowgroup [ref=f4e599]:
+                              - row "Assigned Territories" [ref=f4e600]:
+                                - cell "Assigned Territories" [ref=f4e601]:
+                                  - heading "Assigned Territories" [level=3] [ref=f4e602]
+                                - cell [ref=f4e603]
+                                - cell [ref=f4e604]
+                          - table [ref=f4e606]:
+                            - rowgroup [ref=f4e607]:
+                              - row "No records to display" [ref=f4e608]:
+                                - columnheader "No records to display" [ref=f4e609]
+                        - generic [ref=f4e612]:
+                          - table [ref=f4e614]:
+                            - rowgroup [ref=f4e615]:
+                              - row "OAuth Apps OAuth Apps Help OAuth Apps Help (New Window)" [ref=f4e616]:
+                                - cell "OAuth Apps" [ref=f4e617]:
+                                  - heading "OAuth Apps" [level=3] [ref=f4e618]
+                                - cell [ref=f4e619]
+                                - cell "OAuth Apps Help OAuth Apps Help (New Window)" [ref=f4e620]:
+                                  - generic "OAuth Apps Help (New Window)" [ref=f4e621]:
+                                    - link "OAuth Apps Help OAuth Apps Help (New Window)" [ref=f4e622] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=remoteaccess_request_manage.htm&section=integrate&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: OAuth Apps Help
+                                      - img "OAuth Apps Help (New Window)" [ref=f4e623]
+                          - table [ref=f4e625]:
+                            - rowgroup [ref=f4e626]:
+                              - row "No approved access tokens" [ref=f4e627]:
+                                - columnheader "No approved access tokens" [ref=f4e628]
+                        - generic [ref=f4e631]:
+                          - table [ref=f4e633]:
+                            - rowgroup [ref=f4e634]:
+                              - row "Third-Party Account Links Third-Party Account Links Help Third-Party Account Links Help (New Window)" [ref=f4e635]:
+                                - cell "Third-Party Account Links" [ref=f4e636]:
+                                  - heading "Third-Party Account Links" [level=3] [ref=f4e637]
+                                - cell [ref=f4e638]
+                                - cell "Third-Party Account Links Help Third-Party Account Links Help (New Window)" [ref=f4e639]:
+                                  - generic "Third-Party Account Links Help (New Window)" [ref=f4e640]:
+                                    - link "Third-Party Account Links Help Third-Party Account Links Help (New Window)" [ref=f4e641] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=sso_authentication_providers.htm&section=Security&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Third-Party Account Links Help
+                                      - img "Third-Party Account Links Help (New Window)" [ref=f4e642]
+                          - table [ref=f4e644]:
+                            - rowgroup [ref=f4e645]:
+                              - row "This account is not authorized for access from any third-party accounts" [ref=f4e646]:
+                                - columnheader "This account is not authorized for access from any third-party accounts" [ref=f4e647]
+                        - generic [ref=f4e650]:
+                          - table [ref=f4e652]:
+                            - rowgroup [ref=f4e653]:
+                              - row "Installed Mobile Apps" [ref=f4e654]:
+                                - cell "Installed Mobile Apps" [ref=f4e655]:
+                                  - heading "Installed Mobile Apps" [level=3] [ref=f4e656]
+                                - cell [ref=f4e657]
+                                - cell [ref=f4e658]
+                          - table [ref=f4e660]:
+                            - rowgroup [ref=f4e661]:
+                              - row "No records to display" [ref=f4e662]:
+                                - columnheader "No records to display" [ref=f4e663]
+                        - generic [ref=f4e666]:
+                          - table [ref=f4e668]:
+                            - rowgroup [ref=f4e669]:
+                              - row "Authentication Settings for External Systems New Authentication Settings for External Systems Help Authentication Settings for External Systems Help (New Window)" [ref=f4e670]:
+                                - cell "Authentication Settings for External Systems" [ref=f4e671]:
+                                  - heading "Authentication Settings for External Systems" [level=3] [ref=f4e672]
+                                - cell "New" [ref=f4e673]:
+                                  - button "New" [ref=f4e674] [cursor=pointer]
+                                - cell "Authentication Settings for External Systems Help Authentication Settings for External Systems Help (New Window)" [ref=f4e675]:
+                                  - generic "Authentication Settings for External Systems Help (New Window)" [ref=f4e676]:
+                                    - link "Authentication Settings for External Systems Help Authentication Settings for External Systems Help (New Window)" [ref=f4e677] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=external_authentication.htm&section=Personal_Setup&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Authentication Settings for External Systems Help
+                                      - img "Authentication Settings for External Systems Help (New Window)" [ref=f4e678]
+                          - table [ref=f4e680]:
+                            - rowgroup [ref=f4e681]:
+                              - row "No records to display" [ref=f4e682]:
+                                - columnheader "No records to display" [ref=f4e683]
+                        - generic [ref=f4e686]:
+                          - table [ref=f4e688]:
+                            - rowgroup [ref=f4e689]:
+                              - row "Login History Login History Help Login History Help (New Window)" [ref=f4e690]:
+                                - cell "Login History" [ref=f4e691]:
+                                  - heading "Login History" [level=3] [ref=f4e692]
+                                - cell [ref=f4e693]
+                                - cell "Login History Help Login History Help (New Window)" [ref=f4e694]:
+                                  - generic "Login History Help (New Window)" [ref=f4e695]:
+                                    - link "Login History Help Login History Help (New Window)" [ref=f4e696] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=users_login_history.htm&section=User_Management&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: Login History Help
+                                      - img "Login History Help (New Window)" [ref=f4e697]
+                          - generic [ref=f4e698]:
+                            - table [ref=f4e699]:
+                              - rowgroup [ref=f4e700]:
+                                - row "Login Time Source IP Login Type Login Subtype Status Application Login URL Location Forwarded For IP" [ref=f4e701]:
+                                  - columnheader "Login Time" [ref=f4e702]
+                                  - columnheader "Source IP" [ref=f4e703]
+                                  - columnheader "Login Type" [ref=f4e704]
+                                  - columnheader "Login Subtype" [ref=f4e705]
+                                  - columnheader "Status" [ref=f4e706]
+                                  - columnheader "Application" [ref=f4e707]
+                                  - columnheader "Login URL" [ref=f4e708]
+                                  - columnheader "Location" [ref=f4e709]: Location
+                                  - columnheader "Forwarded For IP" [ref=f4e711]
+                                - 'row "4/2/2026, 10:09:16 AM GMT+2 49.207.221.74 Application Failed: Computer activation required Browser itgbtrex--etqa.sandbox.my.salesforce.com India 49.207.221.74,98.130.97.181" [ref=f4e712]':
+                                  - rowheader "4/2/2026, 10:09:16 AM GMT+2" [ref=f4e713]
+                                  - cell "49.207.221.74" [ref=f4e714]
+                                  - cell "Application" [ref=f4e715]
+                                  - cell [ref=f4e716]
+                                  - 'cell "Failed: Computer activation required" [ref=f4e717]'
+                                  - cell "Browser" [ref=f4e718]
+                                  - cell "itgbtrex--etqa.sandbox.my.salesforce.com" [ref=f4e719]
+                                  - cell "India" [ref=f4e720]
+                                  - cell "49.207.221.74,98.130.97.181" [ref=f4e721]
+                                - row "3/20/2026, 1:04:47 PM GMT+1 49.207.221.74 Application Success Browser itgbtrex--etqa.sandbox.my.salesforce.com India 49.207.221.74,40.192.90.195" [ref=f4e722]:
+                                  - rowheader "3/20/2026, 1:04:47 PM GMT+1" [ref=f4e723]
+                                  - cell "49.207.221.74" [ref=f4e724]
+                                  - cell "Application" [ref=f4e725]
+                                  - cell [ref=f4e726]
+                                  - cell "Success" [ref=f4e727]
+                                  - cell "Browser" [ref=f4e728]
+                                  - cell "itgbtrex--etqa.sandbox.my.salesforce.com" [ref=f4e729]
+                                  - cell "India" [ref=f4e730]
+                                  - cell "49.207.221.74,40.192.90.195" [ref=f4e731]
+                                - 'row "3/20/2026, 1:04:34 PM GMT+1 49.207.221.74 Application Failed: Computer activation required Browser itgbtrex--etqa.sandbox.my.salesforce.com India 49.207.221.74,40.192.90.195" [ref=f4e732]':
+                                  - rowheader "3/20/2026, 1:04:34 PM GMT+1" [ref=f4e733]
+                                  - cell "49.207.221.74" [ref=f4e734]
+                                  - cell "Application" [ref=f4e735]
+                                  - cell [ref=f4e736]
+                                  - 'cell "Failed: Computer activation required" [ref=f4e737]'
+                                  - cell "Browser" [ref=f4e738]
+                                  - cell "itgbtrex--etqa.sandbox.my.salesforce.com" [ref=f4e739]
+                                  - cell "India" [ref=f4e740]
+                                  - cell "49.207.221.74,40.192.90.195" [ref=f4e741]
+                                - row "3/16/2026, 1:18:23 PM GMT+1 49.207.221.74 Application Success Browser test.salesforce.com India 104.161.174.8" [ref=f4e742]:
+                                  - rowheader "3/16/2026, 1:18:23 PM GMT+1" [ref=f4e743]
+                                  - cell "49.207.221.74" [ref=f4e744]
+                                  - cell "Application" [ref=f4e745]
+                                  - cell [ref=f4e746]
+                                  - cell "Success" [ref=f4e747]
+                                  - cell "Browser" [ref=f4e748]
+                                  - cell "test.salesforce.com" [ref=f4e749]
+                                  - cell "India" [ref=f4e750]
+                                  - cell "104.161.174.8" [ref=f4e751]
+                                - 'row "3/16/2026, 1:18:06 PM GMT+1 49.207.221.74 Application Failed: Computer activation required Browser test.salesforce.com India 104.161.174.8" [ref=f4e752]':
+                                  - rowheader "3/16/2026, 1:18:06 PM GMT+1" [ref=f4e753]
+                                  - cell "49.207.221.74" [ref=f4e754]
+                                  - cell "Application" [ref=f4e755]
+                                  - cell [ref=f4e756]
+                                  - 'cell "Failed: Computer activation required" [ref=f4e757]'
+                                  - cell "Browser" [ref=f4e758]
+                                  - cell "test.salesforce.com" [ref=f4e759]
+                                  - cell "India" [ref=f4e760]
+                                  - cell "104.161.174.8" [ref=f4e761]
+                                - row "3/16/2026, 1:02:04 PM GMT+1 49.207.221.74 Application Success Browser itgbtrex--etqa.sandbox.my.salesforce.com India 49.207.221.74,40.192.90.195" [ref=f4e762]:
+                                  - rowheader "3/16/2026, 1:02:04 PM GMT+1" [ref=f4e763]
+                                  - cell "49.207.221.74" [ref=f4e764]
+                                  - cell "Application" [ref=f4e765]
+                                  - cell [ref=f4e766]
+                                  - cell "Success" [ref=f4e767]
+                                  - cell "Browser" [ref=f4e768]
+                                  - cell "itgbtrex--etqa.sandbox.my.salesforce.com" [ref=f4e769]
+                                  - cell "India" [ref=f4e770]
+                                  - cell "49.207.221.74,40.192.90.195" [ref=f4e771]
+                                - row "3/16/2026, 12:54:39 PM GMT+1 49.207.221.74 Application Success Browser itgbtrex--etqa.sandbox.my.salesforce.com India 49.207.221.74,3.109.43.86" [ref=f4e772]:
+                                  - rowheader "3/16/2026, 12:54:39 PM GMT+1" [ref=f4e773]
+                                  - cell "49.207.221.74" [ref=f4e774]
+                                  - cell "Application" [ref=f4e775]
+                                  - cell [ref=f4e776]
+                                  - cell "Success" [ref=f4e777]
+                                  - cell "Browser" [ref=f4e778]
+                                  - cell "itgbtrex--etqa.sandbox.my.salesforce.com" [ref=f4e779]
+                                  - cell "India" [ref=f4e780]
+                                  - cell "49.207.221.74,3.109.43.86" [ref=f4e781]
+                                - row "3/16/2026, 12:43:07 PM GMT+1 49.207.221.74 Application Success Browser itgbtrex--etqa.sandbox.my.salesforce.com India 49.207.221.74,3.109.43.86" [ref=f4e782]:
+                                  - rowheader "3/16/2026, 12:43:07 PM GMT+1" [ref=f4e783]
+                                  - cell "49.207.221.74" [ref=f4e784]
+                                  - cell "Application" [ref=f4e785]
+                                  - cell [ref=f4e786]
+                                  - cell "Success" [ref=f4e787]
+                                  - cell "Browser" [ref=f4e788]
+                                  - cell "itgbtrex--etqa.sandbox.my.salesforce.com" [ref=f4e789]
+                                  - cell "India" [ref=f4e790]
+                                  - cell "49.207.221.74,3.109.43.86" [ref=f4e791]
+                                - row "3/16/2026, 11:14:48 AM GMT+1 49.207.221.74 Application Success Browser itgbtrex--etqa.sandbox.my.salesforce.com India 49.207.221.74,13.126.128.189" [ref=f4e792]:
+                                  - rowheader "3/16/2026, 11:14:48 AM GMT+1" [ref=f4e793]
+                                  - cell "49.207.221.74" [ref=f4e794]
+                                  - cell "Application" [ref=f4e795]
+                                  - cell [ref=f4e796]
+                                  - cell "Success" [ref=f4e797]
+                                  - cell "Browser" [ref=f4e798]
+                                  - cell "itgbtrex--etqa.sandbox.my.salesforce.com" [ref=f4e799]
+                                  - cell "India" [ref=f4e800]
+                                  - cell "49.207.221.74,13.126.128.189" [ref=f4e801]
+                                - row "3/16/2026, 10:57:03 AM GMT+1 49.207.221.74 Application Success Browser itgbtrex--etqa.sandbox.my.salesforce.com India 49.207.221.74,98.130.87.15" [ref=f4e802]:
+                                  - rowheader "3/16/2026, 10:57:03 AM GMT+1" [ref=f4e803]
+                                  - cell "49.207.221.74" [ref=f4e804]
+                                  - cell "Application" [ref=f4e805]
+                                  - cell [ref=f4e806]
+                                  - cell "Success" [ref=f4e807]
+                                  - cell "Browser" [ref=f4e808]
+                                  - cell "itgbtrex--etqa.sandbox.my.salesforce.com" [ref=f4e809]
+                                  - cell "India" [ref=f4e810]
+                                  - cell "49.207.221.74,98.130.87.15" [ref=f4e811]
+                            - link "Download login history for last six months, including logins from outside the website, such as API logins (Excel .csv file) »" [ref=f4e813] [cursor=pointer]:
+                              - /url: javascript:srcUp(%27%2Fservlet%2Fservlet.LoginHistory%3Fid%3D005ca000009yT0L%26isdtp%3Dp1%27);
+                        - generic [ref=f4e816]:
+                          - table [ref=f4e818]:
+                            - rowgroup [ref=f4e819]:
+                              - row "User User Provisioning Accounts User Provisioning Accounts Help User Provisioning Accounts Help (New Window)" [ref=f4e820]:
+                                - cell "User User Provisioning Accounts" [ref=f4e821]:
+                                  - img "User" [ref=f4e822]
+                                  - heading "User Provisioning Accounts" [level=3] [ref=f4e823]
+                                - cell [ref=f4e824]
+                                - cell "User Provisioning Accounts Help User Provisioning Accounts Help (New Window)" [ref=f4e825]:
+                                  - generic "User Provisioning Accounts Help (New Window)" [ref=f4e826]:
+                                    - link "User Provisioning Accounts Help User Provisioning Accounts Help (New Window)" [ref=f4e827] [cursor=pointer]:
+                                      - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=connected_app_user_provisioning.htm&language=en_US&release=260.11.10&instance=USA894S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                                      - text: User Provisioning Accounts Help
+                                      - img "User Provisioning Accounts Help (New Window)" [ref=f4e828]
+                          - table [ref=f4e830]:
+                            - rowgroup [ref=f4e831]:
+                              - row "No records to display" [ref=f4e832]:
+                                - columnheader "No records to display" [ref=f4e833]
+                        - generic [ref=f4e834]:
+                          - link "Back to TopBack To Top" [ref=f4e836] [cursor=pointer]:
+                            - /url: "#skiplink"
+                            - img "Back to Top" [ref=f4e837]
+                            - text: Back To Top
+                          - text: Always show me
+                          - link "Show Moremore" [ref=f4e838] [cursor=pointer]:
+                            - /url: javascript:srcSelf(%27%2F005ca000009yT0LAAU%3FappLayout%3Dsetup%26ltn_app_id%3D%26isUserEntityOverride%3D1%26sfdcIFrameHost%3Dweb%26noredirect%3D1%26isdtp%3Dp1%26clc%3D1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fitgbtrex--etqa.sandbox.my.salesforce-setup.com%26nonce%3D2239696d1e5e605c28159fb42445be1a0dee81d4e38f583d47c134cefd952234%26tour%3D%26rowsperlist%3D10%27);
+                            - img "Show More" [ref=f4e839]
+                            - text: more
+                          - text: records per related list
+                        - iframe [ref=f4e840]:
+                          
+  - generic:
+    - status
+```

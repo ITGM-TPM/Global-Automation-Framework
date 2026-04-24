@@ -1,0 +1,65 @@
+Error navigating to Trade Calendar: locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]
+Call log:
+  - waiting for locator('button[aria-label="Search"]')
+    - locator resolved to <button id="275:0" type="button" aria-label="Search" data-aura-rendered-by="275:0" data-proxy-id="aura-pos-lib-4" class="slds-button slds-button_neutral search-button slds-truncate">…</button>
+    - fill("Test Sales Planner")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+    at TradePlanningPage.gotoTradeCalendar (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\src\page-objects\TradePlanningPage.ts:77:30)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:47:13
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:45:5 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts',
+      line: 77,
+      column: 30,
+      function: 'TradePlanningPage.gotoTradeCalendar'
+    },
+    category: 'pw:api',
+    title: `Fill "Test Sales Planner" locator('button[aria-label="Search"]')`,
+    apiName: 'locator.fill',
+    params: {
+      selector: 'button[aria-label="Search"]',
+      value: 'Test Sales Planner',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@51',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@51',
+      _title: `Fill "Test Sales Planner" locator('button[aria-label="Search"]')`,
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1775761314686,
+    error: {
+      message: 'Error: locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button[aria-label="Search"]')\x1B[22m\n` +
+        '\x1B[2m    - locator resolved to <button id="275:0" type="button" aria-label="Search" data-aura-rendered-by="275:0" data-proxy-id="aura-pos-lib-4" class="slds-button slds-button_neutral search-button slds-truncate">…</button>\x1B[22m\n' +
+        '\x1B[2m    - fill("Test Sales Planner")\x1B[22m\n' +
+        '\x1B[2m  - attempting fill action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and editable\x1B[22m\n',
+      stack: 'Error: locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button[aria-label="Search"]')\x1B[22m\n` +
+        '\x1B[2m    - locator resolved to <button id="275:0" type="button" aria-label="Search" data-aura-rendered-by="275:0" data-proxy-id="aura-pos-lib-4" class="slds-button slds-button_neutral search-button slds-truncate">…</button>\x1B[22m\n' +
+        '\x1B[2m    - fill("Test Sales Planner")\x1B[22m\n' +
+        '\x1B[2m  - attempting fill action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and editable\x1B[22m\n' +
+        '\n' +
+        '    at TradePlanningPage.gotoTradeCalendar (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts:77:30)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:47:13\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:45:5',
+      cause: undefined
+    }
+  }
+}

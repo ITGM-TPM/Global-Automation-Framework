@@ -1,0 +1,1 @@
+✔ Test success: Open List View Controls and verify options

@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- generic [active]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e6]:
+        - button "Search" [disabled] [ref=e12]:
+          - generic:
+            - img
+          - text: Search...
+        - navigation "Global Header" [ref=e13]:
+          - list [ref=e14]:
+            - listitem [ref=e15]
+    - generic [ref=e19]:
+      - generic [ref=e22]:
+        - generic [ref=e24]:
+          - navigation "App" [ref=e25]:
+            - button "App Launcher" [ref=e27] [cursor=pointer]:
+              - generic [ref=e38]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e39]:
+            - generic "ITGB TPM" [ref=e40]
+        - navigation "Global" [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "Home" [ref=e46] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e47]: Home
+            - listitem [ref=e48]:
+              - link "Accounts" [ref=e49] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e50]: Accounts
+              - button "Accounts List" [ref=e54] [cursor=pointer]:
+                - img [ref=e58]
+                - generic [ref=e59]: Accounts List
+            - listitem [ref=e60]:
+              - link "Products" [ref=e61] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e62]: Products
+              - button "Products List" [ref=e66] [cursor=pointer]:
+                - img [ref=e70]
+                - generic [ref=e71]: Products List
+            - listitem [ref=e72]:
+              - link "Trade Planning" [ref=e73] [cursor=pointer]:
+                - /url: /lightning/n/cgcloud__Trade_Planning
+                - generic [ref=e74]: Trade Planning
+            - listitem [ref=e75]:
+              - link "Customer Business Plans" [ref=e76] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e77]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e81] [cursor=pointer]:
+                - img [ref=e85]
+                - generic [ref=e86]: Customer Business Plans List
+            - listitem [ref=e87]:
+              - link "Advanced Promotions" [ref=e88] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e89]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e93] [cursor=pointer]:
+                - img [ref=e97]
+                - generic [ref=e98]: Advanced Promotions List
+            - listitem [ref=e99]:
+              - link "Funds" [ref=e100] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e101]: Funds
+              - button "Funds List" [ref=e105] [cursor=pointer]:
+                - img [ref=e109]
+                - generic [ref=e110]: Funds List
+            - listitem [ref=e111]:
+              - link "Multi-Fund Transactions" [ref=e112] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                - generic [ref=e113]: Multi-Fund Transactions
+              - button "Multi-Fund Transactions List" [ref=e117] [cursor=pointer]:
+                - img [ref=e121]
+                - generic [ref=e122]: Multi-Fund Transactions List
+            - listitem [ref=e123]:
+              - button "Edit nav items" [ref=e125] [cursor=pointer]:
+                - img [ref=e127]
+                - generic [ref=e128]: Edit nav items
+      - main [ref=e130]
+  - generic:
+    - status
+```

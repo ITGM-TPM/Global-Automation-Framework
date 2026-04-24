@@ -1,0 +1,55 @@
+[viewSelection] ❌ Error: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('//lightning-base-combobox-item//span[@class=\'slds-media__figure slds-listbox__option-icon\']/following-sibling::span[normalize-space()=\'13. All Accounts\']').first() to be visible
+
+    at viewSelection (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\utils\commonLogic.ts:174:34)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:31:9
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:30:5 {
+  name: 'TimeoutError',
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts',
+      line: 174,
+      column: 34,
+      function: 'viewSelection'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//lightning-base-combobox-item//span[@class=\\'slds-media__figure slds-listbox__option-icon\\']/following-sibling::span[normalize-space()=\\'13. All Accounts\\']').first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//lightning-base-combobox-item//span[@class='slds-media__figure slds-listbox__option-icon']/following-sibling::span[normalize-space()='13. All Accounts'] >> nth=0",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@64',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@64',
+      _title: "Wait for selector locator('//lightning-base-combobox-item//span[@class=\\'slds-media__figure slds-listbox__option-icon\\']/following-sibling::span[normalize-space()=\\'13. All Accounts\\']').first()",
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776858441820,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//lightning-base-combobox-item//span[@class=\\'slds-media__figure slds-listbox__option-icon\\']/following-sibling::span[normalize-space()=\\'13. All Accounts\\']').first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//lightning-base-combobox-item//span[@class=\\'slds-media__figure slds-listbox__option-icon\\']/following-sibling::span[normalize-space()=\\'13. All Accounts\\']').first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at viewSelection (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts:174:34)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:31:9\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:30:5',
+      cause: undefined
+    }
+  }
+}

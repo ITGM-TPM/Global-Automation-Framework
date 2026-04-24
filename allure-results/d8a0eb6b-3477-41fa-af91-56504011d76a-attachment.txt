@@ -1,0 +1,2 @@
+✔ Skipped sorting → "Product Name" is already sorted (desc).
+✔ Test success: Sort by Product Name descending

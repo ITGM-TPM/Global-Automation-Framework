@@ -1,0 +1,191 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e8]:
+        - generic [ref=e9]: "Sandbox: ETQA |"
+        - link "Log out" [ref=e10] [cursor=pointer]:
+          - /url: /secur/logout.jsp
+      - generic [ref=e11]:
+        - button "Search" [ref=e17]:
+          - img [ref=e19]
+          - text: Search...
+        - navigation "Global Header" [ref=e22]:
+          - list [ref=e24]:
+            - listitem [ref=e25]:
+              - group [ref=e26]:
+                - button "Add favorite" [ref=e28] [cursor=pointer]:
+                  - generic [ref=e29]:
+                    - img [ref=e33]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e37] [cursor=pointer]:
+                  - generic [ref=e38]:
+                    - img [ref=e42]
+                    - tooltip "Favorites list"
+            - listitem [ref=e45]:
+              - button "Global Actions" [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]:
+                  - img [ref=e56]
+                  - tooltip "Global Actions"
+            - listitem [ref=e59]:
+              - button "Guidance Center" [ref=e61] [cursor=pointer]:
+                - generic [ref=e62]:
+                  - img [ref=e66]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e69]:
+              - button "Salesforce Help" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]:
+                  - img [ref=e77]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e80]:
+              - button "Setup" [ref=e86] [cursor=pointer]:
+                - generic [ref=e87]:
+                  - img [ref=e91]
+                  - tooltip "Setup"
+            - listitem [ref=e94]:
+              - button "Notifications" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e103]
+                  - tooltip "Notifications"
+            - listitem [ref=e107]:
+              - button "View profile" [ref=e110] [cursor=pointer]:
+                - generic [ref=e111]:
+                  - tooltip "View profile"
+    - generic [ref=e115]:
+      - generic [ref=e118]:
+        - generic [ref=e120]:
+          - navigation "App" [ref=e121]:
+            - button "App Launcher" [ref=e123] [cursor=pointer]:
+              - generic [ref=e134]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e135]:
+            - generic "ITGB TPM" [ref=e136]
+        - navigation "Global" [ref=e139]:
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - link "Home" [ref=e142] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e143]: Home
+            - listitem [ref=e144]:
+              - link "Accounts" [ref=e145] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e146]: Accounts
+              - button "Accounts List" [ref=e150] [cursor=pointer]:
+                - img [ref=e154]
+                - generic [ref=e157]: Accounts List
+            - listitem [ref=e158]:
+              - link "Products" [ref=e159] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e160]: Products
+              - button "Products List" [ref=e164] [cursor=pointer]:
+                - img [ref=e168]
+                - generic [ref=e171]: Products List
+            - listitem [ref=e172] [cursor=pointer]:
+              - link "Trade Planning" [active] [ref=e173]:
+                - /url: /lightning/n/cgcloud__Trade_Planning
+                - generic [ref=e174]: Trade Planning
+            - listitem [ref=e175]:
+              - link "Customer Business Plans" [ref=e176] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e177]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e181] [cursor=pointer]:
+                - img [ref=e185]
+                - generic [ref=e188]: Customer Business Plans List
+            - listitem [ref=e189]:
+              - link "Advanced Promotions" [ref=e190] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e191]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e195] [cursor=pointer]:
+                - img [ref=e199]
+                - generic [ref=e202]: Advanced Promotions List
+            - listitem [ref=e203]:
+              - link "Funds" [ref=e204] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e205]: Funds
+              - button "Funds List" [ref=e209] [cursor=pointer]:
+                - img [ref=e213]
+                - generic [ref=e216]: Funds List
+            - listitem [ref=e217]:
+              - button "Edit nav items" [ref=e219] [cursor=pointer]:
+                - img [ref=e221]
+                - generic [ref=e224]: Edit nav items
+      - main [ref=e226]:
+        - generic [ref=e230]:
+          - text: Loading report chart... Loading report chart... Loading report chart...
+          - generic [ref=e246]:
+            - generic [ref=e250]:
+              - banner [ref=e251]:
+                - generic [ref=e252]:
+                  - generic [ref=e256]:
+                    - generic [ref=e257]: Trade Calendar
+                    - 'button "View: Default View" [ref=e260] [cursor=pointer]':
+                      - text: "View: Default View"
+                      - img [ref=e261]
+                  - generic [ref=e263]:
+                    - list [ref=e264]:
+                      - listitem [ref=e265]:
+                        - button "Print" [ref=e266] [cursor=pointer]:
+                          - img [ref=e267]
+                          - text: Print
+                      - listitem [ref=e269]:
+                        - button "Refresh" [ref=e270] [cursor=pointer]:
+                          - img [ref=e271]
+                          - text: Refresh
+                      - listitem [ref=e273]:
+                        - button "Define Your View" [ref=e275] [cursor=pointer]
+                      - listitem [ref=e276]:
+                        - button "List View Controls" [ref=e278] [cursor=pointer]:
+                          - img [ref=e279]
+                          - img [ref=e281]
+                          - generic [ref=e283]: List View Controls
+                    - button "P&L" [disabled] [ref=e286]:
+                      - generic: P&L
+                    - list [ref=e287]:
+                      - listitem [ref=e288]:
+                        - button "Copy Promotions" [ref=e289] [cursor=pointer]:
+                          - img [ref=e290]
+                          - text: Copy Promotions
+                      - listitem [ref=e292]:
+                        - button "New" [ref=e293] [cursor=pointer]:
+                          - img [ref=e294]
+                          - text: New
+              - generic [ref=e300]:
+                - generic [ref=e303]:
+                  - button "Previous Period" [ref=e306] [cursor=pointer]:
+                    - img [ref=e307]
+                  - generic [ref=e309]: Oct 2025
+                  - generic [ref=e310]: Nov
+                  - generic [ref=e311]: Dec
+                  - generic [ref=e312]: Jan 2026
+                  - generic [ref=e313]: Feb
+                  - generic [ref=e314]: Mar
+                  - generic [ref=e315]: Apr
+                  - generic [ref=e316]: May
+                  - generic [ref=e317]: Jun
+                  - generic [ref=e318]: Jul
+                  - generic [ref=e319]: Aug
+                  - generic [ref=e320]: Sep
+                  - button "Next Period" [ref=e323] [cursor=pointer]:
+                    - img [ref=e324]
+                  - 'button "Keyboard navigation tips: To move to the next element, press Tab. If the focus element is a promotion bar, a popover with the promotion details is displayed. To navigate to the promotion record page, press Enter when the focus element is either the promotion bar or the popover. To perform an action in the popover, press Enter when the focus is on the element. To return to a promotion bar, press Esc. To move to the previous element, press Shift+Tab." [ref=e328] [cursor=pointer]':
+                    - img [ref=e329]
+                - generic [ref=e701]:
+                  - generic [ref=e703]:
+                    - generic "Test Prabu" [ref=e708]
+                    - generic "Test Prabu" [ref=e713] [cursor=pointer]
+                  - generic [ref=e716]:
+                    - generic "test CGT 82" [ref=e721]
+                    - generic [ref=e722]:
+                      - generic "test CGT 82" [ref=e726] [cursor=pointer]
+                      - generic "test CGT 82" [ref=e731] [cursor=pointer]
+                - heading "Legend" [level=2] [ref=e735]
+            - iframe [ref=e738]:
+              
+  - generic:
+    - status
+```

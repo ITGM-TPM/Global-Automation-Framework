@@ -1,0 +1,852 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (ETQA)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Global Actions"
+            - listitem [ref=e100]:
+              - button "Guidance Center" [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]:
+                  - img [ref=e107]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e110]:
+              - button "Salesforce Help" [ref=e113] [cursor=pointer]:
+                - generic [ref=e114]:
+                  - img [ref=e118]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e121]:
+              - button "Setup" [ref=e127] [cursor=pointer]:
+                - generic [ref=e128]:
+                  - img [ref=e132]
+                  - tooltip "Setup"
+            - listitem [ref=e135]:
+              - button "Notifications" [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - img [ref=e144]
+                  - tooltip "Notifications"
+            - listitem [ref=e148]:
+              - button "View profile" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - tooltip "View profile"
+    - generic [ref=e156]:
+      - generic [ref=e159]:
+        - generic [ref=e161]:
+          - navigation "App" [ref=e162]:
+            - button "App Launcher" [ref=e164] [cursor=pointer]:
+              - generic [ref=e175]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e176]:
+            - generic "ITGB TPM" [ref=e177]
+        - navigation "Global" [ref=e180]:
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Home" [ref=e183] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e184]: Home
+            - listitem [ref=e185]:
+              - link "Accounts" [ref=e186] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e187]: Accounts
+              - button "Accounts List" [ref=e191] [cursor=pointer]:
+                - img [ref=e195]
+                - generic [ref=e198]: Accounts List
+            - listitem [ref=e199]:
+              - link "Products" [ref=e200] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e201]: Products
+              - button "Products List" [ref=e205] [cursor=pointer]:
+                - img [ref=e209]
+                - generic [ref=e212]: Products List
+            - listitem [ref=e213]:
+              - link "Trade Planning" [ref=e214] [cursor=pointer]:
+                - /url: /lightning/n/cgcloud__Trade_Planning
+                - generic [ref=e215]: Trade Planning
+            - listitem [ref=e216]:
+              - link "Customer Business Plans" [ref=e217] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e218]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e222] [cursor=pointer]:
+                - img [ref=e226]
+                - generic [ref=e229]: Customer Business Plans List
+            - listitem [ref=e230] [cursor=pointer]:
+              - link "Advanced Promotions" [ref=e231]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e232]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e236]:
+                - img [ref=e240]
+                - generic [ref=e243]: Advanced Promotions List
+            - listitem [ref=e244]:
+              - link "Funds" [ref=e245] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e246]: Funds
+              - button "Funds List" [ref=e250] [cursor=pointer]:
+                - img [ref=e254]
+                - generic [ref=e257]: Funds List
+            - listitem [ref=e258]:
+              - link "Multi-Fund Transactions" [ref=e259] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                - generic [ref=e260]: Multi-Fund Transactions
+              - button "Multi-Fund Transactions List" [ref=e264] [cursor=pointer]:
+                - img [ref=e268]
+                - generic [ref=e271]: Multi-Fund Transactions List
+            - listitem [ref=e272]:
+              - button "Edit nav items" [ref=e274] [cursor=pointer]:
+                - img [ref=e276]
+                - generic [ref=e279]: Edit nav items
+      - generic [ref=e280]:
+        - main [ref=e281]:
+          - generic [ref=e291]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - generic [ref=e296]:
+                  - img [ref=e300]
+                  - generic [ref=e301]:
+                    - heading "Advanced Promotions" [level=1] [ref=e305]
+                    - generic [ref=e306]:
+                      - generic [ref=e308] [cursor=pointer]:
+                        - heading "Advanced Promotions All" [level=1] [ref=e309]:
+                          - generic [ref=e310]: Advanced Promotions
+                          - generic [ref=e311]: All
+                        - 'button "Select a List View: Advanced Promotions" [active] [ref=e314]':
+                          - generic [ref=e315]:
+                            - img
+                          - generic [ref=e316]: "Select a List View: Advanced Promotions"
+                      - button "Pin this list view." [ref=e320] [cursor=pointer]:
+                        - img [ref=e322]
+                        - generic [ref=e325]: Pin this list view.
+                - list [ref=e328]:
+                  - listitem [ref=e329]:
+                    - button "Assign Label" [ref=e330] [cursor=pointer]:
+                      - generic "Assign Label" [ref=e331]
+                  - listitem [ref=e332]:
+                    - button "New TPM Promotion" [ref=e333] [cursor=pointer]:
+                      - generic "New TPM Promotion" [ref=e334]
+                  - listitem [ref=e335]:
+                    - button "Derive" [ref=e336] [cursor=pointer]:
+                      - generic "Derive" [ref=e337]
+                  - listitem [ref=e338]:
+                    - button "Copy Promotions" [ref=e339] [cursor=pointer]:
+                      - generic "Copy Promotions" [ref=e340]
+                  - listitem [ref=e341]:
+                    - button "Copy" [ref=e342] [cursor=pointer]:
+                      - generic "Copy" [ref=e343]
+              - generic [ref=e344]:
+                - paragraph [ref=e346]:
+                  - generic [ref=e348]:
+                    - status "All" [ref=e349]: 50+ items • Sorted by Promotion Start Date •
+                    - text: Updated a few seconds ago
+                - generic [ref=e355]:
+                  - generic [ref=e356]: Search this list...
+                  - generic [ref=e357]:
+                    - searchbox "Search this list..." [ref=e358]
+                    - generic:
+                      - img
+                - generic [ref=e359]:
+                  - button "List View Controls" [ref=e363] [cursor=pointer]:
+                    - img [ref=e365]
+                    - img [ref=e369]
+                    - generic [ref=e372]: List View Controls
+                  - button "Select list display" [ref=e375] [cursor=pointer]:
+                    - img [ref=e377]
+                    - img [ref=e381]
+                    - generic [ref=e384]: Select list display
+                  - generic [ref=e386]:
+                    - button "Refresh" [ref=e389] [cursor=pointer]:
+                      - img [ref=e391]
+                      - generic [ref=e394]: Refresh
+                    - button "Column sort" [ref=e397] [cursor=pointer]:
+                      - img [ref=e399]
+                      - generic [ref=e402]: Column sort
+                    - button "Inline Edit is disabled. To edit, filter by one record type." [ref=e405] [cursor=pointer]:
+                      - img [ref=e407]
+                      - generic [ref=e410]: Inline Edit is disabled. To edit, filter by one record type.
+                    - group [ref=e411]:
+                      - generic [ref=e413]:
+                        - button "Charts" [ref=e416] [cursor=pointer]:
+                          - img [ref=e418]
+                          - generic [ref=e421]: Charts
+                        - button "Filters" [ref=e424] [cursor=pointer]:
+                          - img [ref=e426]
+                          - generic [ref=e429]: Filters
+            - generic [ref=e436]:
+              - generic [ref=e437]: Navigation Mode
+              - grid [ref=e441]:
+                - rowgroup:
+                  - row "Row Number Choose a Row Select 50 items Promotion Name Name Promotion Template Promotion Start Date Promotion End Date Status Anchor Customer Sales Org Action":
+                    - columnheader "Row Number":
+                      - generic [ref=e444]:
+                        - generic "Row Number"
+                    - gridcell "Choose a Row Select 50 items":
+                      - generic [ref=e445]:
+                        - generic [ref=e446]: Choose a Row
+                        - generic [ref=e448]:
+                          - checkbox "Select 50 items" [ref=e449]
+                          - generic [ref=e452]: Select 50 items
+                    - columnheader "Promotion Name":
+                      - generic [ref=e454]:
+                        - 'button "Sort by: Promotion Name" [ref=e455] [cursor=pointer]':
+                          - generic [ref=e456]: "Sort by:"
+                          - generic "Promotion Name" [ref=e457]
+                        - generic [ref=e458]: "Sorted: None"
+                        - button "Show Promotion Name column actions" [ref=e460] [cursor=pointer]:
+                          - img [ref=e462]
+                          - generic [ref=e465]: Show Promotion Name column actions
+                        - slider "Promotion Name column width" [ref=e466]: "158"
+                    - columnheader "Name":
+                      - generic [ref=e470]:
+                        - 'button "Sort by: Name" [ref=e471] [cursor=pointer]':
+                          - generic [ref=e472]: "Sort by:"
+                          - generic "Name" [ref=e473]
+                        - generic [ref=e474]: "Sorted: None"
+                        - button "Show Name column actions" [ref=e476] [cursor=pointer]:
+                          - img [ref=e478]
+                          - generic [ref=e481]: Show Name column actions
+                        - slider "Name column width" [ref=e482]: "251"
+                    - columnheader "Promotion Template":
+                      - generic [ref=e486]:
+                        - 'button "Sort by: Promotion Template" [ref=e487] [cursor=pointer]':
+                          - generic [ref=e488]: "Sort by:"
+                          - generic "Promotion Template" [ref=e489]
+                        - generic [ref=e490]: "Sorted: None"
+                        - button "Show Promotion Template column actions" [ref=e492] [cursor=pointer]:
+                          - img [ref=e494]
+                          - generic [ref=e497]: Show Promotion Template column actions
+                        - slider "Promotion Template column width" [ref=e498]: "242"
+                    - columnheader "Promotion Start Date":
+                      - generic [ref=e502]:
+                        - 'button "Sort by: Promotion Start Date" [ref=e503] [cursor=pointer]':
+                          - generic [ref=e504]: "Sort by:"
+                          - generic "Promotion Start Date" [ref=e505]
+                          - img [ref=e507]
+                        - generic [ref=e510]: Sorted Ascending
+                        - button "Show Promotion Start Date column actions" [ref=e512] [cursor=pointer]:
+                          - img [ref=e514]
+                          - generic [ref=e517]: Show Promotion Start Date column actions
+                        - slider "Promotion Start Date column width" [ref=e518]: "99"
+                    - columnheader "Promotion End Date":
+                      - generic [ref=e522]:
+                        - 'button "Sort by: Promotion End Date" [ref=e523] [cursor=pointer]':
+                          - generic [ref=e524]: "Sort by:"
+                          - generic "Promotion End Date" [ref=e525]
+                        - generic [ref=e526]: "Sorted: None"
+                        - button "Show Promotion End Date column actions" [ref=e528] [cursor=pointer]:
+                          - img [ref=e530]
+                          - generic [ref=e533]: Show Promotion End Date column actions
+                        - slider "Promotion End Date column width" [ref=e534]: "109"
+                    - columnheader "Status":
+                      - generic [ref=e538]:
+                        - 'button "Sort by: Status" [ref=e539] [cursor=pointer]':
+                          - generic [ref=e540]: "Sort by:"
+                          - generic "Status" [ref=e541]
+                        - generic [ref=e542]: "Sorted: None"
+                        - button "Show Status column actions" [ref=e544] [cursor=pointer]:
+                          - img [ref=e546]
+                          - generic [ref=e549]: Show Status column actions
+                        - slider "Status column width" [ref=e550]: "82"
+                    - columnheader "Anchor Customer":
+                      - generic [ref=e554]:
+                        - 'button "Sort by: Anchor Customer" [ref=e555] [cursor=pointer]':
+                          - generic [ref=e556]: "Sort by:"
+                          - generic "Anchor Customer" [ref=e557]
+                        - generic [ref=e558]: "Sorted: None"
+                        - button "Show Anchor Customer column actions" [ref=e560] [cursor=pointer]:
+                          - img [ref=e562]
+                          - generic [ref=e565]: Show Anchor Customer column actions
+                        - slider "Anchor Customer column width" [ref=e566]: "142"
+                    - columnheader "Sales Org":
+                      - generic [ref=e570]:
+                        - 'button "Sort by: Sales Org" [ref=e571] [cursor=pointer]':
+                          - generic [ref=e572]: "Sort by:"
+                          - generic "Sales Org" [ref=e573]
+                        - generic [ref=e574]: "Sorted: None"
+                        - button "Show Sales Org column actions" [ref=e576] [cursor=pointer]:
+                          - img [ref=e578]
+                          - generic [ref=e581]: Show Sales Org column actions
+                        - slider "Sales Org column width" [ref=e582]: "80"
+                    - columnheader "Action":
+                      - generic [ref=e587]:
+                        - generic "Action"
+                - rowgroup [ref=e588]:
+                  - row "Select Item 1 Choose a Row P-00647538 Test Prabu IAP - Specific SKU Promotion 3/24/2026 4/12/2026 Pending Kroger US1T Show Actions" [ref=e589]:
+                    - gridcell [ref=e590]
+                    - gridcell "Select Item 1 Choose a Row" [ref=e594]:
+                      - generic [ref=e595]:
+                        - checkbox "Select Item 1 Choose a Row" [ref=e596]
+                        - generic [ref=e599]: Select Item 1
+                    - rowheader "P-00647538" [ref=e600]:
+                      - link "P-00647538" [ref=e607] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GOG5EAO/view
+                        - generic [ref=e608]: P-00647538
+                    - gridcell "Test Prabu" [ref=e609]:
+                      - generic [ref=e614]: Test Prabu
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e615]:
+                      - link "IAP - Specific SKU Promotion" [ref=e621] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e622]: IAP - Specific SKU Promotion
+                    - gridcell "3/24/2026" [ref=e623]:
+                      - generic [ref=e626]: 3/24/2026
+                    - gridcell "4/12/2026" [ref=e627]:
+                      - generic [ref=e630]: 4/12/2026
+                    - gridcell "Pending" [ref=e631]:
+                      - generic [ref=e635]: Pending
+                    - gridcell "Kroger" [ref=e636]:
+                      - link "Kroger" [ref=e642] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1IldAAF/view
+                        - generic [ref=e643]: Kroger
+                    - gridcell "US1T" [ref=e644]:
+                      - generic [ref=e649]: US1T
+                    - gridcell "Show Actions" [ref=e650]:
+                      - button "Show Actions" [ref=e656] [cursor=pointer]:
+                        - img [ref=e658]
+                        - generic [ref=e661]: Show Actions
+                  - row "Select Item 2 Choose a Row P-00647540 Test Promotion tactic fund IAP - Specific SKU Promotion 3/25/2026 4/14/2026 Pending 7-Eleven US1T Show Actions" [ref=e662]:
+                    - gridcell [ref=e663]
+                    - gridcell "Select Item 2 Choose a Row" [ref=e667]:
+                      - generic [ref=e668]:
+                        - checkbox "Select Item 2 Choose a Row" [ref=e669]
+                        - generic [ref=e672]: Select Item 2
+                    - rowheader "P-00647540" [ref=e673]:
+                      - link "P-00647540" [ref=e680] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GOuPEAW/view
+                        - generic [ref=e681]: P-00647540
+                    - gridcell "Test Promotion tactic fund" [ref=e682]:
+                      - generic [ref=e687]: Test Promotion tactic fund
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e688]:
+                      - link "IAP - Specific SKU Promotion" [ref=e694] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e695]: IAP - Specific SKU Promotion
+                    - gridcell "3/25/2026" [ref=e696]:
+                      - generic [ref=e699]: 3/25/2026
+                    - gridcell "4/14/2026" [ref=e700]:
+                      - generic [ref=e703]: 4/14/2026
+                    - gridcell "Pending" [ref=e704]:
+                      - generic [ref=e708]: Pending
+                    - gridcell "7-Eleven" [ref=e709]:
+                      - link "7-Eleven" [ref=e715] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e716]: 7-Eleven
+                    - gridcell "US1T" [ref=e717]:
+                      - generic [ref=e722]: US1T
+                    - gridcell "Show Actions" [ref=e723]:
+                      - button "Show Actions" [ref=e729] [cursor=pointer]:
+                        - img [ref=e731]
+                        - generic [ref=e734]: Show Actions
+                  - row "Select Item 3 Choose a Row P-00647548 Test_Promo_Copy_FMC IAP - Specific SKU Promotion 3/25/2026 4/13/2026 Pending 7-Eleven US1T Show Actions" [ref=e735]:
+                    - gridcell [ref=e736]
+                    - gridcell "Select Item 3 Choose a Row" [ref=e740]:
+                      - generic [ref=e741]:
+                        - checkbox "Select Item 3 Choose a Row" [ref=e742]
+                        - generic [ref=e745]: Select Item 3
+                    - rowheader "P-00647548" [ref=e746]:
+                      - link "P-00647548" [ref=e753] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GPfBEAW/view
+                        - generic [ref=e754]: P-00647548
+                    - gridcell "Test_Promo_Copy_FMC" [ref=e755]:
+                      - generic [ref=e760]: Test_Promo_Copy_FMC
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e761]:
+                      - link "IAP - Specific SKU Promotion" [ref=e767] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e768]: IAP - Specific SKU Promotion
+                    - gridcell "3/25/2026" [ref=e769]:
+                      - generic [ref=e772]: 3/25/2026
+                    - gridcell "4/13/2026" [ref=e773]:
+                      - generic [ref=e776]: 4/13/2026
+                    - gridcell "Pending" [ref=e777]:
+                      - generic [ref=e781]: Pending
+                    - gridcell "7-Eleven" [ref=e782]:
+                      - link "7-Eleven" [ref=e788] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e789]: 7-Eleven
+                    - gridcell "US1T" [ref=e790]:
+                      - generic [ref=e795]: US1T
+                    - gridcell "Show Actions" [ref=e796]:
+                      - button "Show Actions" [ref=e802] [cursor=pointer]:
+                        - img [ref=e804]
+                        - generic [ref=e807]: Show Actions
+                  - row "Select Item 4 Choose a Row P-00647541 CGT_87 IAP - Specific SKU Promotion 3/30/2026 4/19/2026 Pending 7-Eleven US1T Show Actions" [ref=e808]:
+                    - gridcell [ref=e809]
+                    - gridcell "Select Item 4 Choose a Row" [ref=e813]:
+                      - generic [ref=e814]:
+                        - checkbox "Select Item 4 Choose a Row" [ref=e815]
+                        - generic [ref=e818]: Select Item 4
+                    - rowheader "P-00647541" [ref=e819]:
+                      - link "P-00647541" [ref=e826] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GP5hEAG/view
+                        - generic [ref=e827]: P-00647541
+                    - gridcell "CGT_87" [ref=e828]:
+                      - generic [ref=e833]: CGT_87
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e834]:
+                      - link "IAP - Specific SKU Promotion" [ref=e840] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e841]: IAP - Specific SKU Promotion
+                    - gridcell "3/30/2026" [ref=e842]:
+                      - generic [ref=e845]: 3/30/2026
+                    - gridcell "4/19/2026" [ref=e846]:
+                      - generic [ref=e849]: 4/19/2026
+                    - gridcell "Pending" [ref=e850]:
+                      - generic [ref=e854]: Pending
+                    - gridcell "7-Eleven" [ref=e855]:
+                      - link "7-Eleven" [ref=e861] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e862]: 7-Eleven
+                    - gridcell "US1T" [ref=e863]:
+                      - generic [ref=e868]: US1T
+                    - gridcell "Show Actions" [ref=e869]:
+                      - button "Show Actions" [ref=e875] [cursor=pointer]:
+                        - img [ref=e877]
+                        - generic [ref=e880]: Show Actions
+                  - row "Select Item 5 Choose a Row P-00647542 Test CGT_87 IAP - Specific SKU Promotion 3/30/2026 4/19/2026 Live 7-Eleven US1T Show Actions" [ref=e881]:
+                    - gridcell [ref=e882]
+                    - gridcell "Select Item 5 Choose a Row" [ref=e886]:
+                      - generic [ref=e887]:
+                        - checkbox "Select Item 5 Choose a Row" [ref=e888]
+                        - generic [ref=e891]: Select Item 5
+                    - rowheader "P-00647542" [ref=e892]:
+                      - link "P-00647542" [ref=e899] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GP7JEAW/view
+                        - generic [ref=e900]: P-00647542
+                    - gridcell "Test CGT_87" [ref=e901]:
+                      - generic [ref=e906]: Test CGT_87
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e907]:
+                      - link "IAP - Specific SKU Promotion" [ref=e913] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e914]: IAP - Specific SKU Promotion
+                    - gridcell "3/30/2026" [ref=e915]:
+                      - generic [ref=e918]: 3/30/2026
+                    - gridcell "4/19/2026" [ref=e919]:
+                      - generic [ref=e922]: 4/19/2026
+                    - gridcell "Live" [ref=e923]:
+                      - generic [ref=e927]: Live
+                    - gridcell "7-Eleven" [ref=e928]:
+                      - link "7-Eleven" [ref=e934] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e935]: 7-Eleven
+                    - gridcell "US1T" [ref=e936]:
+                      - generic [ref=e941]: US1T
+                    - gridcell "Show Actions" [ref=e942]:
+                      - button "Show Actions" [ref=e948] [cursor=pointer]:
+                        - img [ref=e950]
+                        - generic [ref=e953]: Show Actions
+                  - row "Select Item 6 Choose a Row P-00647549 Demo Data*7-11+Winston IAP - Specific SKU Promotion 3/30/2026 6/28/2026 Active 7-Eleven US1T Show Actions" [ref=e954]:
+                    - gridcell [ref=e955]
+                    - gridcell "Select Item 6 Choose a Row" [ref=e959]:
+                      - generic [ref=e960]:
+                        - checkbox "Select Item 6 Choose a Row" [ref=e961]
+                        - generic [ref=e964]: Select Item 6
+                    - rowheader "P-00647549" [ref=e965]:
+                      - link "P-00647549" [ref=e972] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GQL7EAO/view
+                        - generic [ref=e973]: P-00647549
+                    - gridcell "Demo Data*7-11+Winston" [ref=e974]:
+                      - generic [ref=e979]: Demo Data*7-11+Winston
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e980]:
+                      - link "IAP - Specific SKU Promotion" [ref=e986] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e987]: IAP - Specific SKU Promotion
+                    - gridcell "3/30/2026" [ref=e988]:
+                      - generic [ref=e991]: 3/30/2026
+                    - gridcell "6/28/2026" [ref=e992]:
+                      - generic [ref=e995]: 6/28/2026
+                    - gridcell "Active" [ref=e996]:
+                      - generic [ref=e1000]: Active
+                    - gridcell "7-Eleven" [ref=e1001]:
+                      - link "7-Eleven" [ref=e1007] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e1008]: 7-Eleven
+                    - gridcell "US1T" [ref=e1009]:
+                      - generic [ref=e1014]: US1T
+                    - gridcell "Show Actions" [ref=e1015]:
+                      - button "Show Actions" [ref=e1021] [cursor=pointer]:
+                        - img [ref=e1023]
+                        - generic [ref=e1026]: Show Actions
+                  - row "Select Item 7 Choose a Row P-00647557 test CGT 82 IAP - Specific SKU Promotion 3/30/2026 4/19/2026 Pending All Other DOS 2 US1T Show Actions" [ref=e1027]:
+                    - gridcell [ref=e1028]
+                    - gridcell "Select Item 7 Choose a Row" [ref=e1032]:
+                      - generic [ref=e1033]:
+                        - checkbox "Select Item 7 Choose a Row" [ref=e1034]
+                        - generic [ref=e1037]: Select Item 7
+                    - rowheader "P-00647557" [ref=e1038]:
+                      - link "P-00647557" [ref=e1045] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GRDxEAO/view
+                        - generic [ref=e1046]: P-00647557
+                    - gridcell "test CGT 82" [ref=e1047]:
+                      - generic [ref=e1052]: test CGT 82
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1053]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1059] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1060]: IAP - Specific SKU Promotion
+                    - gridcell "3/30/2026" [ref=e1061]:
+                      - generic [ref=e1064]: 3/30/2026
+                    - gridcell "4/19/2026" [ref=e1065]:
+                      - generic [ref=e1068]: 4/19/2026
+                    - gridcell "Pending" [ref=e1069]:
+                      - generic [ref=e1073]: Pending
+                    - gridcell "All Other DOS 2" [ref=e1074]:
+                      - link "All Other DOS 2" [ref=e1080] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1IiPAAV/view
+                        - generic [ref=e1081]: All Other DOS 2
+                    - gridcell "US1T" [ref=e1082]:
+                      - generic [ref=e1087]: US1T
+                    - gridcell "Show Actions" [ref=e1088]:
+                      - button "Show Actions" [ref=e1094] [cursor=pointer]:
+                        - img [ref=e1096]
+                        - generic [ref=e1099]: Show Actions
+                  - row "Select Item 8 Choose a Row P-00647567 test CGT 82 IAP - Specific SKU Promotion 3/30/2026 4/19/2026 Pending All Other DOS 2 US1T Show Actions" [ref=e1100]:
+                    - gridcell [ref=e1101]
+                    - gridcell "Select Item 8 Choose a Row" [ref=e1105]:
+                      - generic [ref=e1106]:
+                        - checkbox "Select Item 8 Choose a Row" [ref=e1107]
+                        - generic [ref=e1110]: Select Item 8
+                    - rowheader "P-00647567" [ref=e1111]:
+                      - link "P-00647567" [ref=e1118] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GRYvEAO/view
+                        - generic [ref=e1119]: P-00647567
+                    - gridcell "test CGT 82" [ref=e1120]:
+                      - generic [ref=e1125]: test CGT 82
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1126]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1132] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1133]: IAP - Specific SKU Promotion
+                    - gridcell "3/30/2026" [ref=e1134]:
+                      - generic [ref=e1137]: 3/30/2026
+                    - gridcell "4/19/2026" [ref=e1138]:
+                      - generic [ref=e1141]: 4/19/2026
+                    - gridcell "Pending" [ref=e1142]:
+                      - generic [ref=e1146]: Pending
+                    - gridcell "All Other DOS 2" [ref=e1147]:
+                      - link "All Other DOS 2" [ref=e1153] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1IiPAAV/view
+                        - generic [ref=e1154]: All Other DOS 2
+                    - gridcell "US1T" [ref=e1155]:
+                      - generic [ref=e1160]: US1T
+                    - gridcell "Show Actions" [ref=e1161]:
+                      - button "Show Actions" [ref=e1167] [cursor=pointer]:
+                        - img [ref=e1169]
+                        - generic [ref=e1172]: Show Actions
+                  - row "Select Item 9 Choose a Row P-00647568 7-eleven Winston April promo IAP - Specific SKU Promotion 3/30/2026 4/19/2026 Pending 7-Eleven US1T Show Actions" [ref=e1173]:
+                    - gridcell [ref=e1174]
+                    - gridcell "Select Item 9 Choose a Row" [ref=e1178]:
+                      - generic [ref=e1179]:
+                        - checkbox "Select Item 9 Choose a Row" [ref=e1180]
+                        - generic [ref=e1183]: Select Item 9
+                    - rowheader "P-00647568" [ref=e1184]:
+                      - link "P-00647568" [ref=e1191] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GRaXEAW/view
+                        - generic [ref=e1192]: P-00647568
+                    - gridcell "7-eleven Winston April promo" [ref=e1193]:
+                      - generic [ref=e1198]: 7-eleven Winston April promo
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1199]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1205] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1206]: IAP - Specific SKU Promotion
+                    - gridcell "3/30/2026" [ref=e1207]:
+                      - generic [ref=e1210]: 3/30/2026
+                    - gridcell "4/19/2026" [ref=e1211]:
+                      - generic [ref=e1214]: 4/19/2026
+                    - gridcell "Pending" [ref=e1215]:
+                      - generic [ref=e1219]: Pending
+                    - gridcell "7-Eleven" [ref=e1220]:
+                      - link "7-Eleven" [ref=e1226] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e1227]: 7-Eleven
+                    - gridcell "US1T" [ref=e1228]:
+                      - generic [ref=e1233]: US1T
+                    - gridcell "Show Actions" [ref=e1234]:
+                      - button "Show Actions" [ref=e1240] [cursor=pointer]:
+                        - img [ref=e1242]
+                        - generic [ref=e1245]: Show Actions
+                  - row "Select Item 10 Choose a Row P-00647569 test promo from Account IAP - Specific SKU Promotion 4/6/2026 5/3/2026 Pending 7-Eleven US1T Show Actions" [ref=e1246]:
+                    - gridcell [ref=e1247]
+                    - gridcell "Select Item 10 Choose a Row" [ref=e1251]:
+                      - generic [ref=e1252]:
+                        - checkbox "Select Item 10 Choose a Row" [ref=e1253]
+                        - generic [ref=e1256]: Select Item 10
+                    - rowheader "P-00647569" [ref=e1257]:
+                      - link "P-00647569" [ref=e1264] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GRc9EAG/view
+                        - generic [ref=e1265]: P-00647569
+                    - gridcell "test promo from Account" [ref=e1266]:
+                      - generic [ref=e1271]: test promo from Account
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1272]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1278] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1279]: IAP - Specific SKU Promotion
+                    - gridcell "4/6/2026" [ref=e1280]:
+                      - generic [ref=e1283]: 4/6/2026
+                    - gridcell "5/3/2026" [ref=e1284]:
+                      - generic [ref=e1287]: 5/3/2026
+                    - gridcell "Pending" [ref=e1288]:
+                      - generic [ref=e1292]: Pending
+                    - gridcell "7-Eleven" [ref=e1293]:
+                      - link "7-Eleven" [ref=e1299] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e1300]: 7-Eleven
+                    - gridcell "US1T" [ref=e1301]:
+                      - generic [ref=e1306]: US1T
+                    - gridcell "Show Actions" [ref=e1307]:
+                      - button "Show Actions" [ref=e1313] [cursor=pointer]:
+                        - img [ref=e1315]
+                        - generic [ref=e1318]: Show Actions
+                  - row "Select Item 11 Choose a Row P-00647570 &-Eleven Winston April IAP - Specific SKU Promotion 4/6/2026 5/3/2026 Pending 7-Eleven US1T Show Actions" [ref=e1319]:
+                    - gridcell [ref=e1320]
+                    - gridcell "Select Item 11 Choose a Row" [ref=e1324]:
+                      - generic [ref=e1325]:
+                        - checkbox "Select Item 11 Choose a Row" [ref=e1326]
+                        - generic [ref=e1329]: Select Item 11
+                    - rowheader "P-00647570" [ref=e1330]:
+                      - link "P-00647570" [ref=e1337] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GSMvEAO/view
+                        - generic [ref=e1338]: P-00647570
+                    - gridcell "&-Eleven Winston April" [ref=e1339]:
+                      - generic [ref=e1344]: "&-Eleven Winston April"
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1345]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1351] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1352]: IAP - Specific SKU Promotion
+                    - gridcell "4/6/2026" [ref=e1353]:
+                      - generic [ref=e1356]: 4/6/2026
+                    - gridcell "5/3/2026" [ref=e1357]:
+                      - generic [ref=e1360]: 5/3/2026
+                    - gridcell "Pending" [ref=e1361]:
+                      - generic [ref=e1365]: Pending
+                    - gridcell "7-Eleven" [ref=e1366]:
+                      - link "7-Eleven" [ref=e1372] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e1373]: 7-Eleven
+                    - gridcell "US1T" [ref=e1374]:
+                      - generic [ref=e1379]: US1T
+                    - gridcell "Show Actions" [ref=e1380]:
+                      - button "Show Actions" [ref=e1386] [cursor=pointer]:
+                        - img [ref=e1388]
+                        - generic [ref=e1391]: Show Actions
+                  - row "Select Item 12 Choose a Row P-00647558 Test_Promo_Copied_FMC IAP - Specific SKU Promotion 5/11/2026 5/30/2026 Pending 7-Eleven US1T Show Actions" [ref=e1392]:
+                    - gridcell [ref=e1393]
+                    - gridcell "Select Item 12 Choose a Row" [ref=e1397]:
+                      - generic [ref=e1398]:
+                        - checkbox "Select Item 12 Choose a Row" [ref=e1399]
+                        - generic [ref=e1402]: Select Item 12
+                    - rowheader "P-00647558" [ref=e1403]:
+                      - link "P-00647558" [ref=e1410] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GRHBEA4/view
+                        - generic [ref=e1411]: P-00647558
+                    - gridcell "Test_Promo_Copied_FMC" [ref=e1412]:
+                      - generic [ref=e1417]: Test_Promo_Copied_FMC
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1418]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1424] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1425]: IAP - Specific SKU Promotion
+                    - gridcell "5/11/2026" [ref=e1426]:
+                      - generic [ref=e1429]: 5/11/2026
+                    - gridcell "5/30/2026" [ref=e1430]:
+                      - generic [ref=e1433]: 5/30/2026
+                    - gridcell "Pending" [ref=e1434]:
+                      - generic [ref=e1438]: Pending
+                    - gridcell "7-Eleven" [ref=e1439]:
+                      - link "7-Eleven" [ref=e1445] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e1446]: 7-Eleven
+                    - gridcell "US1T" [ref=e1447]:
+                      - generic [ref=e1452]: US1T
+                    - gridcell "Show Actions" [ref=e1453]:
+                      - button "Show Actions" [ref=e1459] [cursor=pointer]:
+                        - img [ref=e1461]
+                        - generic [ref=e1464]: Show Actions
+                  - row "Select Item 13 Choose a Row P-00647543 7-Eleven Q3 FMC IAP - Specific SKU Promotion 7/6/2026 8/30/2026 Pending 7-Eleven US1T Show Actions" [ref=e1465]:
+                    - gridcell [ref=e1466]
+                    - gridcell "Select Item 13 Choose a Row" [ref=e1470]:
+                      - generic [ref=e1471]:
+                        - checkbox "Select Item 13 Choose a Row" [ref=e1472]
+                        - generic [ref=e1475]: Select Item 13
+                    - rowheader "P-00647543" [ref=e1476]:
+                      - link "P-00647543" [ref=e1483] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GPAXEA4/view
+                        - generic [ref=e1484]: P-00647543
+                    - gridcell "7-Eleven Q3 FMC" [ref=e1485]:
+                      - generic [ref=e1490]: 7-Eleven Q3 FMC
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1491]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1497] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1498]: IAP - Specific SKU Promotion
+                    - gridcell "7/6/2026" [ref=e1499]:
+                      - generic [ref=e1502]: 7/6/2026
+                    - gridcell "8/30/2026" [ref=e1503]:
+                      - generic [ref=e1506]: 8/30/2026
+                    - gridcell "Pending" [ref=e1507]:
+                      - generic [ref=e1511]: Pending
+                    - gridcell "7-Eleven" [ref=e1512]:
+                      - link "7-Eleven" [ref=e1518] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e1519]: 7-Eleven
+                    - gridcell "US1T" [ref=e1520]:
+                      - generic [ref=e1525]: US1T
+                    - gridcell "Show Actions" [ref=e1526]:
+                      - button "Show Actions" [ref=e1532] [cursor=pointer]:
+                        - img [ref=e1534]
+                        - generic [ref=e1537]: Show Actions
+                  - row "Select Item 14 Choose a Row P-00647539 7-Eleven Q4 FMC IAP - Specific SKU Promotion 10/5/2026 11/29/2026 Active 7-Eleven US1T Show Actions" [ref=e1538]:
+                    - gridcell [ref=e1539]
+                    - gridcell "Select Item 14 Choose a Row" [ref=e1543]:
+                      - generic [ref=e1544]:
+                        - checkbox "Select Item 14 Choose a Row" [ref=e1545]
+                        - generic [ref=e1548]: Select Item 14
+                    - rowheader "P-00647539" [ref=e1549]:
+                      - link "P-00647539" [ref=e1556] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GOJJEA4/view
+                        - generic [ref=e1557]: P-00647539
+                    - gridcell "7-Eleven Q4 FMC" [ref=e1558]:
+                      - generic [ref=e1563]: 7-Eleven Q4 FMC
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1564]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1570] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1571]: IAP - Specific SKU Promotion
+                    - gridcell "10/5/2026" [ref=e1572]:
+                      - generic [ref=e1575]: 10/5/2026
+                    - gridcell "11/29/2026" [ref=e1576]:
+                      - generic [ref=e1579]: 11/29/2026
+                    - gridcell "Active" [ref=e1580]:
+                      - generic [ref=e1584]: Active
+                    - gridcell "7-Eleven" [ref=e1585]:
+                      - link "7-Eleven" [ref=e1591] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e1592]: 7-Eleven
+                    - gridcell "US1T" [ref=e1593]:
+                      - generic [ref=e1598]: US1T
+                    - gridcell "Show Actions" [ref=e1599]:
+                      - button "Show Actions" [ref=e1605] [cursor=pointer]:
+                        - img [ref=e1607]
+                        - generic [ref=e1610]: Show Actions
+                  - row "Select Item 15 Choose a Row P-00647544 7-11 Crowns Q2-27 IAP - Specific SKU Promotion 1/4/2027 4/25/2027 Active 7-Eleven US1T Show Actions" [ref=e1611]:
+                    - gridcell [ref=e1612]
+                    - gridcell "Select Item 15 Choose a Row" [ref=e1616]:
+                      - generic [ref=e1617]:
+                        - checkbox "Select Item 15 Choose a Row" [ref=e1618]
+                        - generic [ref=e1621]: Select Item 15
+                    - rowheader "P-00647544" [ref=e1622]:
+                      - link "P-00647544" [ref=e1629] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GPVVEA4/view
+                        - generic [ref=e1630]: P-00647544
+                    - gridcell "7-11 Crowns Q2-27" [ref=e1631]:
+                      - generic [ref=e1636]: 7-11 Crowns Q2-27
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1637]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1643] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1644]: IAP - Specific SKU Promotion
+                    - gridcell "1/4/2027" [ref=e1645]:
+                      - generic [ref=e1648]: 1/4/2027
+                    - gridcell "4/25/2027" [ref=e1649]:
+                      - generic [ref=e1652]: 4/25/2027
+                    - gridcell "Active" [ref=e1653]:
+                      - generic [ref=e1657]: Active
+                    - gridcell "7-Eleven" [ref=e1658]:
+                      - link "7-Eleven" [ref=e1664] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e1665]: 7-Eleven
+                    - gridcell "US1T" [ref=e1666]:
+                      - generic [ref=e1671]: US1T
+                    - gridcell "Show Actions" [ref=e1672]:
+                      - button "Show Actions" [ref=e1678] [cursor=pointer]:
+                        - img [ref=e1680]
+                        - generic [ref=e1683]: Show Actions
+                  - row "Select Item 16 Choose a Row P-00647546 Test Prabu IAP - Specific SKU Promotion 3/23/2027 4/11/2027 Pending Kroger US1T Show Actions" [ref=e1684]:
+                    - gridcell [ref=e1685]
+                    - gridcell "Select Item 16 Choose a Row" [ref=e1689]:
+                      - generic [ref=e1690]:
+                        - checkbox "Select Item 16 Choose a Row" [ref=e1691]
+                        - generic [ref=e1694]: Select Item 16
+                    - rowheader "P-00647546" [ref=e1695]:
+                      - link "P-00647546" [ref=e1702] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GPYjEAO/view
+                        - generic [ref=e1703]: P-00647546
+                    - gridcell "Test Prabu" [ref=e1704]:
+                      - generic [ref=e1709]: Test Prabu
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1710]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1716] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1717]: IAP - Specific SKU Promotion
+                    - gridcell "3/23/2027" [ref=e1718]:
+                      - generic [ref=e1721]: 3/23/2027
+                    - gridcell "4/11/2027" [ref=e1722]:
+                      - generic [ref=e1725]: 4/11/2027
+                    - gridcell "Pending" [ref=e1726]:
+                      - generic [ref=e1730]: Pending
+                    - gridcell "Kroger" [ref=e1731]:
+                      - link "Kroger" [ref=e1737] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1IldAAF/view
+                        - generic [ref=e1738]: Kroger
+                    - gridcell "US1T" [ref=e1739]:
+                      - generic [ref=e1744]: US1T
+                    - gridcell "Show Actions" [ref=e1745]:
+                      - button "Show Actions" [ref=e1751] [cursor=pointer]:
+                        - img [ref=e1753]
+                        - generic [ref=e1756]: Show Actions
+                  - row "Select Item 17 Choose a Row P-00647592 Test Prabu IAP - Specific SKU Promotion 3/23/2027 4/11/2027 Pending Kroger US1T Show Actions" [ref=e1757]:
+                    - gridcell [ref=e1758]
+                    - gridcell "Select Item 17 Choose a Row" [ref=e1762]:
+                      - generic [ref=e1763]:
+                        - checkbox "Select Item 17 Choose a Row" [ref=e1764]
+                        - generic [ref=e1767]: Select Item 17
+                    - rowheader "P-00647592" [ref=e1768]:
+                      - link "P-00647592" [ref=e1775] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GUF3EAO/view
+                        - generic [ref=e1776]: P-00647592
+                    - gridcell "Test Prabu" [ref=e1777]:
+                      - generic [ref=e1782]: Test Prabu
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e1783]:
+                      - link "IAP - Specific SKU Promotion" [ref=e1789] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e1790]: IAP - Specific SKU Promotion
+                    - gridcell "3/23/2027" [ref=e1791]:
+                      - generic [ref=e1794]: 3/23/2027
+                    - gridcell "4/11/2027" [ref=e1795]:
+                      - generic [ref=e1798]: 4/11/2027
+                    - gridcell "Pending" [ref=e1799]:
+                      - generic [ref=e1803]: Pending
+                    - gridcell "Kroger" [ref=e1804]:
+                      - link "Kroger" [ref=e1810] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1IldAAF/view
+                        - generic [ref=e1811]: Kroger
+                    - gridcell "US1T" [ref=e1812]:
+                      - generic [ref=e1817]: US1T
+                    - gridcell "Show Actions" [ref=e1818]:
+                      - button "Show Actions" [ref=e1824] [cursor=pointer]:
+                        - img [ref=e1826]
+                        - generic [ref=e1829]: Show Actions
+        - text: Loading report chart... Loading report chart... Loading report chart...
+  - generic:
+    - status
+```

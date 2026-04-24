@@ -1,0 +1,1 @@
+✔ Test success: Open Advanced Promotion tab and select All Promotions

@@ -1,0 +1,1 @@
+❌ Test failed: Refresh the Products list and verify it reloads

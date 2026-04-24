@@ -1,0 +1,97 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e6]:
+          - button [ref=e12]:
+            - img [ref=e14]
+            - text: Search...
+          - navigation [ref=e17]:
+            - list [ref=e18]:
+              - listitem [ref=e19]
+      - generic [ref=e23]:
+        - generic [ref=e26]:
+          - generic [ref=e28]:
+            - navigation [ref=e29]:
+              - button [ref=e31] [cursor=pointer]:
+                - generic [ref=e42]: App Launcher
+            - heading [level=1] [ref=e43]:
+              - generic [ref=e44]: ITGB TPM
+          - navigation [ref=e47]:
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - link [ref=e50] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e51]: Home
+              - listitem [ref=e52]:
+                - link [ref=e53] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e54]: Accounts
+                - button [ref=e58] [cursor=pointer]:
+                  - img [ref=e62]
+                  - generic [ref=e65]: Accounts List
+              - listitem [ref=e66]:
+                - link [ref=e67] [cursor=pointer]:
+                  - /url: /lightning/o/Product2/home
+                  - generic [ref=e68]: Products
+                - button [ref=e72] [cursor=pointer]:
+                  - img [ref=e76]
+                  - generic [ref=e79]: Products List
+              - listitem [ref=e80]:
+                - link [ref=e81] [cursor=pointer]:
+                  - /url: /lightning/n/cgcloud__Trade_Planning
+                  - generic [ref=e82]: Trade Planning
+              - listitem [ref=e83]:
+                - link [ref=e84] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                  - generic [ref=e85]: Customer Business Plans
+                - button [ref=e89] [cursor=pointer]:
+                  - img [ref=e93]
+                  - generic [ref=e96]: Customer Business Plans List
+              - listitem [ref=e97]:
+                - link [ref=e98] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Promotion__c/home
+                  - generic [ref=e99]: Advanced Promotions
+                - button [ref=e103] [cursor=pointer]:
+                  - img [ref=e107]
+                  - generic [ref=e110]: Advanced Promotions List
+              - listitem [ref=e111]:
+                - link [ref=e112] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Fund__c/home
+                  - generic [ref=e113]: Funds
+                - button [ref=e117] [cursor=pointer]:
+                  - img [ref=e121]
+                  - generic [ref=e124]: Funds List
+              - listitem [ref=e125]:
+                - link [ref=e126] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                  - generic [ref=e127]: Multi-Fund Transactions
+                - button [ref=e131] [cursor=pointer]:
+                  - img [ref=e135]
+                  - generic [ref=e138]: Multi-Fund Transactions List
+              - listitem [ref=e139]:
+                - button [ref=e141] [cursor=pointer]:
+                  - img [ref=e143]
+                  - generic [ref=e146]: Edit nav items
+        - main [ref=e148]
+    - dialog "Your session has ended" [ref=e155]:
+      - generic [ref=e156]:
+        - heading "Your session has ended" [active] [level=1] [ref=e158]
+        - generic [ref=e159]:
+          - text: We're sorry to report that something has happened to your session. Log in again, or return to the page to copy any unsaved text.
+          - status [ref=e160]
+        - generic [ref=e161]:
+          - button "Return to Page" [ref=e162] [cursor=pointer]
+          - button "Log In" [ref=e163] [cursor=pointer]
+  - generic:
+    - status
+```

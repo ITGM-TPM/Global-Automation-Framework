@@ -1,0 +1,50 @@
+Error navigating to Trade Calendar: page.waitForEvent: Timeout 30000ms exceeded while waiting for event "frameattached"
+=========================== logs ===========================
+waiting for event "frameattached"
+============================================================
+    at TradePlanningPage.gotoTradeCalendar (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\src\page-objects\TradePlanningPage.ts:96:44)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:47:13
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:45:5 {
+  name: 'TimeoutError',
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts',
+      line: 96,
+      column: 44,
+      function: 'TradePlanningPage.gotoTradeCalendar'
+    },
+    category: 'pw:api',
+    title: 'Wait for event "frameattached"',
+    apiName: 'page.waitForEvent',
+    params: { info: [Object] },
+    group: undefined,
+    stepId: 'pw:api@57',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@57',
+      _title: 'Wait for event "frameattached"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1775767831372,
+    error: {
+      message: 'TimeoutError: page.waitForEvent: Timeout 30000ms exceeded while waiting for event "frameattached"\n' +
+        '=========================== logs ===========================\n' +
+        'waiting for event "frameattached"\n' +
+        '============================================================',
+      stack: 'TimeoutError: page.waitForEvent: Timeout 30000ms exceeded while waiting for event "frameattached"\n' +
+        '=========================== logs ===========================\n' +
+        'waiting for event "frameattached"\n' +
+        '============================================================\n' +
+        '    at TradePlanningPage.gotoTradeCalendar (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts:96:44)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:47:13\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:45:5',
+      cause: undefined
+    }
+  }
+}

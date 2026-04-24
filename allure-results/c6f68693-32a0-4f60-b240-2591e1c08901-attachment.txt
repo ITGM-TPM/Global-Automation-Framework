@@ -1,0 +1,1 @@
+✔ Test success: Open ITGB TPM app and verify Advanced Promotion view

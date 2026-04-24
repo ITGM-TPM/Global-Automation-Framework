@@ -1,0 +1,1 @@
+❌ Test failed: Open Products tab and select All Products

@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e8]:
+        - img [ref=e12]
+        - generic [ref=e15]: "Logged in as Test Sales Planner (testsp@ib.com) | Sandbox: ETQA |"
+        - link "Log out as Test Sales Planner" [ref=e16] [cursor=pointer]:
+          - /url: /secur/logout.jsp
+      - generic [ref=e17]:
+        - button "Search" [ref=e23]:
+          - img [ref=e25]
+          - text: Search...
+        - navigation "Global Header" [ref=e28]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - group [ref=e32]:
+                - button "This item doesn't support favorites" [ref=e34] [cursor=pointer]:
+                  - generic [ref=e35]:
+                    - img [ref=e39]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [ref=e43] [cursor=pointer]:
+                  - generic [ref=e44]:
+                    - img [ref=e48]
+                    - tooltip "Favorites list"
+            - listitem [ref=e51]:
+              - button "Global Actions" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]:
+                  - img [ref=e62]
+                  - tooltip "Global Actions"
+            - listitem [ref=e65]:
+              - button "Guidance Center" [ref=e67] [cursor=pointer]:
+                - generic [ref=e68]:
+                  - img [ref=e72]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e75]:
+              - button "Salesforce Help" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]:
+                  - img [ref=e83]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e86]:
+              - button "Setup" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Setup"
+            - listitem [ref=e100]:
+              - button "Notifications" [ref=e103] [cursor=pointer]:
+                - generic [ref=e104]:
+                  - img [ref=e109]
+                  - tooltip "Notifications"
+            - listitem [ref=e113]:
+              - button "View profile" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]:
+                  - tooltip "View profile"
+    - generic [ref=e121]:
+      - generic [ref=e124]:
+        - generic [ref=e126]:
+          - navigation "App" [ref=e127]:
+            - button "App Launcher" [ref=e129] [cursor=pointer]:
+              - generic [ref=e140]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e141]:
+            - generic "ITGB TPM" [ref=e142]
+        - navigation "Global" [ref=e145]:
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "Home" [ref=e148] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e149]: Home
+            - listitem [ref=e150]:
+              - link "Accounts" [ref=e151] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e152]: Accounts
+              - button "Accounts List" [ref=e156] [cursor=pointer]:
+                - img [ref=e160]
+                - generic [ref=e163]: Accounts List
+            - listitem [ref=e164]:
+              - link "Products" [ref=e165] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e166]: Products
+              - button "Products List" [ref=e170] [cursor=pointer]:
+                - img [ref=e174]
+                - generic [ref=e177]: Products List
+            - listitem [ref=e178]:
+              - link "Trade Planning" [ref=e179] [cursor=pointer]:
+                - /url: /lightning/n/cgcloud__Trade_Planning
+                - generic [ref=e180]: Trade Planning
+            - listitem [ref=e181]:
+              - link "Customer Business Plans" [ref=e182] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e183]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e187] [cursor=pointer]:
+                - img [ref=e191]
+                - generic [ref=e194]: Customer Business Plans List
+            - listitem [ref=e195]:
+              - link "Advanced Promotions" [ref=e196] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e197]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e201] [cursor=pointer]:
+                - img [ref=e205]
+                - generic [ref=e208]: Advanced Promotions List
+            - listitem [ref=e209]:
+              - link "Funds" [ref=e210] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e211]: Funds
+              - button "Funds List" [ref=e215] [cursor=pointer]:
+                - img [ref=e219]
+                - generic [ref=e222]: Funds List
+            - listitem [ref=e223]:
+              - button "Edit nav items" [ref=e225] [cursor=pointer]:
+                - img [ref=e227]
+                - generic [ref=e230]: Edit nav items
+      - main [ref=e232]:
+        - generic [active] [ref=e236]:
+          - text: Loading report chart... Loading report chart... Loading report chart...
+          - dialog "New TPM Promotion" [ref=e238]:
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - heading "New TPM Promotion" [level=2] [ref=e241]
+                - button "Close" [ref=e242] [cursor=pointer]:
+                  - img
+                  - generic [ref=e243]: Close
+              - generic [ref=e246]:
+                - alert
+  - generic:
+    - status
+```

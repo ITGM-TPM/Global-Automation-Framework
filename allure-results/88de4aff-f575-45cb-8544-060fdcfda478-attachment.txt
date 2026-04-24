@@ -1,0 +1,2 @@
+Promotion found in search results
+✔ Test success: Search for a promotion and verify results

@@ -1,0 +1,2 @@
+Product NOT found in search results
+✔ Test success: Search for a product and verify results

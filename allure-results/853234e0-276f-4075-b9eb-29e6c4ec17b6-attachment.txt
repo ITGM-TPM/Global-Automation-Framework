@@ -1,0 +1,2 @@
+Promotion found in search results
+❌ Test failed: ITGB Advanced Promotions - End to End

@@ -1,0 +1,15 @@
+[Fixture] ITGB TPM App launched successfully.
+➡️ Step: Open Advanced Promotions tab
+✅ Completed: Open Advanced Promotions tab
+➡️ Step: Select All Promotions
+✅ Completed: Select All Promotions
+➡️ Step: Verify column headers
+✅ Completed: Verify column headers
+➡️ Step: Search promotion
+❌ Promotion NOT found
+➡️ Step: Login as Test Sales Planner
+✅ Completed: Login
+➡️ Step: Create TPM Promotion
+📌 Promotion Name: Test_0656
+📅 Start Date: 4/27/2026
+❌ Test failed: ITGB Advanced Promotions - End to End

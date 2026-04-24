@@ -1,0 +1,53 @@
+Error navigating to Trade Calendar: locator.click: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('input[name="login"]').first()
+
+    at TradePlanningPage.gotoTradeCalendar (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\src\page-objects\TradePlanningPage.ts:90:37)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:47:13
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:45:5 {
+  name: 'TimeoutError',
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts',
+      line: 90,
+      column: 37,
+      function: 'TradePlanningPage.gotoTradeCalendar'
+    },
+    category: 'pw:api',
+    title: `Click locator('input[name="login"]').first()`,
+    apiName: 'locator.click',
+    params: {
+      selector: 'input[name="login"] >> nth=0',
+      strict: true,
+      timeout: 20000
+    },
+    group: undefined,
+    stepId: 'pw:api@58',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@58',
+      _title: `Click locator('input[name="login"]').first()`,
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1775765177769,
+    error: {
+      message: 'TimeoutError: locator.click: Timeout 20000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('input[name="login"]').first()\x1B[22m\n`,
+      stack: 'TimeoutError: locator.click: Timeout 20000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('input[name="login"]').first()\x1B[22m\n` +
+        '\n' +
+        '    at TradePlanningPage.gotoTradeCalendar (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts:90:37)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:47:13\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:45:5',
+      cause: undefined
+    }
+  }
+}

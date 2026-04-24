@@ -1,0 +1,1 @@
+❌ Test failed: Select All Promotions and verify columns and fields

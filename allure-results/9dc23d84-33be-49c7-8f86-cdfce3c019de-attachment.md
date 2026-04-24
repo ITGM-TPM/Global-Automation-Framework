@@ -1,0 +1,401 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (ETQA)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Global Actions"
+            - listitem [ref=e100]:
+              - button "Guidance Center" [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]:
+                  - img [ref=e107]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e110]:
+              - button "Salesforce Help" [ref=e113] [cursor=pointer]:
+                - generic [ref=e114]:
+                  - img [ref=e118]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e121]:
+              - button "Setup" [ref=e127] [cursor=pointer]:
+                - generic [ref=e128]:
+                  - img [ref=e132]
+                  - tooltip "Setup"
+            - listitem [ref=e135]:
+              - button "Notifications" [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - img [ref=e144]
+                  - tooltip "Notifications"
+            - listitem [ref=e148]:
+              - button "View profile" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - tooltip "View profile"
+    - generic [ref=e156]:
+      - generic [ref=e159]:
+        - generic [ref=e161]:
+          - navigation "App" [ref=e162]:
+            - button "App Launcher" [ref=e164] [cursor=pointer]:
+              - generic [ref=e175]: App Launcher
+          - heading "ITGB TPM" [level=1] [ref=e176]:
+            - generic "ITGB TPM" [ref=e177]
+        - navigation "Global" [ref=e180]:
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Home" [ref=e183] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e184]: Home
+            - listitem [ref=e185]:
+              - link "Accounts" [ref=e186] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e187]: Accounts
+              - button "Accounts List" [ref=e191] [cursor=pointer]:
+                - img [ref=e195]
+                - generic [ref=e198]: Accounts List
+            - listitem [ref=e199]:
+              - link "Products" [ref=e200] [cursor=pointer]:
+                - /url: /lightning/o/Product2/home
+                - generic [ref=e201]: Products
+              - button "Products List" [ref=e205] [cursor=pointer]:
+                - img [ref=e209]
+                - generic [ref=e212]: Products List
+            - listitem [ref=e213]:
+              - link "Trade Planning" [ref=e214] [cursor=pointer]:
+                - /url: /lightning/n/cgcloud__Trade_Planning
+                - generic [ref=e215]: Trade Planning
+            - listitem [ref=e216]:
+              - link "Customer Business Plans" [ref=e217] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                - generic [ref=e218]: Customer Business Plans
+              - button "Customer Business Plans List" [ref=e222] [cursor=pointer]:
+                - img [ref=e226]
+                - generic [ref=e229]: Customer Business Plans List
+            - listitem [ref=e230] [cursor=pointer]:
+              - link "Advanced Promotions" [ref=e231]:
+                - /url: /lightning/o/cgcloud__Promotion__c/home
+                - generic [ref=e232]: Advanced Promotions
+              - button "Advanced Promotions List" [ref=e236]:
+                - img [ref=e240]
+                - generic [ref=e243]: Advanced Promotions List
+            - listitem [ref=e244]:
+              - link "Funds" [ref=e245] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund__c/home
+                - generic [ref=e246]: Funds
+              - button "Funds List" [ref=e250] [cursor=pointer]:
+                - img [ref=e254]
+                - generic [ref=e257]: Funds List
+            - listitem [ref=e258]:
+              - link "Multi-Fund Transactions" [ref=e259] [cursor=pointer]:
+                - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                - generic [ref=e260]: Multi-Fund Transactions
+              - button "Multi-Fund Transactions List" [ref=e264] [cursor=pointer]:
+                - img [ref=e268]
+                - generic [ref=e271]: Multi-Fund Transactions List
+            - listitem [ref=e272]:
+              - button "Edit nav items" [ref=e274] [cursor=pointer]:
+                - img [ref=e276]
+                - generic [ref=e279]: Edit nav items
+      - generic [ref=e280]:
+        - main [ref=e281]:
+          - generic [ref=e291]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - generic [ref=e296]:
+                  - img [ref=e300]
+                  - generic [ref=e301]:
+                    - heading "Advanced Promotions" [level=1] [ref=e305]
+                    - generic [ref=e306]:
+                      - generic [ref=e307]:
+                        - generic [ref=e308] [cursor=pointer]:
+                          - heading "Advanced Promotions Recently Viewed" [level=1] [ref=e309]:
+                            - generic [ref=e310]: Advanced Promotions
+                            - generic [ref=e311]: Recently Viewed
+                          - 'button "Select a List View: Advanced Promotions" [ref=e314]':
+                            - generic [ref=e315]:
+                              - img
+                            - generic [ref=e316]: "Select a List View: Advanced Promotions"
+                        - dialog [ref=e317]:
+                          - generic [ref=e325]:
+                            - generic [ref=e326]: Search lists...
+                            - generic [ref=e331]:
+                              - combobox "Search lists..." [expanded] [active] [ref=e334]
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - listbox "Search lists..." [ref=e335]:
+                                - group "Recent List Views" [ref=e336]:
+                                  - text: Recent List Views
+                                  - option "All" [ref=e337]:
+                                    - generic "All" [ref=e339]
+                                  - option "Recently Viewed (Pinned list)" [checked] [selected] [ref=e340]:
+                                    - img [ref=e345]
+                                    - generic "Recently Viewed (Pinned list)" [ref=e349]
+                                - group "All Other Lists" [ref=e350]:
+                                  - text: All Other Lists
+                                  - option "Buydown - Active" [ref=e351]:
+                                    - generic "Buydown - Active" [ref=e353]
+                                  - option "Price Promotion Programs" [ref=e354]:
+                                    - generic "Price Promotion Programs" [ref=e356]
+                                  - option "Price Promotions" [ref=e357]:
+                                    - generic "Price Promotions" [ref=e359]
+                                  - option "Product Promotion Programs" [ref=e360]:
+                                    - generic "Product Promotion Programs" [ref=e362]
+                                  - option "Product Promotions" [ref=e363]:
+                                    - generic "Product Promotions" [ref=e365]
+                                  - option "Promotion Programs" [ref=e366]:
+                                    - generic "Promotion Programs" [ref=e368]
+                                  - option "RGM Director Users - Queue" [ref=e369]:
+                                    - generic "RGM Director Users - Queue" [ref=e371]
+                                  - option "RGM Users - Queue" [ref=e372]:
+                                    - generic "RGM Users - Queue" [ref=e374]
+                                  - option "SMP Promotions" [ref=e375]:
+                                    - generic "SMP Promotions" [ref=e377]
+                                  - option "TPM Promotions" [ref=e378]:
+                                    - generic "TPM Promotions" [ref=e380]
+                            - status
+                      - button "This list is pinned." [disabled] [ref=e384] [cursor=pointer]:
+                        - img [ref=e386]
+                        - generic [ref=e389]: This list is pinned.
+                - list [ref=e392]:
+                  - listitem [ref=e393]:
+                    - button "Assign Label" [ref=e394] [cursor=pointer]:
+                      - generic "Assign Label" [ref=e395]
+                  - listitem [ref=e396]:
+                    - button "New TPM Promotion" [ref=e397] [cursor=pointer]:
+                      - generic "New TPM Promotion" [ref=e398]
+                  - listitem [ref=e399]:
+                    - button "Derive" [ref=e400] [cursor=pointer]:
+                      - generic "Derive" [ref=e401]
+                  - listitem [ref=e402]:
+                    - button "Copy Promotions" [ref=e403] [cursor=pointer]:
+                      - generic "Copy Promotions" [ref=e404]
+                  - listitem [ref=e405]:
+                    - button "Copy" [ref=e406] [cursor=pointer]:
+                      - generic "Copy" [ref=e407]
+              - generic [ref=e408]:
+                - paragraph [ref=e410]:
+                  - generic [ref=e412]:
+                    - status "Recently Viewed" [ref=e413]: 1 item •
+                    - text: Updated a few seconds ago
+                - generic [ref=e419]:
+                  - generic [ref=e420]: Search this list...
+                  - generic [ref=e421]:
+                    - searchbox "Search this list..." [ref=e422]
+                    - generic:
+                      - img
+                - generic [ref=e423]:
+                  - button "List View Controls" [ref=e427] [cursor=pointer]:
+                    - img [ref=e429]
+                    - img [ref=e433]
+                    - generic [ref=e436]: List View Controls
+                  - button "Select list display" [ref=e439] [cursor=pointer]:
+                    - img [ref=e441]
+                    - img [ref=e445]
+                    - generic [ref=e448]: Select list display
+                  - generic [ref=e450]:
+                    - button "Refresh" [ref=e453] [cursor=pointer]:
+                      - img [ref=e455]
+                      - generic [ref=e458]: Refresh
+                    - button "Column sort" [ref=e461] [cursor=pointer]:
+                      - img [ref=e463]
+                      - generic [ref=e466]: Column sort
+                    - button "Inline Edit is disabled. To edit, filter by one record type." [ref=e469] [cursor=pointer]:
+                      - img [ref=e471]
+                      - generic [ref=e474]: Inline Edit is disabled. To edit, filter by one record type.
+                    - group [ref=e475]:
+                      - generic [ref=e477]:
+                        - generic:
+                          - generic:
+                            - button "Charts" [disabled]:
+                              - generic:
+                                - img
+                              - generic: Charts
+                        - generic:
+                          - generic:
+                            - button "Filters" [disabled]:
+                              - generic:
+                                - img
+                              - generic: Filters
+            - generic [ref=e484]:
+              - generic [ref=e485]: Navigation Mode
+              - grid [ref=e489]:
+                - rowgroup:
+                  - row "Row Number Choose a Row Select 1 item Promotion Name Name Promotion Template Promotion Start Date Promotion End Date Status Anchor Customer Record Type Sales Org Action":
+                    - columnheader "Row Number":
+                      - generic [ref=e492]:
+                        - generic "Row Number"
+                    - gridcell "Choose a Row Select 1 item":
+                      - generic [ref=e493]:
+                        - generic [ref=e494]: Choose a Row
+                        - generic [ref=e496]:
+                          - checkbox "Select 1 item" [ref=e497]
+                          - generic [ref=e500]: Select 1 item
+                    - columnheader "Promotion Name":
+                      - generic [ref=e502]:
+                        - 'button "Sort by: Promotion Name" [ref=e503] [cursor=pointer]':
+                          - generic [ref=e504]: "Sort by:"
+                          - generic "Promotion Name" [ref=e505]
+                        - generic [ref=e506]: "Sorted: None"
+                        - button "Show Promotion Name column actions" [ref=e508] [cursor=pointer]:
+                          - img [ref=e510]
+                          - generic [ref=e513]: Show Promotion Name column actions
+                        - slider "Promotion Name column width" [ref=e514]: "110"
+                    - columnheader "Name":
+                      - generic [ref=e518]:
+                        - 'button "Sort by: Name" [ref=e519] [cursor=pointer]':
+                          - generic [ref=e520]: "Sort by:"
+                          - generic "Name" [ref=e521]
+                        - generic [ref=e522]: "Sorted: None"
+                        - button "Show Name column actions" [ref=e524] [cursor=pointer]:
+                          - img [ref=e526]
+                          - generic [ref=e529]: Show Name column actions
+                        - slider "Name column width" [ref=e530]: "220"
+                    - columnheader "Promotion Template":
+                      - generic [ref=e534]:
+                        - 'button "Sort by: Promotion Template" [ref=e535] [cursor=pointer]':
+                          - generic [ref=e536]: "Sort by:"
+                          - generic "Promotion Template" [ref=e537]
+                        - generic [ref=e538]: "Sorted: None"
+                        - button "Show Promotion Template column actions" [ref=e540] [cursor=pointer]:
+                          - img [ref=e542]
+                          - generic [ref=e545]: Show Promotion Template column actions
+                        - slider "Promotion Template column width" [ref=e546]: "241"
+                    - columnheader "Promotion Start Date":
+                      - generic [ref=e550]:
+                        - 'button "Sort by: Promotion Start Date" [ref=e551] [cursor=pointer]':
+                          - generic [ref=e552]: "Sort by:"
+                          - generic "Promotion Start Date" [ref=e553]
+                        - generic [ref=e554]: "Sorted: None"
+                        - button "Show Promotion Start Date column actions" [ref=e556] [cursor=pointer]:
+                          - img [ref=e558]
+                          - generic [ref=e561]: Show Promotion Start Date column actions
+                        - slider "Promotion Start Date column width" [ref=e562]: "98"
+                    - columnheader "Promotion End Date":
+                      - generic [ref=e566]:
+                        - 'button "Sort by: Promotion End Date" [ref=e567] [cursor=pointer]':
+                          - generic [ref=e568]: "Sort by:"
+                          - generic "Promotion End Date" [ref=e569]
+                        - generic [ref=e570]: "Sorted: None"
+                        - button "Show Promotion End Date column actions" [ref=e572] [cursor=pointer]:
+                          - img [ref=e574]
+                          - generic [ref=e577]: Show Promotion End Date column actions
+                        - slider "Promotion End Date column width" [ref=e578]: "98"
+                    - columnheader "Status":
+                      - generic [ref=e582]:
+                        - 'button "Sort by: Status" [ref=e583] [cursor=pointer]':
+                          - generic [ref=e584]: "Sort by:"
+                          - generic "Status" [ref=e585]
+                        - generic [ref=e586]: "Sorted: None"
+                        - button "Show Status column actions" [ref=e588] [cursor=pointer]:
+                          - img [ref=e590]
+                          - generic [ref=e593]: Show Status column actions
+                        - slider "Status column width" [ref=e594]: "81"
+                    - columnheader "Anchor Customer":
+                      - generic [ref=e598]:
+                        - 'button "Sort by: Anchor Customer" [ref=e599] [cursor=pointer]':
+                          - generic [ref=e600]: "Sort by:"
+                          - generic "Anchor Customer" [ref=e601]
+                        - generic [ref=e602]: "Sorted: None"
+                        - button "Show Anchor Customer column actions" [ref=e604] [cursor=pointer]:
+                          - img [ref=e606]
+                          - generic [ref=e609]: Show Anchor Customer column actions
+                        - slider "Anchor Customer column width" [ref=e610]: "84"
+                    - columnheader "Record Type":
+                      - generic [ref=e614]:
+                        - 'button "Sort by: Record Type" [ref=e615] [cursor=pointer]':
+                          - generic [ref=e616]: "Sort by:"
+                          - generic "Record Type" [ref=e617]
+                        - generic [ref=e618]: "Sorted: None"
+                        - button "Show Record Type column actions" [ref=e620] [cursor=pointer]:
+                          - img [ref=e622]
+                          - generic [ref=e625]: Show Record Type column actions
+                        - slider "Record Type column width" [ref=e626]: "100"
+                    - columnheader "Sales Org":
+                      - generic [ref=e630]:
+                        - 'button "Sort by: Sales Org" [ref=e631] [cursor=pointer]':
+                          - generic [ref=e632]: "Sort by:"
+                          - generic "Sales Org" [ref=e633]
+                        - generic [ref=e634]: "Sorted: None"
+                        - button "Show Sales Org column actions" [ref=e636] [cursor=pointer]:
+                          - img [ref=e638]
+                          - generic [ref=e641]: Show Sales Org column actions
+                        - slider "Sales Org column width" [ref=e642]: "81"
+                    - columnheader "Action":
+                      - generic [ref=e647]:
+                        - generic "Action"
+                - rowgroup [ref=e648]:
+                  - row "Select Item 1 Choose a Row P-00647563 Test Promotion tactic fund IAP - Specific SKU Promotion 3/24/2027 4/13/2027 Pending 7-Eleven Promotion US1T Show Actions" [ref=e649]:
+                    - gridcell [ref=e650]
+                    - gridcell "Select Item 1 Choose a Row" [ref=e654]:
+                      - generic [ref=e655]:
+                        - checkbox "Select Item 1 Choose a Row" [ref=e656]
+                        - generic [ref=e659]: Select Item 1
+                    - rowheader "P-00647563" [ref=e660]:
+                      - link "P-00647563" [ref=e667] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GRPFEA4/view
+                        - generic [ref=e668]: P-00647563
+                    - gridcell "Test Promotion tactic fund" [ref=e669]:
+                      - generic [ref=e674]: Test Promotion tactic fund
+                    - gridcell "IAP - Specific SKU Promotion" [ref=e675]:
+                      - link "IAP - Specific SKU Promotion" [ref=e681] [cursor=pointer]:
+                        - /url: /lightning/r/a2Vca000000M7XVEA0/view
+                        - generic [ref=e682]: IAP - Specific SKU Promotion
+                    - gridcell "3/24/2027" [ref=e683]:
+                      - generic [ref=e686]: 3/24/2027
+                    - gridcell "4/13/2027" [ref=e687]:
+                      - generic [ref=e690]: 4/13/2027
+                    - gridcell "Pending" [ref=e691]:
+                      - generic [ref=e695]: Pending
+                    - gridcell "7-Eleven" [ref=e696]:
+                      - link "7-Eleven" [ref=e702] [cursor=pointer]:
+                        - /url: /lightning/r/001ca00000N1FuFAAV/view
+                        - generic [ref=e703]: 7-Eleven
+                    - gridcell "Promotion" [ref=e704]:
+                      - link "Promotion" [ref=e710] [cursor=pointer]:
+                        - /url: /lightning/r/a2Wca000000GRPFEA4/view
+                        - generic [ref=e711]: Promotion
+                    - gridcell "US1T" [ref=e712]:
+                      - generic [ref=e717]: US1T
+                    - gridcell "Show Actions" [ref=e718]:
+                      - button "Show Actions" [ref=e724] [cursor=pointer]:
+                        - img [ref=e726]
+                        - generic [ref=e729]: Show Actions
+        - text: Loading report chart... Loading report chart... Loading report chart...
+  - generic:
+    - status
+```

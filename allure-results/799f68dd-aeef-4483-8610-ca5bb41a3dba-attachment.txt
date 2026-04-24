@@ -1,0 +1,13 @@
+[TradePlanningPage] Global search for "Test Sales Planner".
+[TradePlanningPage] Clicked "User Detail".
+[TradePlanningPage] Navigated to Trade Planning.
+[TradePlanningPage] Available slot — account: "&-Eleven Winston April", x=425, y=253
+[TradePlanningPage] Dragging (425, 253) → (575, 253)
+[TradePlanningPage] Drag completed.
+[TradePlanningPage] Promotion modal is visible.
+[TradePlanningPage] Field "Name" has value: "&-Eleven Winston April"
+[TradePlanningPage] Field "In-Store Date From" has value: "&-Eleven Winston April"
+Auto-populated dates — start: 4/26/2026
+Promotion Name used: Automation Test E2E Automation Test Promotion 3997
+[TradePlanningPage] Save clicked.
+[TradePlanningPage] Confirmed saved start date: 4/26/2026

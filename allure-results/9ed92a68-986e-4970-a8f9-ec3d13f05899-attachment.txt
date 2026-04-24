@@ -1,0 +1,9 @@
+[Fixture] ITGB TPM App launched successfully.
+[verifySystemViews] Dropdown opened.
+[verifySystemViews] ✅ Verified view: "01. My Active Accounts"
+[verifySystemViews] ✅ Verified view: "02. My Team Accounts"
+[verifySystemViews] ✅ Verified view: "03. My Inactive Accounts"
+[verifySystemViews] ✅ Verified view: "13. All Accounts"
+[verifySystemViews] ✅ Verified view: "All Accounts"
+[verifySystemViews] Dropdown closed.
+[viewSelection] Dropdown opened.

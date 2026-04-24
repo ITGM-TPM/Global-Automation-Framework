@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button [ref=e17] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Menu
+            - generic [ref=e29]:
+              - img [ref=e33]
+              - generic [ref=e37]: Sandbox (ETQA)
+          - button [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+            - generic [ref=e51]: Show menu
+        - generic [ref=e52]:
+          - button [ref=e58]:
+            - img [ref=e60]
+            - text: Search...
+          - navigation [ref=e63]:
+            - list [ref=e65]:
+              - listitem [ref=e66]:
+                - group [ref=e67]:
+                  - button [ref=e69] [cursor=pointer]:
+                    - img [ref=e74]
+                  - button [ref=e78] [cursor=pointer]:
+                    - img [ref=e83]
+              - listitem [ref=e86]:
+                - button [ref=e92] [cursor=pointer]:
+                  - img [ref=e97]
+              - listitem [ref=e100]:
+                - button [ref=e102] [cursor=pointer]:
+                  - img [ref=e107]
+              - listitem [ref=e110]:
+                - button [ref=e113] [cursor=pointer]:
+                  - img [ref=e118]
+              - listitem [ref=e121]:
+                - button [ref=e127] [cursor=pointer]:
+                  - img [ref=e132]
+              - listitem [ref=e135]:
+                - button [ref=e138] [cursor=pointer]:
+                  - img [ref=e144]
+              - listitem [ref=e148]:
+                - button [ref=e151] [cursor=pointer]
+      - generic [ref=e156]:
+        - generic [ref=e159]:
+          - generic [ref=e161]:
+            - navigation [ref=e162]:
+              - button [ref=e164] [cursor=pointer]:
+                - generic [ref=e175]: App Launcher
+            - heading [level=1] [ref=e176]:
+              - generic [ref=e177]: ITGB TPM
+          - navigation [ref=e180]:
+            - list [ref=e181]:
+              - listitem [ref=e182]:
+                - link [ref=e183] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e184]: Home
+              - listitem [ref=e185]:
+                - link [ref=e186] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e187]: Accounts
+                - button [ref=e191] [cursor=pointer]:
+                  - img [ref=e195]
+                  - generic [ref=e198]: Accounts List
+              - listitem [ref=e199] [cursor=pointer]:
+                - link [ref=e200]:
+                  - /url: /lightning/o/Product2/home
+                  - generic [ref=e201]: Products
+                - button [ref=e205]:
+                  - img [ref=e209]
+                  - generic [ref=e212]: Products List
+              - listitem [ref=e213]:
+                - link [ref=e214] [cursor=pointer]:
+                  - /url: /lightning/n/cgcloud__Trade_Planning
+                  - generic [ref=e215]: Trade Planning
+              - listitem [ref=e216]:
+                - link [ref=e217] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                  - generic [ref=e218]: Customer Business Plans
+                - button [ref=e222] [cursor=pointer]:
+                  - img [ref=e226]
+                  - generic [ref=e229]: Customer Business Plans List
+              - listitem [ref=e230]:
+                - link [ref=e231] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Promotion__c/home
+                  - generic [ref=e232]: Advanced Promotions
+                - button [ref=e236] [cursor=pointer]:
+                  - img [ref=e240]
+                  - generic [ref=e243]: Advanced Promotions List
+              - listitem [ref=e244]:
+                - link [ref=e245] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Fund__c/home
+                  - generic [ref=e246]: Funds
+                - button [ref=e250] [cursor=pointer]:
+                  - img [ref=e254]
+                  - generic [ref=e257]: Funds List
+              - listitem [ref=e258]:
+                - link [ref=e259] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                  - generic [ref=e260]: Multi-Fund Transactions
+                - button [ref=e264] [cursor=pointer]:
+                  - img [ref=e268]
+                  - generic [ref=e271]: Multi-Fund Transactions List
+              - listitem [ref=e272]:
+                - button [ref=e274] [cursor=pointer]:
+                  - img [ref=e276]
+                  - generic [ref=e279]: Edit nav items
+        - generic [ref=e280]:
+          - article [ref=e311]
+          - text: Loading report chart... Loading report chart... Loading report chart...
+    - dialog "Your session has ended" [ref=e318]:
+      - generic [ref=e319]:
+        - heading "Your session has ended" [active] [level=1] [ref=e321]
+        - generic [ref=e322]:
+          - text: We're sorry to report that something has happened to your session. Log in again, or return to the page to copy any unsaved text.
+          - status [ref=e323]
+        - generic [ref=e324]:
+          - button "Return to Page" [ref=e325] [cursor=pointer]
+          - button "Log In" [ref=e326] [cursor=pointer]
+  - generic:
+    - status
+```

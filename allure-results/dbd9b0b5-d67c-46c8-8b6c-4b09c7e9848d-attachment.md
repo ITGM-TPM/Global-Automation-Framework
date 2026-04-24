@@ -1,0 +1,252 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button [ref=e17] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Menu
+            - generic [ref=e29]:
+              - img [ref=e33]
+              - generic [ref=e37]: Sandbox (ETQA)
+          - button [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+            - generic [ref=e51]: Show menu
+        - generic [ref=e52]:
+          - button [ref=e58]:
+            - img [ref=e60]
+            - text: Search...
+          - navigation [ref=e63]:
+            - list [ref=e65]:
+              - listitem [ref=e66]:
+                - group [ref=e67]:
+                  - button [ref=e69] [cursor=pointer]:
+                    - img [ref=e74]
+                  - button [ref=e78] [cursor=pointer]:
+                    - img [ref=e83]
+              - listitem [ref=e86]:
+                - button [ref=e88]:
+                  - img [ref=e92]
+              - listitem [ref=e95]:
+                - button [ref=e97] [cursor=pointer]:
+                  - img [ref=e102]
+              - listitem [ref=e105]:
+                - button [ref=e108] [cursor=pointer]:
+                  - img [ref=e113]
+              - listitem [ref=e116]:
+                - button [ref=e122] [cursor=pointer]:
+                  - img [ref=e127]
+              - listitem [ref=e130]:
+                - button [ref=e133] [cursor=pointer]:
+                  - img [ref=e139]
+              - listitem [ref=e143]:
+                - button [ref=e146] [cursor=pointer]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - navigation [ref=e157]:
+              - button [ref=e159] [cursor=pointer]:
+                - generic [ref=e170]: App Launcher
+            - heading [level=1] [ref=e171]:
+              - generic [ref=e172]: ITGB TPM
+          - navigation [ref=e175]:
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e179]: Home
+              - listitem [ref=e180]:
+                - link [ref=e181] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e182]: Accounts
+                - button [ref=e186] [cursor=pointer]:
+                  - img [ref=e190]
+                  - generic [ref=e193]: Accounts List
+              - listitem [ref=e194] [cursor=pointer]:
+                - link [ref=e195]:
+                  - /url: /lightning/o/Product2/home
+                  - generic [ref=e196]: Products
+                - button [ref=e200]:
+                  - img [ref=e204]
+                  - generic [ref=e207]: Products List
+              - listitem [ref=e208]:
+                - link [ref=e209] [cursor=pointer]:
+                  - /url: /lightning/n/cgcloud__Trade_Planning
+                  - generic [ref=e210]: Trade Planning
+              - listitem [ref=e211]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Account_Plan__c/home
+                  - generic [ref=e213]: Customer Business Plans
+                - button [ref=e217] [cursor=pointer]:
+                  - img [ref=e221]
+                  - generic [ref=e224]: Customer Business Plans List
+              - listitem [ref=e225]:
+                - link [ref=e226] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Promotion__c/home
+                  - generic [ref=e227]: Advanced Promotions
+                - button [ref=e231] [cursor=pointer]:
+                  - img [ref=e235]
+                  - generic [ref=e238]: Advanced Promotions List
+              - listitem [ref=e239]:
+                - link [ref=e240] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Fund__c/home
+                  - generic [ref=e241]: Funds
+                - button [ref=e245] [cursor=pointer]:
+                  - img [ref=e249]
+                  - generic [ref=e252]: Funds List
+              - listitem [ref=e253]:
+                - link [ref=e254] [cursor=pointer]:
+                  - /url: /lightning/o/cgcloud__Fund_Transaction_Header__c/home
+                  - generic [ref=e255]: Multi-Fund Transactions
+                - button [ref=e259] [cursor=pointer]:
+                  - img [ref=e263]
+                  - generic [ref=e266]: Multi-Fund Transactions List
+              - listitem [ref=e267]:
+                - button [ref=e269] [cursor=pointer]:
+                  - img [ref=e271]
+                  - generic [ref=e274]: Edit nav items
+        - generic [ref=e275]:
+          - main [ref=e276]:
+            - generic [ref=e286]:
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - generic [ref=e291]:
+                    - img [ref=e295]
+                    - generic [ref=e296]:
+                      - heading [level=1] [ref=e300]: Products
+                      - generic [ref=e301]:
+                        - generic [ref=e303] [cursor=pointer]:
+                          - heading [level=1] [ref=e304]:
+                            - generic [ref=e305]: Products
+                            - generic [ref=e306]: Recently Viewed
+                          - button [ref=e309]:
+                            - img [ref=e311]
+                            - generic [ref=e314]: "Select a List View: Products"
+                        - button [disabled] [ref=e318] [cursor=pointer]:
+                          - img [ref=e320]
+                          - generic [ref=e323]: This list is pinned.
+                  - list [ref=e326]:
+                    - listitem [ref=e327]:
+                      - button [ref=e328] [cursor=pointer]:
+                        - generic [ref=e329]: New
+                - generic [ref=e330]:
+                  - paragraph [ref=e332]:
+                    - generic [ref=e334]:
+                      - status [ref=e335]: 1 item •
+                      - text: Updated a minute ago
+                  - generic [ref=e341]:
+                    - generic [ref=e342]: Search this list...
+                    - generic [ref=e343]:
+                      - searchbox [ref=e344]
+                      - img
+                  - generic [ref=e345]:
+                    - button [ref=e349] [cursor=pointer]:
+                      - img [ref=e351]
+                      - img [ref=e355]
+                      - generic [ref=e358]: List View Controls
+                    - button [ref=e361] [cursor=pointer]:
+                      - img [ref=e363]
+                      - img [ref=e367]
+                      - generic [ref=e370]: Select list display
+                    - generic [ref=e372]:
+                      - button [ref=e375] [cursor=pointer]:
+                        - img [ref=e377]
+                        - generic [ref=e380]: Refresh
+                      - button [ref=e383] [cursor=pointer]:
+                        - img [ref=e385]
+                        - generic [ref=e388]: Column sort
+                      - button [ref=e391] [cursor=pointer]:
+                        - img [ref=e393]
+                        - generic [ref=e396]: Inline Edit is disabled. To edit, filter by one record type.
+                      - group [ref=e397]:
+                        - generic [ref=e399]:
+                          - generic:
+                            - generic:
+                              - button [disabled]:
+                                - generic:
+                                  - img
+                                - generic: Charts
+                          - generic:
+                            - generic:
+                              - button [disabled]:
+                                - generic:
+                                  - img
+                                - generic: Filters
+              - generic [ref=e406]:
+                - generic [ref=e407]: Navigation Mode
+                - grid [ref=e411]:
+                  - generic [ref=e416]:
+                    - button [ref=e417] [cursor=pointer]:
+                      - generic [ref=e418]: "Sort by:"
+                      - generic [ref=e419]: Product Name
+                    - generic [ref=e420]: "Sorted: None"
+                    - button [ref=e422] [cursor=pointer]:
+                      - img [ref=e424]
+                      - generic [ref=e427]: Show Product Name column actions
+                    - slider [ref=e428]: "327"
+                  - generic [ref=e432]:
+                    - button [ref=e433] [cursor=pointer]:
+                      - generic [ref=e434]: "Sort by:"
+                      - generic [ref=e435]: UPC Code
+                    - generic [ref=e436]: "Sorted: None"
+                    - button [ref=e438] [cursor=pointer]:
+                      - img [ref=e440]
+                      - generic [ref=e443]: Show UPC Code column actions
+                    - slider [ref=e444]: "390"
+                  - generic [ref=e448]:
+                    - button [ref=e449] [cursor=pointer]:
+                      - generic [ref=e450]: "Sort by:"
+                      - generic [ref=e451]: Description
+                    - generic [ref=e452]: "Sorted: None"
+                    - button [ref=e454] [cursor=pointer]:
+                      - img [ref=e456]
+                      - generic [ref=e459]: Show Description column actions
+                    - slider [ref=e460]: "327"
+                  - generic [ref=e464]:
+                    - button [ref=e465] [cursor=pointer]:
+                      - generic [ref=e466]: "Sort by:"
+                      - generic [ref=e467]: Product Family
+                    - generic [ref=e468]: "Sorted: None"
+                    - button [ref=e470] [cursor=pointer]:
+                      - img [ref=e472]
+                      - generic [ref=e475]: Show Product Family column actions
+                    - slider [ref=e476]: "108"
+                  - rowgroup [ref=e482]:
+                    - row [ref=e483]:
+                      - gridcell [ref=e484]
+                      - rowheader [ref=e488]:
+                        - link [ref=e495] [cursor=pointer]:
+                          - /url: /lightning/r/01tca000007IenoAAC/view
+                          - generic [ref=e496]: Backwoods
+                      - gridcell [ref=e497]:
+                        - generic [ref=e501]: US1T_B4_TPM
+                      - gridcell [ref=e502]:
+                        - generic [ref=e507]: Backwoods
+                      - gridcell [ref=e508]
+                      - gridcell [ref=e509]:
+                        - button [ref=e515] [cursor=pointer]:
+                          - img [ref=e517]
+                          - generic [ref=e520]: Show Actions
+          - text: Loading report chart... Loading report chart... Loading report chart...
+    - dialog "Your session has ended" [ref=e526]:
+      - generic [ref=e527]:
+        - heading "Your session has ended" [active] [level=1] [ref=e529]
+        - generic [ref=e530]:
+          - text: We're sorry to report that something has happened to your session. Log in again, or return to the page to copy any unsaved text.
+          - status [ref=e531]
+        - generic [ref=e532]:
+          - button "Return to Page" [ref=e533] [cursor=pointer]
+          - button "Log In" [ref=e534] [cursor=pointer]
+  - generic:
+    - status
+```

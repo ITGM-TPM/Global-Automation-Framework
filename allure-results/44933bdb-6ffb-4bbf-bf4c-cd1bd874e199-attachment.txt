@@ -1,0 +1,1 @@
+✔ Test success: Open Products tab and select All Products

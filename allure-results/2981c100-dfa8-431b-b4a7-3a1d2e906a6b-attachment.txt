@@ -1,0 +1,55 @@
+[verifySortingOrder] Error verifying sort for "Account Name": locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('td[data-label="Account Name"] .slds-truncate').first() to be visible
+
+    at verifySortingOrder (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\utils\commonLogic.ts:257:35)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:48:15
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:47:16 {
+  name: 'TimeoutError',
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts',
+      line: 257,
+      column: 35,
+      function: 'verifySortingOrder'
+    },
+    category: 'pw:api',
+    title: `Wait for selector locator('td[data-label="Account Name"] .slds-truncate').first()`,
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'td[data-label="Account Name"] .slds-truncate >> nth=0',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@84',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@84',
+      _title: `Wait for selector locator('td[data-label="Account Name"] .slds-truncate').first()`,
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776872796702,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('td[data-label="Account Name"] .slds-truncate').first() to be visible\x1B[22m\n`,
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('td[data-label="Account Name"] .slds-truncate').first() to be visible\x1B[22m\n` +
+        '\n' +
+        '    at verifySortingOrder (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts:257:35)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:48:15\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:47:16',
+      cause: undefined
+    }
+  }
+}

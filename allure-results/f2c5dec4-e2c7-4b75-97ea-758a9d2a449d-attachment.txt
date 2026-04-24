@@ -1,0 +1,1 @@
+❌ Test failed: Open Advanced Promotion tab and select All Promotions

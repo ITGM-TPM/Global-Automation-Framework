@@ -1,0 +1,62 @@
+[verifySortingOrder] Error verifying sort for "Account Name": locator.selectOption: Error: Element is not a <select> element
+Call log:
+  - waiting for getByRole('combobox', { name: 'Select a column' })
+    - locator resolved to <button type="button" role="combobox" lwc-4kb6kaqheak="" part="input-button" name="column select" aria-required="true" aria-expanded="false" aria-disabled="false" aria-haspopup="listbox" data-value="CRS Number" id="combobox-button-903" aria-label="Select a column" aria-describedby="help-text-902" aria-controls="dropdown-element-903" class="slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value">…</button>
+  - attempting select option action
+    - waiting for element to be visible and enabled
+
+    at verifySortingOrder (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\utils\commonLogic.ts:282:31)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:50:9
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:49:5 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts',
+      line: 282,
+      column: 31,
+      function: 'verifySortingOrder'
+    },
+    category: 'pw:api',
+    title: "Select option getByRole('combobox', { name: 'Select a column' })",
+    apiName: 'locator.selectOption',
+    params: {
+      selector: 'internal:role=combobox[name="Select a column"i]',
+      options: [Array],
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@89',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@89',
+      _title: "Select option getByRole('combobox', { name: 'Select a column' })",
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776951051711,
+    error: {
+      message: 'Error: locator.selectOption: Error: Element is not a <select> element\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('combobox', { name: 'Select a column' })\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <button type="button" role="combobox" lwc-4kb6kaqheak="" part="input-button" name="column select" aria-required="true" aria-expanded="false" aria-disabled="false" aria-haspopup="listbox" data-value="CRS Number" id="combobox-button-903" aria-label="Select a column" aria-describedby="help-text-902" aria-controls="dropdown-element-903" class="slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value">…</button>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible and enabled\x1B[22m\n',
+      stack: 'Error: locator.selectOption: Error: Element is not a <select> element\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('combobox', { name: 'Select a column' })\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <button type="button" role="combobox" lwc-4kb6kaqheak="" part="input-button" name="column select" aria-required="true" aria-expanded="false" aria-disabled="false" aria-haspopup="listbox" data-value="CRS Number" id="combobox-button-903" aria-label="Select a column" aria-describedby="help-text-902" aria-controls="dropdown-element-903" class="slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value">…</button>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible and enabled\x1B[22m\n' +
+        '\n' +
+        '    at verifySortingOrder (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts:282:31)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:50:9\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:49:5',
+      cause: undefined
+    }
+  }
+}

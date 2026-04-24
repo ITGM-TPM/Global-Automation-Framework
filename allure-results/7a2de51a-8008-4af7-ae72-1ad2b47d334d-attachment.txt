@@ -1,0 +1,92 @@
+Error verifying Edit Mode: ExpectError: expect(locator).toBeEditable() failed
+
+Locator: getByLabel('Name')
+Expected: editable
+Timeout: 20000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeEditable" with timeout 20000ms
+  - waiting for getByLabel('Name')
+
+    at TradePlanningPage.verifyPromotionNameEditable (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\src\page-objects\TradePlanningPage.ts:148:45)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:83:29
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\TradeCalendar.spec.ts:79:5 {
+  matcherResult: {
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeEditable\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+      '\n' +
+      "Locator: getByLabel('Name')\n" +
+      'Expected: editable\n' +
+      'Timeout: 20000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '\x1B[2m  - Expect "toBeEditable" with timeout 20000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for getByLabel('Name')\x1B[22m\n",
+    pass: false,
+    actual: undefined,
+    name: 'toBeEditable',
+    expected: 'editable',
+    log: [
+      '  - Expect "toBeEditable" with timeout 20000ms',
+      "  - waiting for getByLabel('Name')"
+    ],
+    timeout: 20000
+  },
+  Symbol(step): {
+    category: 'expect',
+    apiName: 'expect.toBeEditable',
+    title: `Expect "toBeEditable" getByLabel('Name')`,
+    shortTitle: 'Expect "toBeEditable"',
+    params: undefined,
+    infectParentStepsWithError: undefined,
+    stepId: 'expect@82',
+    group: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts',
+      line: 148,
+      column: 45,
+      function: 'TradePlanningPage.verifyPromotionNameEditable'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@82',
+      _title: `Expect "toBeEditable" getByLabel('Name')`,
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1775810377400,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeEditable\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        "Locator: getByLabel('Name')\n" +
+        'Expected: editable\n' +
+        'Timeout: 20000ms\n' +
+        'Error: element(s) not found\n' +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toBeEditable" with timeout 20000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for getByLabel('Name')\x1B[22m\n",
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeEditable\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        "Locator: getByLabel('Name')\n" +
+        'Expected: editable\n' +
+        'Timeout: 20000ms\n' +
+        'Error: element(s) not found\n' +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toBeEditable" with timeout 20000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for getByLabel('Name')\x1B[22m\n" +
+        '\n' +
+        '    at TradePlanningPage.verifyPromotionNameEditable (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\src\\page-objects\\TradePlanningPage.ts:148:45)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:83:29\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\TradeCalendar.spec.ts:79:5',
+      cause: undefined
+    }
+  }
+}

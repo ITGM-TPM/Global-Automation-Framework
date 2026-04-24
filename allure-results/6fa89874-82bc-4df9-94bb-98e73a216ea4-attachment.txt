@@ -1,0 +1,58 @@
+[verifySortingOrder] Error verifying sort for "Account Name": locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('th[aria-label="Account Name"]').first() to be visible
+    24 × locator resolved to hidden <th scope="col" tabindex="-1" aria-sort="other" lwc-392cvb27u8q="" role="columnheader" aria-label="Account Name" data-col-key-value="Name-lstOutputLookup-1">…</th>
+
+    at verifySortingOrder (C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\utils\commonLogic.ts:240:26)
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:50:15
+    at C:\Users\SHSAKAT\Downloads\ITGB_TPM_Automation_Framework2 3\ITGB_TPM_Automation_Framework2\tests\ITGBAccountView.spec.ts:49:16 {
+  name: 'TimeoutError',
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts',
+      line: 240,
+      column: 26,
+      function: 'verifySortingOrder'
+    },
+    category: 'pw:api',
+    title: `Wait for selector locator('th[aria-label="Account Name"]').first()`,
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'th[aria-label="Account Name"] >> nth=0',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@86',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@86',
+      _title: `Wait for selector locator('th[aria-label="Account Name"]').first()`,
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776948270357,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('th[aria-label="Account Name"]').first() to be visible\x1B[22m\n` +
+        '\x1B[2m    24 × locator resolved to hidden <th scope="col" tabindex="-1" aria-sort="other" lwc-392cvb27u8q="" role="columnheader" aria-label="Account Name" data-col-key-value="Name-lstOutputLookup-1">…</th>\x1B[22m\n',
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('th[aria-label="Account Name"]').first() to be visible\x1B[22m\n` +
+        '\x1B[2m    24 × locator resolved to hidden <th scope="col" tabindex="-1" aria-sort="other" lwc-392cvb27u8q="" role="columnheader" aria-label="Account Name" data-col-key-value="Name-lstOutputLookup-1">…</th>\x1B[22m\n' +
+        '\n' +
+        '    at verifySortingOrder (C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\utils\\commonLogic.ts:240:26)\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:50:15\n' +
+        '    at C:\\Users\\SHSAKAT\\Downloads\\ITGB_TPM_Automation_Framework2 3\\ITGB_TPM_Automation_Framework2\\tests\\ITGBAccountView.spec.ts:49:16',
+      cause: undefined
+    }
+  }
+}
