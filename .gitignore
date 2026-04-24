@@ -10,3 +10,4 @@ node_modules/
 /auth/state.json
 /secrets/*.key
 storageState.json
+/allure-results/
