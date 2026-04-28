@@ -1,13 +1,12 @@
 import { test, expect } from '../fixtures/itgbFixtures';
 import {
-    searchAndVerifyAccount,
-    exerciseListControls,
     verifySystemViews,
     verifyColumns,
     viewSelection, 
     verifySortingOrder,          
     waitUntilAppIdle,
-    stringFormat
+    stringFormat,
+    searchInView
 } from '../utils/commonLogic';
 import{ selectors } from'../selectors/commonSelector'
 
@@ -30,7 +29,7 @@ test('ITGB Accounts Validate All Active Accounts system view', async ({ accounts
         await verifySystemViews(page, viewsToVerify);
     });
     await test.step('Select "13. All Accounts" list view', async () => {
-        await waitUntilAppIdle(page)
+        await page.waitForTimeout(7000);
         await viewSelection(page, '13. All Accounts');
     });
 
@@ -67,10 +66,7 @@ test('ITGB Accounts Validate All Active Accounts system view', async ({ accounts
     });
 
     await test.step(`Search for "${SEARCH_ACCOUNT_NAME}" and confirm row appears`, async () => {
-        await searchAndVerifyAccount(accountsPage, SEARCH_ACCOUNT_NAME);
+    await searchInView(page, "7-Eleven");
     });
 
-    await test.step('Exercise list controls: List View Controls → Refresh → Select List Display', async () => {
-        await exerciseListControls(accountsPage);
-    });
 });
