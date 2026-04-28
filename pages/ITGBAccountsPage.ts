@@ -1,10 +1,5 @@
 import { Page, expect } from '@playwright/test';
 import { AccountSelectors } from '../selectors/accountSelectors';
-
-// ── Types ──────────────────────────────────────────────────────────────────────
-
-//export type SortOrder = 'asc' | 'desc';
-
 export class ITGBAccountsPage {
 
     private readonly sel: AccountSelectors;
@@ -24,15 +19,6 @@ export class ITGBAccountsPage {
 
    
     /**
-     * Switch to the "My Active Accounts" list view.
-     */
-    async selectMyActiveAccounts(): Promise<void> {
-        await this.sel.btnSelectListView.click();
-        await this.sel.optionMyActiveAccounts.click();
-    }
-
-
-    /**
      * Click the Refresh button to reload the list.
      */
     async refresh(): Promise<void> {
@@ -40,11 +26,5 @@ export class ITGBAccountsPage {
         await this.sel.btnRefresh.click();
     }
 
-    /**
-     * Open the Select List Display panel.
-     */
-    async openSelectListDisplay(): Promise<void> {
-        await expect(this.sel.btnSelectListDisplay).toBeVisible();
-        await this.sel.btnSelectListDisplay.click();
-    }
+  
  }
